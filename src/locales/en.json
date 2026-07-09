@@ -10,14 +10,7 @@
       "twitterDescription": "Boss guides, weapon builds, character strategies, and walkthroughs for Endless Ragnarok in Granblue Fantasy: Relink."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
