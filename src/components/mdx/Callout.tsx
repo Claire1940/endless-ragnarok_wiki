@@ -1,4 +1,4 @@
-import { Info, AlertCircle, CheckCircle, Lightbulb } from 'lucide-react'
+import { Info, CircleAlert, CircleCheck, Lightbulb } from 'lucide-react'
 
 interface CalloutProps {
   type?: 'info' | 'warning' | 'success' | 'tip'
@@ -33,8 +33,8 @@ export function Callout({ type = 'info', title, children }: CalloutProps) {
 
   const icons = {
     info: <Info className="w-5 h-5" />,
-    warning: <AlertCircle className="w-5 h-5" />,
-    success: <CheckCircle className="w-5 h-5" />,
+    warning: <CircleAlert className="w-5 h-5" />,
+    success: <CircleCheck className="w-5 h-5" />,
     tip: <Lightbulb className="w-5 h-5" />,
   }
 

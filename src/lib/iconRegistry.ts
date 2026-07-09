@@ -19,9 +19,9 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Shield: LucideIcons.Shield,
   Hammer: LucideIcons.Hammer,
   Package: LucideIcons.Package,
-  AlertTriangle: LucideIcons.AlertTriangle,
+  AlertTriangle: LucideIcons.TriangleAlert,
   Eye: LucideIcons.Eye,
-  Home: LucideIcons.Home,
+  Home: LucideIcons.House,
   MessageCircle: LucideIcons.MessageCircle,
   Settings: LucideIcons.Settings,
   Star: LucideIcons.Star,
@@ -39,7 +39,7 @@ export const iconRegistry: Record<string, LucideIcon> = {
   X: LucideIcons.X,
 
   // 默认回退图标
-  HelpCircle: LucideIcons.HelpCircle,
+  HelpCircle: LucideIcons.CircleHelp,
 }
 
 /**

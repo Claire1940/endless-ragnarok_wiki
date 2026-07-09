@@ -346,126 +346,170 @@
       ]
     },
     "buildsAndMasterTraits": {
-      "eyebrow": "Builds",
+      "eyebrow": "Build Guide",
       "title": "Endless Ragnarok Builds and Master Traits",
-      "intro": "Endless Ragnarok deepens character progression with Master Traits, an expanded Sigil system, and new endgame build options. Use these build fundamentals to plan upgrade materials and party roles for post-game content.",
-      "faqs": [
+      "intro": "Endless Ragnarok expands Relink's post-game character building with Master Traits, new quest tiers, summons, and solo progression routes. Start by locking in each character's role, then tune skills, weapons, sigils, and late-game progression around the content you are farming.",
+      "items": [
         {
-          "question": "What are Master Traits in Endless Ragnarok?",
-          "answer": "Master Traits are character-specific progression upgrades that unlock new combat behaviors and stat boosts. Endless Ragnarok expands the Master Trait options for the cast, giving each character more ways to specialize for damage, survival, or support."
+          "label": "Master Traits",
+          "content": "Master Traits are a new Endless Ragnarok progression layer designed to push characters beyond their previous limits.",
+          "details": [
+            "Use them as your long-term post-game upgrade path.",
+            "Treat each character as a specialist instead of forcing one universal build.",
+            "Pair Master Trait choices with the character's weapon, sigil, and skill role."
+          ]
         },
         {
-          "question": "How do Sigils work in Endless Ragnarok builds?",
-          "answer": "Sigils are slotted into each character's loadout to add stats, traits, and conditional effects. Endless Ragnarok adds new Sigils such as the Supplementary Damage V and War Elemental sets, which are included as early-purchase bonuses on Steam."
+          "label": "Skill Loadout",
+          "content": "Each character has their own skills, and up to four skills can be assigned for battle.",
+          "details": [
+            "Bring damage skills for boss pressure.",
+            "Bring healing, support, or utility skills when the party needs survival.",
+            "Match skill choices with your party members instead of building in isolation."
+          ]
         },
         {
-          "question": "Which Endless Ragnarok build should I start with?",
-          "answer": "Start with a balanced damage Sigil set plus one defensive option such as Guts or Autorevive, then add character-specific Master Traits that match your playstyle. Upgrade one weapon and one Sigil loadout at a time before branching into specialist builds."
+          "label": "Weapons and Sigils",
+          "content": "Weapons and sigils remain core build pieces, and Endless Ragnarok highlights rare sigils such as Supplementary Damage V and War Elemental through its early purchase bonus set.",
+          "details": [
+            "Use sigils to reinforce the role your character already performs best.",
+            "Supplementary Damage V supports extra damage output.",
+            "War Elemental is positioned as a rare battle-support sigil for powerful foes."
+          ]
         },
         {
-          "question": "How do I farm upgrade materials for Endless Ragnarok builds?",
-          "answer": "Repeatable co-op quests and The Conflux solo mode are the main sources of endgame upgrade materials. The higher quest tiers added in Endless Ragnarok drop the materials needed to refine Sigils and unlock advanced Master Traits."
+          "label": "Four-Person Party Building",
+          "content": "Relink is built around a four-person party in both offline and online play.",
+          "details": [
+            "Balance damage, survivability, and support across the full crew.",
+            "Use AI companions offline when farming solo.",
+            "Prepare multiplayer builds that complement other players instead of duplicating the same role."
+          ]
         },
         {
-          "question": "Do Endless Ragnarok builds work in co-op?",
-          "answer": "Yes. Your character build carries into 4-player online co-op. Coordinating roles such as primary damage, break specialist, support, and survival lets harder quests clear more consistently."
+          "label": "Post-Game Progression Route",
+          "content": "Chaos quests and the Conflux give players repeatable ways to push character and weapon power after the story.",
+          "details": [
+            "Use Chaos quests for high-end combat checks.",
+            "Use the Conflux for solo progression and treasure farming.",
+            "Upgrade builds after each farming loop instead of waiting for a perfect setup."
+          ]
         }
       ]
     },
     "confluxModeGuide": {
-      "eyebrow": "Endgame",
+      "eyebrow": "Solo Endgame",
       "title": "Endless Ragnarok Conflux Mode Guide",
-      "intro": "The Conflux is Endless Ragnarok's new solo endgame mode, built around unpredictable challenges and special powers that change from run to run. It is designed for repeatable progression after the story.",
-      "cards": [
+      "intro": "The Conflux sends players through changing stages filled with battles, puzzles, and special run-only powers. It is built for players who want repeatable solo progression without relying on online matchmaking.",
+      "items": [
         {
-          "name": "Solo Roguelite Structure",
-          "description": "The Conflux is a single-player mode where each run reshuffles challenges, modifiers, and rewards, so no two runs play out the same way."
+          "title": "Solo-Focused Mode",
+          "description": "The Conflux is designed as a dedicated single-player endgame route.",
+          "playerValue": "Best for players who want to farm and progress without joining multiplayer lobbies."
         },
         {
-          "name": "Special Powers Per Run",
-          "description": "Inside The Conflux you pick up special powers that buff your character for the current run, encouraging adaptive builds instead of one fixed loadout."
+          "title": "Sequential Zones",
+          "description": "Runs are structured around clearing zones and completing the objective assigned to each area.",
+          "playerValue": "Focus on finishing the current room cleanly before chasing deeper rewards."
         },
         {
-          "name": "Post-Story Unlock",
-          "description": "The Conflux opens up after you progress through the Endless Ragnarok story, giving you a clear endgame goal once the main content is complete."
+          "title": "Randomized Perks",
+          "description": "After clearing a zone objective, players choose from temporary perks that apply for the current run.",
+          "playerValue": "Pick perks that support your current character, summon usage, and survival needs."
         },
         {
-          "name": "Repeatable Reward Farming",
-          "description": "Conflux runs are the main loop for farming endgame upgrade materials, Master Trait resources, and Sigil refinement drops."
+          "title": "Special Conflux Buffs",
+          "description": "The mode includes special traits and buffs that are active inside the Conflux.",
+          "playerValue": "Stack useful bonuses during a run to handle deeper trials more safely."
         },
         {
-          "name": "Built For Experimentation",
-          "description": "Because powers and challenges rotate, The Conflux rewards trying different characters and build directions rather than optimizing one strategy."
+          "title": "Treasure and Upgrade Rewards",
+          "description": "Successful Conflux runs reward treasure used to enhance characters and weapons.",
+          "playerValue": "Use repeated runs as a solo farming route for late-game build improvement."
+        },
+        {
+          "title": "Puzzle and Battle Mix",
+          "description": "The Conflux mixes combat with puzzles and multiple battles on the way to its deepest point.",
+          "playerValue": "Prepare a flexible build instead of a boss-only damage setup."
         }
-      ],
-      "highlights": [
-        "Enter The Conflux after story progression",
-        "Adapt your build to each run's powers",
-        "Farm endgame upgrade materials",
-        "Experiment across the full roster"
       ]
     },
     "bossesAndSummons": {
-      "eyebrow": "Combat",
+      "eyebrow": "Combat Guide",
       "title": "Endless Ragnarok Bosses and Summons",
-      "intro": "Endless Ragnarok adds new bosses, Ragnalia enemies, and an expanded summon system. Use this preparation order to handle the expansion's harder fights and make the most of summons in battle.",
+      "intro": "Endless Ragnarok adds harder combat through Chaos quests, Ragnalia threats, additional bosses, and a new summon system. The safest approach is to treat summons as both offensive tools and emergency windows during boss pressure.",
       "steps": [
         {
-          "title": "Learn the new Ragnalia enemies",
-          "description": "Endless Ragnarok introduces Ragnalia foes with their own attack patterns. Watch for telegraphs and learn which moves can be blocked, dodged, or interrupted before committing to a combo."
+          "title": "Enter Chaos Quests Prepared",
+          "description": "Chaos quests are positioned as the most challenging quest tier and introduce Ragnalia threats tied to the new Endless Ragnarok story.",
+          "tip": "Bring a complete four-person party setup before pushing deeper into this tier."
         },
         {
-          "title": "Prepare a boss-ready loadout",
-          "description": "Bring a refined Sigil set with damage plus a survival option such as Guts or Autorevive. Stack break power against bosses that expose weak points during specific phases."
+          "title": "Watch Boss Burst Cues",
+          "description": "Bosses in Chaos-level content can use EX Burst attacks, with a purple aura used as a danger cue.",
+          "tip": "Use the cue to prepare dodges, defensive skills, or a summon timing window."
         },
         {
-          "title": "Use summons at the right moment",
-          "description": "Summons are charged through combat and unleashed for high-impact effects. Time your summon activation to match a boss's vulnerable window rather than spending it as soon as it is ready."
+          "title": "Equip Summons Before Hard Fights",
+          "description": "Summons can be equipped and called in battle, giving access to unique attack skills and support abilities.",
+          "tip": "Choose summons that cover your build's weakness, such as burst damage, crowd control, or survival."
         },
         {
-          "title": "Coordinate primal bursts in co-op",
-          "description": "In 4-player co-op, stack primal burst timing with your party to maximize break and damage phases. Assign roles so one player handles support while others focus on burst windows."
+          "title": "Use Controllable Summons for Pressure",
+          "description": "Some summons can be temporarily controlled after being channeled by Lyria.",
+          "tip": "Use this window to push damage or survive dangerous boss patterns."
         },
         {
-          "title": "Repeat higher tiers for materials",
-          "description": "The new co-op quest tiers drop the materials needed to refine builds and summons. Loop the hardest tiers you can clear consistently to farm upgrade resources."
+          "title": "Set Up Primal Bursts",
+          "description": "When certain battle conditions are met, activating Skybound Arts with all four party members can trigger a Primal Burst through a summon such as Proto Bahamut or Excavallion.",
+          "tip": "Save party resources for moments when a full chain can convert into a major punish."
+        },
+        {
+          "title": "Adjust After Each Boss",
+          "description": "Endless Ragnarok adds major threats including Beelzebub, The World, Ragnalia enemies, and other high-end encounters.",
+          "tip": "After a failed clear, change sigils, skills, summon timing, or party roles before retrying."
         }
       ]
     },
     "crossplayAndOnlineCoop": {
       "eyebrow": "Multiplayer",
       "title": "Endless Ragnarok Crossplay and Online Co-op",
-      "intro": "Endless Ragnarok supports 4-player online co-op with cross-platform multiplayer across Nintendo Switch 2, PlayStation, and Steam. Use this overview to understand party setup and platform compatibility before joining friends.",
+      "intro": "Online co-op is one of Relink's core features, and Endless Ragnarok expands it with cross-platform multiplayer. Players can prepare parties for online questing, while Nintendo Switch 2 players also get a local communication option.",
       "items": [
         {
-          "label": "Online Co-op",
-          "value": "Up to 4 players",
-          "details": "Endless Ragnarok supports 1-4 player online co-op. PlayStation online play requires a PS Plus subscription."
+          "feature": "Crossplay Platforms",
+          "status": "Supported",
+          "details": "Nintendo Switch 2, PlayStation 5, PlayStation 4, and Steam players can use crossplay in Endless Ragnarok."
         },
         {
-          "label": "Cross-Platform Multiplayer",
-          "value": "Supported across platforms",
-          "details": "Steam lists Cross-Platform Multiplayer, so Nintendo Switch 2, PlayStation, and Steam players can join the same quests."
+          "feature": "Online Co-op",
+          "status": "Supported",
+          "details": "Relink features 4-player online co-op combat for quest play."
         },
         {
-          "label": "Crossplay Requirement",
-          "value": "Same Endless Ragnarok content",
-          "details": "All party members need Endless Ragnarok content. Existing owners use the Upgrade Kit on the same platform where they own Granblue Fantasy: Relink."
+          "feature": "Steam Multiplayer Label",
+          "status": "Listed",
+          "details": "The Steam page lists Online Co-op and Cross-Platform Multiplayer as supported features."
         },
         {
-          "label": "Cygames ID",
-          "value": "Used for Link Bonuses",
-          "details": "Linking a Cygames ID unlocks Link Bonuses and ties your progression to your account across participating platforms."
+          "feature": "Nintendo Switch 2 Local Communication",
+          "status": "Supported",
+          "details": "Nintendo Switch 2 players can use Local Communication for up to 4-player cooperative play."
         },
         {
-          "label": "Platform Accounts",
-          "value": "Per-platform online services",
-          "details": "Console players use their platform's online service, while Steam players use Steam for matchmaking and friends."
+          "feature": "Online Service Requirement",
+          "status": "Platform-dependent",
+          "details": "Console platforms such as PlayStation require a paid online service membership for online play, while Steam does not."
         },
         {
-          "label": "Solo Play",
-          "value": "Fully playable solo",
-          "details": "All story and Endless Ragnarok content can be played solo. Co-op is optional for quests that allow it."
+          "feature": "GameShare During Local Communication",
+          "status": "Not available",
+          "details": "GameShare is not available while using Local Communication between Nintendo Switch 2 players."
+        },
+        {
+          "feature": "Upgrade Kit Compatibility",
+          "status": "Same-platform upgrade",
+          "details": "The Steam Upgrade Kit is intended for players who already own Granblue Fantasy: Relink and upgrades the copy on the same platform."
         }
       ]
     }

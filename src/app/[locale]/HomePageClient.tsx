@@ -3,18 +3,34 @@
 import { useState, Suspense, lazy } from "react";
 import {
   ArrowRight,
+  ArrowRightLeft,
   Boxes,
   Check,
   ChevronDown,
   Compass,
+  Crown,
+  Dices,
   Gamepad2,
+  Gem,
   Gift,
+  Info,
+  Lightbulb,
+  Map,
+  Puzzle,
   Rocket,
   Sparkles,
+  Sword,
   Swords,
+  Target,
+  TrendingUp,
+  TriangleAlert,
+  User,
   Users,
-  Wand2,
+  UsersRound,
+  WandSparkles,
   Wrench,
+  X,
+  Zap,
 } from "lucide-react";
 import Link from "next/link";
 import { useMessages } from "next-intl";
@@ -58,10 +74,48 @@ const MODULE_HEADER_ICONS = [
   Compass,
   Users,
   Wrench,
-  Wand2,
+  WandSparkles,
   Swords,
   Gamepad2,
 ];
+
+// Module 5 (Builds) accordion 各项图标（每个不同，lucide-react 直接 import）
+const BUILDS_ITEM_ICONS = [Crown, Target, Sword, UsersRound, TrendingUp];
+
+// Module 6 (Conflux) 各卡片图标（每个不同，lucide-react 直接 import）
+const CONFLUX_ITEM_ICONS = [User, Map, Dices, Zap, Gem, Puzzle];
+
+// Module 8 (Crossplay) status badge 样式（主题色 + 语义图标，无硬编码色）
+const getStatusStyle = (status: string): { Icon: any; cls: string } => {
+  switch (status) {
+    case "Supported":
+    case "Listed":
+      return {
+        Icon: Check,
+        cls: "bg-[hsl(var(--nav-theme)/0.15)] border-[hsl(var(--nav-theme)/0.4)] text-[hsl(var(--nav-theme-light))]",
+      };
+    case "Same-platform upgrade":
+      return {
+        Icon: ArrowRightLeft,
+        cls: "bg-[hsl(var(--nav-theme)/0.08)] border-[hsl(var(--nav-theme)/0.25)] text-[hsl(var(--nav-theme-light))]",
+      };
+    case "Platform-dependent":
+      return {
+        Icon: TriangleAlert,
+        cls: "bg-[hsl(var(--nav-theme)/0.08)] border-[hsl(var(--nav-theme)/0.25)] text-muted-foreground",
+      };
+    case "Not available":
+      return {
+        Icon: X,
+        cls: "bg-white/5 border-border text-muted-foreground",
+      };
+    default:
+      return {
+        Icon: Info,
+        cls: "bg-white/5 border-border text-muted-foreground",
+      };
+  }
+};
 
 interface HomePageClientProps {
   latestArticles: ContentItemWithType[];
@@ -585,30 +639,50 @@ export default function HomePageClient({
       <section id="builds-and-master-traits" className="scroll-mt-24 px-4 py-14 md:py-20">
         <div className="container mx-auto max-w-5xl">
           <ModuleHeader index={4} />
-          <div className="scroll-reveal space-y-2">
-            {t.modules.buildsAndMasterTraits.faqs.map((faq: any, index: number) => (
-              <div
-                key={index}
-                className="border border-border rounded-xl overflow-hidden"
-              >
-                <button
-                  onClick={() =>
-                    setBuildsExpanded(buildsExpanded === index ? null : index)
-                  }
-                  className="w-full flex items-center justify-between p-5 text-left hover:bg-white/5 transition-colors"
+          <div className="scroll-reveal space-y-3">
+            {t.modules.buildsAndMasterTraits.items.map((item: any, index: number) => {
+              const Icon = BUILDS_ITEM_ICONS[index];
+              const isOpen = buildsExpanded === index;
+              return (
+                <div
+                  key={index}
+                  className="border border-border rounded-xl overflow-hidden bg-white/[0.02]"
                 >
-                  <span className="font-semibold">{faq.question}</span>
-                  <ChevronDown
-                    className={`w-5 h-5 flex-shrink-0 transition-transform ${buildsExpanded === index ? "rotate-180" : ""}`}
-                  />
-                </button>
-                {buildsExpanded === index && (
-                  <div className="px-5 pb-5 text-muted-foreground text-sm">
-                    {faq.answer}
-                  </div>
-                )}
-              </div>
-            ))}
+                  <button
+                    onClick={() => setBuildsExpanded(isOpen ? null : index)}
+                    className="w-full flex items-center gap-3 md:gap-4 p-4 md:p-5 text-left hover:bg-white/5 transition-colors"
+                  >
+                    <span className="flex h-9 w-9 md:h-10 md:w-10 flex-shrink-0 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.15)]">
+                      <Icon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                    </span>
+                    <span className="font-semibold text-base md:text-lg flex-1">
+                      {item.label}
+                    </span>
+                    <ChevronDown
+                      className={`w-5 h-5 flex-shrink-0 text-muted-foreground transition-transform ${isOpen ? "rotate-180" : ""}`}
+                    />
+                  </button>
+                  {isOpen && (
+                    <div className="px-4 md:px-5 pb-5 pl-16 md:pl-[4.5rem]">
+                      <p className="text-sm md:text-base text-muted-foreground mb-3">
+                        {item.content}
+                      </p>
+                      <ul className="space-y-2">
+                        {item.details.map((d: string, di: number) => (
+                          <li
+                            key={di}
+                            className="flex items-start gap-2 text-sm"
+                          >
+                            <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                            <span>{d}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+                </div>
+              );
+            })}
           </div>
         </div>
       </section>
@@ -620,29 +694,32 @@ export default function HomePageClient({
       >
         <div className="container mx-auto max-w-5xl">
           <ModuleHeader index={5} />
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-            {t.modules.confluxModeGuide.cards.map((card: any, index: number) => (
-              <div
-                key={index}
-                className="p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
-              >
-                <h3 className="font-bold text-lg mb-2 text-[hsl(var(--nav-theme-light))]">
-                  {card.name}
-                </h3>
-                <p className="text-sm text-muted-foreground">{card.description}</p>
-              </div>
-            ))}
-          </div>
-          <div className="scroll-reveal flex flex-wrap gap-3 justify-center">
-            {t.modules.confluxModeGuide.highlights.map((h: string, i: number) => (
-              <span
-                key={i}
-                className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm"
-              >
-                <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
-                {h}
-              </span>
-            ))}
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {t.modules.confluxModeGuide.items.map((item: any, index: number) => {
+              const Icon = CONFLUX_ITEM_ICONS[index];
+              return (
+                <div
+                  key={index}
+                  className="flex flex-col p-5 md:p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                >
+                  <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-[hsl(var(--nav-theme)/0.15)] mb-4">
+                    <Icon className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+                  </div>
+                  <h3 className="font-bold text-lg mb-2">{item.title}</h3>
+                  <p className="text-sm text-muted-foreground mb-4">
+                    {item.description}
+                  </p>
+                  <div className="mt-auto pt-3 border-t border-border/60">
+                    <p className="text-sm border-l-2 border-[hsl(var(--nav-theme-light))] pl-3">
+                      <span className="font-semibold text-[hsl(var(--nav-theme-light))]">
+                        For you:{" "}
+                      </span>
+                      {item.playerValue}
+                    </p>
+                  </div>
+                </div>
+              );
+            })}
           </div>
         </div>
       </section>
@@ -662,12 +739,18 @@ export default function HomePageClient({
                     {index + 1}
                   </span>
                 </div>
-                <div>
+                <div className="min-w-0">
                   <h3 className="text-lg md:text-xl font-bold mb-1.5 md:mb-2">
                     {step.title}
                   </h3>
-                  <p className="text-sm md:text-base text-muted-foreground">
+                  <p className="text-sm md:text-base text-muted-foreground mb-2.5">
                     {step.description}
+                  </p>
+                  <p className="text-sm flex items-start gap-2 rounded-lg bg-[hsl(var(--nav-theme)/0.08)] border border-[hsl(var(--nav-theme)/0.2)] p-2.5">
+                    <Lightbulb className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                    <span>
+                      <span className="font-semibold">Tip:</span> {step.tip}
+                    </span>
                   </p>
                 </div>
               </div>
@@ -688,38 +771,56 @@ export default function HomePageClient({
             <table className="w-full text-sm border border-border rounded-xl overflow-hidden">
               <thead>
                 <tr className="bg-[hsl(var(--nav-theme)/0.1)] text-left">
-                  <th className="px-4 py-3 font-semibold">Detail</th>
-                  <th className="px-4 py-3 font-semibold">Value</th>
-                  <th className="px-4 py-3 font-semibold">Notes</th>
+                  <th className="px-4 py-3 font-semibold">Feature</th>
+                  <th className="px-4 py-3 font-semibold">Status</th>
+                  <th className="px-4 py-3 font-semibold">Details</th>
                 </tr>
               </thead>
               <tbody>
-                {t.modules.crossplayAndOnlineCoop.items.map((item: any, i: number) => (
-                  <tr key={i} className="border-t border-border align-top">
-                    <td className="px-4 py-3 font-semibold text-[hsl(var(--nav-theme-light))]">
-                      {item.label}
-                    </td>
-                    <td className="px-4 py-3">{item.value}</td>
-                    <td className="px-4 py-3 text-muted-foreground">{item.details}</td>
-                  </tr>
-                ))}
+                {t.modules.crossplayAndOnlineCoop.items.map((item: any, i: number) => {
+                  const { Icon, cls } = getStatusStyle(item.status);
+                  return (
+                    <tr key={i} className="border-t border-border align-top">
+                      <td className="px-4 py-3 font-semibold">{item.feature}</td>
+                      <td className="px-4 py-3">
+                        <span
+                          className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full border text-xs font-semibold ${cls}`}
+                        >
+                          <Icon className="w-3.5 h-3.5" />
+                          {item.status}
+                        </span>
+                      </td>
+                      <td className="px-4 py-3 text-muted-foreground">
+                        {item.details}
+                      </td>
+                    </tr>
+                  );
+                })}
               </tbody>
             </table>
           </div>
           {/* Mobile cards */}
           <div className="scroll-reveal md:hidden space-y-3">
-            {t.modules.crossplayAndOnlineCoop.items.map((item: any, i: number) => (
-              <div
-                key={i}
-                className="p-4 bg-white/5 border border-border rounded-xl"
-              >
-                <p className="text-xs uppercase tracking-wider text-[hsl(var(--nav-theme-light))] font-semibold mb-1">
-                  {item.label}
-                </p>
-                <p className="font-bold mb-1.5">{item.value}</p>
-                <p className="text-sm text-muted-foreground">{item.details}</p>
-              </div>
-            ))}
+            {t.modules.crossplayAndOnlineCoop.items.map((item: any, i: number) => {
+              const { Icon, cls } = getStatusStyle(item.status);
+              return (
+                <div
+                  key={i}
+                  className="p-4 bg-white/5 border border-border rounded-xl"
+                >
+                  <div className="flex items-center justify-between gap-2 mb-2">
+                    <p className="font-semibold">{item.feature}</p>
+                    <span
+                      className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full border text-xs font-semibold flex-shrink-0 ${cls}`}
+                    >
+                      <Icon className="w-3.5 h-3.5" />
+                      {item.status}
+                    </span>
+                  </div>
+                  <p className="text-sm text-muted-foreground">{item.details}</p>
+                </div>
+              );
+            })}
           </div>
         </div>
       </section>
