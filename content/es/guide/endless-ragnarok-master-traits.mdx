@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Rasgos Maestros de Endless Ragnarok: Guía Completa de Especializaciones y Clasificación de Estilos",
+  description: "Aprende cómo desbloquear y optimizar los rasgos maestros de Endless Ragnarok en Granblue Fantasy Relink. Compara los estilos Insight, Essence y Crux para todos los personajes.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Master+Traits+Guide",
+  date: "2026-07-09",
+  author: "Equipo de la Wiki de Endless Ragnarok",
+  keywords: "Endless Ragnarok, rasgos maestros, guía, Granblue Fantasy Relink, estilos"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Mecánica Principal**: Aprende a desbloquear y asignar **rasgos maestros de Endless Ragnarok** especializados para personalizar el estilo de juego de tu personaje.
+- **Ruta de Progresión**: Alcanza primero el Nivel 100, luego completa misiones específicas de aumento de rango en **dificultad Caos** para elevar tu Nivel Maestro.
+- **Personalización de Especialización**: Equilibra tu build utilizando tres rutas de estilo de juego distintas: **Insight**, **Essence** y **Crux**.
+- **Flexibilidad de Build**: Puedes **reembolsar libremente** todos los Materiales de Estilo gastados para reasignar los puntos de tus personajes en cualquier momento sin penalización.
+</Callout>
+
+<Section icon={Map} title="Guía de Progresión de los Rasgos Maestros de Endless Ragnarok">
+
+La gran expansión introduce un sistema de especialización de personajes que cambia las reglas del juego [2]. Una vez que un personaje alcanza el Nivel 100, puede invertir Puntos de Maestría (MSP) para elevar su Nivel Maestro hasta un límite de 50 [2]. Aumentar este nivel otorga Materiales de Estilo especializados (Círculos, Diamantes, Hexágonos y Hexágonos de Marco Dorado) utilizados para activar ventajas únicas en tres rutas ramificadas distintas: **Insight**, **Essence** y **Crux** [2]. 
+
+**Puntos Destacados del Video:**
+- **Acceso a la Expansión**: Completa la historia del juego base hasta Proto Bahamut, luego dirígete a Seed Hollow para encontrar el portal [1].
+- **Modo Roguelike Conflux**: Farmea en las arenas de Conflux para un solo jugador para acumular materiales de mejora de personajes [1].
+- **Misiones de Caos de Endgame**: Supera misiones de nivel Caos para adquirir sigilos de daño suplementario y desbloquear los límites del Nivel Maestro [1, 2].
+
+<YouTubeEmbed videoId="AFG7WAN3Q5g" title="Granblue Fantasy Relink Endless Ragnarok Ultimate Guide - How To Start, Best AI Team & Build Tips" />
+
+Cada ruta de estilo cuenta con 3 Perks de Rango y 4 grupos de Estilo de Rango [2]. Activar un número específico de nodos dentro de un grupo de rango desbloquea su Perk de Rango pasivo correspondiente [2]. La progresión está ligada directamente a tus hitos en la historia y en las misiones [2].
+
+| Límite de Nivel Maestro | Rango de Estilo Desbloqueado | Materiales Requeridos | Requisito de Desbloqueo |
+| :--- | :--- | :--- | :--- |
+| **Nivel 10** | Rango de Estilo 1 (Perk de Rango 1) | 10 Mats de Círculo | Acceso a la expansión [2] |
+| **Nivel 20** | Rango de Estilo 2 (Perk de Rango 2) | 10 Mats de Diamante | Completar Misión de Rango **Caos+** [2] |
+| **Nivel 30** | Rango de Estilo 3 (Perk de Rango 3) | 10 Mats de Hexágono | Completar Misión de Rango **Caos++** [2] |
+| **Nivel 50** | Rango de Estilo EX (Sin Perks) | 20 Hexágonos de Marco Dorado | Derrotar al jefe final de la historia principal [2] |
+
+<Callout type="tip" title="Advertencia de Reasignación">
+No te preocupes por cometer errores al asignar tus materiales. Aunque tu Nivel Maestro principal no puede reducirse, puedes **reembolsar libremente** todos los materiales de Círculo, Diamante, Hexágono y Hexágono de Marco Dorado gastados para reasignar la build de tu personaje en cualquier momento [2].
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Comparación de Estilos: Insight vs Essence vs Crux">
+
+Cada personaje jugable en la expansión tiene acceso a tres estilos de rasgos paralelos [2]. Debido a que el Rango de Estilo 1 otorga 10 Mats de Círculo de forma universal, puedes activar el Perk de Rango 1 para **los tres estilos simultáneamente** [2]. Sin embargo, los rangos superiores te obligan a especializarte debido a los materiales limitados de Diamante y Hexágono [2].
+
+<CardGrid cols={3}>
+  <Card title="Estilo Insight">
+    - **Enfoque**: Mejoras ofensivas puras y remates de combo [2].
+    - **Ideal Para**: Maximizar el DPS bruto y los techos del límite de daño [2].
+    - **Mecánica**: A menudo ligado directamente al medidor único principal del personaje [2].
+  </Card>
+  <Card title="Estilo Essence">
+    - **Enfoque**: Utilidad basada en habilidades, reducción de enfriamiento y posturas híbridas [2].
+    - **Ideal Para**: Personajes que usan habilidades constantemente y builds orientadas al soporte [2].
+    - **Mecánica**: Altera la funcionalidad de las habilidades o otorga buffs situacionales [2].
+  </Card>
+  <Card title="Estilo Crux">
+    - **Enfoque**: Opciones defensivas, contraataques, supervivencia y parries [2].
+    - **Ideal Para**: Contenido en solitario de alta dificultad y mecánicas de tanqueo [2].
+    - **Mecánica**: Mejora bloqueos, esquivas o proporciona escudos para todo el grupo [2].
+  </Card>
+</CardGrid>
+
+Para ayudarte a decidir qué ruta priorizar para tu personaje principal, revisa los estilos de juego principales de los mejores combatientes a continuación.
+
+| Personaje | Nombre de Estilo Insight | Enfoque Principal del Estilo de Juego |
+| :--- | :--- | :--- |
+| **Gran / Djeeta** | Artfully Adept | Optimización del nivel de artes, buffs de Power Raise, enfriamientos de habilidades [2] |
+| **Katalina** | Forever Ares | Extensión de la duración de la invocación de Ares, buffs de Pactstrike [2] |
+| **Rackam** | Precision Blasting | Velocidad de carga de Bull's Eye Blast, ganancia del medidor de calor [2] |
+| **Io** | Pure Concentration | Especificaciones de daño de Stargaze V dentro del área de efecto de Concentration [2] |
+| **Eugen** | Flawless Vision | Ataques cargados con visión de francotirador, acumulaciones de Sniper Elite [2] |
+| **Percival** | Charge Forth | Velocidad de ataque de Schlacht ++, reinicio de enfriamientos de habilidades [2] |
+| **Siegfried** | Perfect Striker | Sincronización de la ejecución de Perfect Strike, acumulaciones de Dragonsbane Pulse [2] |
+
+<Callout type="warning" title="Coincidencia de Elementos">
+Al equipar a tus personajes, ten en cuenta la coincidencia de elementos. Varios rasgos EX del Estilo Crux otorgan un **bono del 10% de daño infligido** exclusivamente al luchar contra enemigos de un elemento más débil [2].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo Desbloquear y Subir de Nivel los Rasgos Maestros">
+
+Desbloquear todo el potencial de tus rasgos maestros requiere un enfoque sistemático de farmeo y progresión. Sigue estos pasos para maximizar el poder de tu personaje de manera eficiente.
+
+<Steps>
+  <Step num="1" title="Alcanza el Nivel 100">
+    Asegúrate de que el personaje deseado esté en el Nivel 100 [2]. Farmea en el **modo roguelike Conflux** para un solo jugador para adquirir rápidamente materiales de mejora, armas y Puntos de Maestría (MSP) [1].
+  </Step>
+  <Step num="2" title="Desbloquea la Dificultad Caos">
+    Avanza en la historia principal para desbloquear el nivel de misiones Fatebreaker [2]. Completa la **misión inicial de aumento de rango Caos** para desbloquear el sistema de rasgos maestros y subir tu Nivel Maestro al 10 [2].
+  </Step>
+  <Step num="3" title="Supera los Desafíos de Aumento de Rango">
+    Avanza en la historia para desbloquear los desafíos **Caos+** y **Caos++** [2]. Completar estas misiones específicas de aumento de rango eleva tu límite de Nivel Maestro a 20 y 30, otorgando los materiales de Diamante y Hexágono necesarios para los perks de estilo de nivel superior [2].
+  </Step>
+  <Step num="4" title="Derrota al Jefe Final">
+    Vence al jefe final de la historia principal de la expansión para elevar tu límite de Nivel Maestro a 50 [2]. Esto desbloquea el Rango de Estilo EX, dándote acceso a 10 ranuras de rasgos de endgame altamente personalizables [2].
+  </Step>
+</Steps>
+
+<Callout type="success" title="Progresión Post-Límite">
+Una vez que un personaje alcanza el Nivel Maestro 50, puede subir de nivel cinco veces más [2]. Estos niveles de bonificación no otorgan materiales de estilo, pero añaden poderosos nodos de estadísticas permanentes a tus Árboles de Maestría Ofensiva y Defensiva [2].
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Consejos de Optimización de Daño para el Endgame">
+
+Simplemente desbloquear tus rasgos maestros no es suficiente; debes optimizarlos junto con tus sigilos para superar los estrictos límites de combate del juego.
+
+### Prioriza el Límite de Daño
+En el endgame, las estadísticas de ataque bruto se vuelven inútiles si estás alcanzando el techo de daño de tu personaje [1]. Debes equipar sigilos y activar rasgos maestros que aumenten específicamente tu **Límite de Daño** (Damage Cap) [1, 2]. Esto permite que tu alto poder de ataque se traduzca en daño real infligido [1].
+
+### Usa la Función de Porcentaje del Muñeco de Entrenamiento
+La expansión añade una opción muy útil de **porcentaje de límite de daño** al muñeco de entrenamiento [1]. Viaja rápido a la sala de entrenamiento y activa esta opción para ver exactamente qué tan cerca están tus ataques de alcanzar sus límites máximos [1]. 
+- **Menos del 100%**: Necesitas invertir más en estadísticas de ataque bruto [1].
+- **Exactamente 100%**: Tu build está perfectamente optimizada [1].
+- **Más del 100%**: Estás desperdiciando estadísticas en poder de ataque redundante y deberías cambiar algunos sigilos por utilidad o supervivencia [1].
+
+| Tipo de Sigilo Recomendado | Beneficio de Combate Principal |
+| :--- | :--- |
+| **Fatebreaker** | Eleva tu límite de daño más allá de lo posible en el juego base [1]. |
+| **Daño Suplementario** | Añade impactos adicionales que ignoran por completo el límite de daño [1]. |
+| **Acaparador de Pociones** | Aumenta tu inventario de objetos curativos, haciendo que los encuentros de Caos sean muy permisivos [1]. |
+| **Auto-Revivir** | Recupera automáticamente a tu personaje tras ser abatido para salvar una partida fallida [1]. |
+
+<Callout type="info" title="Costes de Invocación">
+Los rasgos EX de endgame te permiten manipular tus Costes de Invocación [2]. Puedes elegir debilitar las especificaciones de invocación para reducir tu Coste de Invocación en 1, o fortalecerlas a cambio de aumentar el coste en 1 [2]. Usa este equilibrio para personalizar tu equipamiento para las peleas de dificultad Caos [1, 2].
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Hitos del Endgame">
+
+Usa esta lista para seguir la progresión de tu personaje mientras trabajas para dominar los sistemas de la expansión.
+
+<Checklist
+  id="ragnarok-milestones"
+  title="Lista de Maestría:"
+  items={[
+    "Alcanzar el Nivel 100 del personaje y desbloquear el portal de la expansión",
+    "Completar la misión de aumento de rango Caos+ para desbloquear el Rango de Estilo 2",
+    "Completar la misión de aumento de rango Caos++ para desbloquear el Rango de Estilo 3",
+    "Derrotar al jefe final de la historia para desbloquear el Rango de Estilo EX",
+    "Alcanzar el Nivel Maestro 50 y obtener los últimos 20 materiales de Hexágono de Marco Dorado",
+    "Optimizar tu build en el muñeco de entrenamiento para alcanzar exactamente el 100% del límite de daño"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo desbloqueo el sistema de rasgos maestros de Endless Ragnarok?",
+    answer: "Debes alcanzar el Nivel 100 con tu personaje, avanzar en la historia de la expansión y completar la misión inicial de aumento de rango Caos para desbloquear el sistema de Nivel Maestro."
+  },
+  {
+    question: "¿Puedo activar ventajas en Insight, Essence y Crux al mismo tiempo?",
+    answer: "Sí. Los efectos de los rasgos maestros y las ventajas en cada estilo no son mutuamente excluyentes. Se aplican de forma simultánea y universal, a menos que un rasgo específico indique explícitamente lo contrario."
+  },
+  {
+    question: "¿Hay alguna penalización por restablecer mis materiales de estilo asignados?",
+    answer: "No. Puedes reembolsar libremente todos los materiales de Círculo, Diamante, Hexágono y Hexágono de Marco Dorado gastados para reasignar a tu personaje en una build completamente diferente en cualquier momento."
+  },
+  {
+    question: "¿Qué debo hacer después de alcanzar el Nivel Maestro 50?",
+    answer: "Puedes subir de nivel cinco veces más para añadir nuevos nodos de estadísticas ofensivas y defensivas permanentes a los árboles de maestría principales de tu personaje."
+  }
+]} />
+
+</Section>

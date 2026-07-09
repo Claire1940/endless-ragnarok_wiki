@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Beatrix en Endless Ragnarok: Guía de Mejor Build y Rotación de DPS",
+  description: "Domina a Beatrix en Granblue Fantasy: Relink - Endless Ragnarok. Aprende sus mecánicas de Reloj Delta, el modo Devorar Causalidad, las mejores builds y rotaciones óptimas de DPS.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Beatrix+Build+Guide",
+  date: "2026-07-09",
+  author: "Equipo de Wiki de endless ragnarok",
+  keywords: "beatrix, build, dps, granblue fantasy relink, endless ragnarok, guía"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Palabra Clave Principal**: Domina las mecánicas de alta velocidad de **Beatrix en Endless Ragnarok** para dominar el contenido de endgame.
+- **Mecánica Central**: Gestiona las posiciones de las manecillas del **Reloj Delta** para alternar entre estados de ataque, defensa y curación.
+- **Ventana de Ráfaga**: Llena el medidor de Embrasque para activar **Devorar Causalidad** y obtener aumentos masivos de velocidad de ataque y daño.
+- **Mejora de Esquiva**: Esquivar después de un remate de combo durante Devorar Causalidad ya no interrumpe tu cadena de ataques.
+- **Coste de Desbloqueo**: Recluta instantáneamente a Beatrix en el Bazar de Sierokarte usando una sola **Tarjeta de Tripulante**.
+</Callout>
+
+<Section icon={Swords} title="Resumen del Personaje Beatrix en Endless Ragnarok">
+
+Beatrix, la "Azul Inmortal", se une al elenco de *Granblue Fantasy: Relink - Endless Ragnarok* como una especialista de elemento Oscuridad agresiva y de corto alcance. Armada con su arma sellada Embrasque, cambia el juego cauteloso por un impulso ofensivo puro, utilizando un sistema único conocido como el Reloj Delta para rotar a través de poderosas mejoras personales. A diferencia de personajes más complejos, Beatrix ofrece un estilo de juego "unga bunga" increíblemente satisfactorio que es fácil de aprender pero muy gratificante de dominar.
+
+**Puntos Destacados del Vídeo:**
+- **Flujo de Combate**: Observa cómo Beatrix entrelaza ataques básicos fluidos con remates de combo de alto daño.
+- **Mecánicas del Reloj Delta**: Mira cómo gira la manecilla del reloj para otorgar mejoras específicas en batallas en tiempo real.
+- **Devorar Causalidad**: Observa el aumento masivo de velocidad de ataque una vez que su medidor de Embrasque está completamente cargado.
+
+<YouTubeEmbed videoId="1hOWx1eihRc" title="[EN] Granblue Fantasy: Relink - Endless Ragnarok | Meet the Crew: Beatrix" />
+
+### Requisitos de Reclutamiento
+
+Reclutar a Beatrix para tu tripulación es sencillo. A diferencia de algunos personajes que requieren una larga progresión en la historia, Beatrix se puede adquirir desde el principio.
+
+| Personaje | Objeto de Desbloqueo Requerido | Ubicación |
+|---|---|---|
+| **Beatrix** | 1x Tarjeta de Tripulante | Bazar de Sierokarte |
+| **Eustace** | 1x Tarjeta de Tripulante | Bazar de Sierokarte |
+| **Fraux** | 2x Tarjetas de Tripulante / Recompensa de Misión | Bazar de Sierokarte / Misión de Historia |
+| **Fediel** | 2x Tarjetas de Tripulante / Recompensa de Misión | Bazar de Sierokarte / Misión de Historia |
+
+<Callout type="tip" title="Consejo Profesional">
+Gasta tu primera Tarjeta de Tripulante disponible en Beatrix inmediatamente al llegar al Bazar de Sierokarte para comenzar a subir sus Maestrías temprano en tu progresión.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mecánicas del Reloj Delta y Devorar Causalidad">
+
+El diseño de combate de Beatrix gira en torno a su medidor único: el **Reloj Delta**. Al presionar o mantener presionado su botón de acción única, los jugadores pueden girar la manecilla del reloj para activar tres estados distintos. Acertar remates de combo carga su medidor de Embrasque, lo que lleva a su estado de combate definitivo.
+
+### Posiciones de Mejora del Reloj Delta
+
+El Reloj Delta proporciona tres mejoras distintas dependiendo de dónde se fije el puntero.
+
+| Posición del Reloj | Modo | Efectos de Combate |
+|---|---|---|
+| **Arriba (Rojo)** | Modo Ataque | Otorga un poder de ataque significativo y multiplicadores de daño bruto. |
+| **Derecha (Verde)** | Modo Curación | Restaura salud con el tiempo y aumenta los efectos de curación recibidos. |
+| **Izquierda (Amarillo)** | Modo Defensa | Aumenta la defensa y proporciona una valiosa resistencia al aturdimiento. |
+
+### Modo Devorar Causalidad
+
+Una vez que el medidor circular de Embrasque se llena por completo mediante remates de combo, mantener presionado el botón del Reloj Delta activa **Devorar Causalidad**. Durante este estado de sobrecarga:
+- La velocidad de ataque aumenta masivamente, lo que te permite realizar ciclos de combos rápidamente.
+- Los remates de combo se encadenan en ataques de seguimiento mejorados de múltiples golpes.
+- Esquivar inmediatamente después de un remate de combo ya no interrumpirá tu cadena de combo actual, lo que permite un tiempo de actividad ofensiva inigualable.
+
+<Callout type="warning" title="Aviso de Vulnerabilidad">
+Beatrix no posee marcos de invencibilidad (i-frames) predeterminados durante sus largas animaciones de remate de combo. Debes confiar en esquivas perfectas o sigilos defensivos para evitar ser interrumpido por jefes que golpean fuerte.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mejores Armas y Configuración de Sigilos">
+
+Para maximizar tu rendimiento con **Beatrix en Endless Ragnarok**, tu build debe centrarse en amplificar su tasa de crítico, poder de ataque bruto y límites de daño. Dado que su velocidad de ataque es increíblemente alta durante sus ventanas de ráfaga, equipar sigilos de límite de daño es obligatorio para evitar desperdiciar DPS.
+
+### Mejores Opciones de Armas
+
+Como especialista en sables, Beatrix tiene acceso a varias armas poderosas. La siguiente tabla desglosa las mejores opciones para la progresión y el endgame.
+
+| Arma de Sable | Tipo | Beneficio Principal | Mejor Uso Para |
+|---|---|---|---|
+| **Embrasque** | Defensor | Aumenta la vida máxima y estadísticas de supervivencia | Progresión temprana y aprendizaje de alta dificultad |
+| **Gram** | Aturdimiento/Crítico | Alta tasa de crítico base y poder de aturdimiento | Builds de mitad de juego y misiones generales |
+| **Sable de Ascensión** | Despertada | Poder de ataque bruto masivo y aumentos de límite de daño | Juego cooperativo de alto nivel y jefes de raid |
+
+### Carga de Sigilos Recomendada
+
+Para optimizar el estilo de tajos de alta velocidad de Beatrix, céntrate en estas categorías esenciales de sigilos:
+
+<CardGrid cols={3}>
+  <Card title="Núcleo Ofensivo">
+    - **Límite de Daño**: Esencial para superar los límites de daño estándar durante Devorar Causalidad.
+    - **Tasa de Crítico**: Intenta alcanzar el 100% de tasa de crítico para asegurar un daño constante.
+  </Card>
+  <Card title="Utilidad y Velocidad">
+    - **Enfriamiento Rápido**: Reduce el tiempo de reutilización de sus poderosas habilidades de daño.
+    - **Cascada**: Reduce aún más los enfriamientos de habilidades basado en tu alto número de golpes.
+  </Card>
+  <Card title="Seguridad Defensiva">
+    - **Corazón Firme**: Evita el retroceso durante sus largos y llamativos remates de combo.
+    - **Esquiva Mejorada**: Otorga marcos de esquiva adicionales para mantener las cadenas de combo.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Sistema de Trascendencia">
+Una vez que tus armas estén completamente mejoradas, utiliza el nuevo sistema de mejora de **Trascendencia** introducido en las actualizaciones de 2026 para llevar los límites de daño de Beatrix aún más lejos.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Rotación de DPS Óptima y Guía de Combos">
+
+Jugar con Beatrix de manera eficiente requiere un equilibrio entre cargar el medidor, mantener la mejora correcta del reloj y desatar combos de fuego rápido durante tus ventanas de ráfaga. Sigue estos pasos para optimizar tus ciclos de combate.
+
+<Steps>
+  <Step num="1" title="Configura el Reloj">
+    Antes de entrar en combate, ajusta tu Reloj Delta al **Modo Ataque** (Rojo) para obtener el máximo daño, o al **Modo Defensa** (Izquierda) si te enfrentas a enemigos muy agresivos.
+  </Step>
+  <Step num="2" title="Carga el Medidor de Embrasque">
+    Ejecuta su cadena de combo estándar: **Ligero -> Ligero -> Ligero -> Ligero -> Pesado** (XXXXY). Esta cadena específica llena su medidor de Embrasque más rápido que cualquier otra secuencia predeterminada.
+  </Step>
+  <Step num="3" title="Intercala Habilidades de Daño">
+    Activa habilidades ofensivas como *Thunderbird* o *Starchaser* para cerrar distancias. Estas habilidades se pueden cancelar directamente en remates de combo pesados para acelerar la generación del medidor.
+  </Step>
+  <Step num="4" title="Activa Devorar Causalidad">
+    Una vez que el medidor esté lleno, mantén presionado el botón de acción única para activar **Devorar Causalidad**. Spammea tus cadenas de combo acortadas y utiliza el remate de poder para lanzarte al aire y realizar ciclos de combate aéreo.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Progresión de Endgame">
+
+Sigue tu progreso con Beatrix mientras te enfrentas a los desafíos más difíciles en las misiones de dificultad Confluencia y Caos.
+
+<Checklist
+  id="beatrix-progression"
+  title="Lista de Maestría de Beatrix:"
+  items={[
+    "Recluta a Beatrix en el Bazar de Sierokarte usando una Tarjeta de Tripulante",
+    "Alcanza el nivel 100 y completa todos los Episodios de Destino para desbloquear su historia",
+    "Maximiza sus árboles de Maestría ofensiva y defensiva",
+    "Obtén y despierta completamente su arma de Ascensión",
+    "Equipa 4 sigilos de Límite de Daño V para maximizar el daño de Devorar Causalidad",
+    "Desbloquea sus rasgos de Maestro tras alcanzar el Rango de Navegante: Fatebreaker"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo recluto a Beatrix en Endless Ragnarok?",
+    answer: "Beatrix puede ser reclutada en el Bazar de Sierokarte gastando una sola Tarjeta de Tripulante estándar, la cual se obtiene fácilmente a través de la progresión normal del juego."
+  },
+  {
+    question: "¿Cuál es la mejor configuración del Reloj Delta para el combate general?",
+    answer: "Para un DPS general, debes mantener el Reloj Delta en la configuración Roja (Ataque). Cambia a Amarilla (Defensa) si te interrumpen con frecuencia durante las animaciones largas de combo."
+  },
+  {
+    question: "¿Esquivar arruina las cadenas de combo de Beatrix?",
+    answer: "Normalmente, sí. Sin embargo, mientras Beatrix está en su modo Devorar Causalidad, esquivar inmediatamente después de realizar un remate de combo ya no interrumpirá tu cadena de combo."
+  },
+  {
+    question: "¿Es Beatrix apta para principiantes en comparación con otros personajes?",
+    answer: "Sí. Beatrix es muy intuitiva y se basa en cadenas de ataque y remates de combo directos, lo que la hace mucho más fácil de aprender que personajes como Katarina o el Capitán."
+  }
+]} />
+
+</Section>
