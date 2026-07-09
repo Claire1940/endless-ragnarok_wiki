@@ -30,9 +30,9 @@
     --chart-4: 186 55% 60%;
     --chart-5: 186 60% 45%;
 
-    /* 导航页主题色 */
-    --nav-theme: 186 62% 39%;        /* lucid-blocks-cyan */
-    --nav-theme-light: 186 68% 52%;  /* 更浅的青色高亮 */
+    /* 导航页主题色 - Endless Ragnarok violet */
+    --nav-theme: 266 71% 50%;        /* violet-600 (#7c3aed) */
+    --nav-theme-light: 258 90% 66%;  /* 更亮的紫蓝色 */
     
     /* Callout 组件颜色 */
     --callout-info-bg: 217 91% 97%;  /* blue-50 */
@@ -75,9 +75,9 @@
     --chart-4: 186 55% 60%;
     --chart-5: 186 60% 45%;
 
-    /* 导航页主题色 - 暗色主题 */
-    --nav-theme: 186 62% 39%;        /* lucid-blocks-cyan */
-    --nav-theme-light: 186 68% 52%;  /* hover/active 高亮 */
+    /* 导航页主题色 - Endless Ragnarok violet - 暗色主题 */
+    --nav-theme: 266 71% 50%;        /* violet-600 */
+    --nav-theme-light: 258 90% 66%;  /* hover/active 高亮 */
 
     /* Callout 组件颜色 - 暗色主题 */
     --callout-info-bg: 217 91% 22%;  /* 更浅的深蓝色（模拟 blue-900/20） */
