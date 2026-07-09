@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   // 启用静态渲染：必须在调用 next-intl 服务端函数前设置请求 locale
   setRequestLocale(locale);
   const siteUrl =
-    process.env.NEXT_PUBLIC_SITE_URL || "https://www.lucidblocks.wiki";
+    process.env.NEXT_PUBLIC_SITE_URL || "https://www.endless-ragnarok.wiki";
 
   // 获取 SEO 翻译
   const t = await getTranslations("seo.home");
@@ -60,7 +60,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: "website",
       locale: locale,
       url: locale === "en" ? siteUrl : `${siteUrl}/${locale}`,
-      siteName: "Lucid Blocks Wiki",
+      siteName: "Endless Ragnarok Wiki",
       title: t("ogTitle"),
       description: t("ogDescription"),
       images: [
@@ -68,7 +68,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
           url: `${siteUrl}/images/hero.webp`,
           width: 1920,
           height: 1080,
-          alt: "Lucid Blocks - Surreal Voxel Sandbox",
+          alt: "Endless Ragnarok - Granblue Fantasy: Relink Expansion",
         },
       ],
     },
@@ -77,7 +77,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: t("twitterTitle"),
       description: t("twitterDescription"),
       images: [`${siteUrl}/images/hero.webp`],
-      creator: "@lucidblocks",
+      creator: "@relink_official",
     },
     icons: {
       icon: [
@@ -96,6 +96,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function LocaleLayout({ children, params }: Props) {
   const { locale } = await params;
+  const siteUrl =
+    process.env.NEXT_PUBLIC_SITE_URL || "https://www.endless-ragnarok.wiki";
 
   // 验证 locale
   if (!routing.locales.includes(locale as Locale)) {
@@ -124,6 +126,38 @@ export default async function LocaleLayout({ children, params }: Props) {
 			</head>
 			<body suppressHydrationWarning className="antialiased">
 				<Analytics />
+				<script
+					type="application/ld+json"
+					dangerouslySetInnerHTML={{
+						__html: JSON.stringify({
+							"@context": "https://schema.org",
+							"@type": "Organization",
+							"@id": `${siteUrl}/#organization`,
+							name: "Endless Ragnarok Wiki",
+							url: siteUrl,
+							logo: {
+								"@type": "ImageObject",
+								url: `${siteUrl}/images/hero.webp`,
+								width: 1920,
+								height: 1080,
+							},
+							image: {
+								"@type": "ImageObject",
+								url: `${siteUrl}/images/hero.webp`,
+								width: 1920,
+								height: 1080,
+							},
+							sameAs: [
+								"https://relink-ragnarok.granbluefantasy.com/en",
+								"https://x.com/relink_official",
+								"https://www.youtube.com/@relink_official",
+								"https://www.reddit.com/r/GranblueFantasyRelink/",
+								"https://discord.com/invite/gbfr",
+								"https://store.steampowered.com/app/3839790/Granblue_Fantasy_Relink__Endless_Ragnarok_Upgrade_Kit_Standard_Edition/",
+							],
+						}),
+					}}
+				/>
 				<NextIntlClientProvider messages={messages}>
 					<ClientBody navPreviewData={navPreviewData}>{children}</ClientBody>
 				</NextIntlClientProvider>
