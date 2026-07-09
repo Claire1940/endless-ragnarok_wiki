@@ -1,0 +1,151 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guardado cruzado en Endless Ragnarok: Guía de configuración y reglas de transferencia",
+  description: "Aprende a transferir tus datos de guardado a Endless Ragnarok. Compara la compatibilidad de guardado cruzado entre plataformas, las reglas de juego cruzado multijugador y las opciones de actualización.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/7c3aed/fff?text=Endless+Ragnarok+Cross+Save+Guide",
+  date: "2026-07-09",
+  author: "Equipo de la Wiki de Endless Ragnarok"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Transferencia de datos**: Tus datos de guardado existentes de Granblue Fantasy: Relink **se transferirán** al actualizar a Endless Ragnarok en la misma plataforma.
+- **Guardado cruzado**: El progreso real entre diferentes plataformas (por ejemplo, transferir una partida guardada de PS5 a Steam o Nintendo Switch 2) **no es compatible**.
+- **Juego cruzado**: El multijugador multiplataforma completo **es compatible** entre PlayStation 5, PlayStation 4, Steam y Nintendo Switch 2.
+- **Ruta de actualización**: Los propietarios actuales pueden comprar el Upgrade Kit digital para transferir su progreso sin problemas y sin tener que empezar de nuevo.
+</Callout>
+
+<Section icon={Map} title="Mecánicas de guardado cruzado y transferencia de datos en Endless Ragnarok">
+
+Al actualizar a **Granblue Fantasy: Relink - Endless Ragnarok**, es fundamental entender cómo se transfiere tu progreso. Cygames ha estructurado la expansión de manera que los jugadores que regresan puedan conservar su equipo, personajes y progreso de misiones tan difíciles de conseguir, siempre que permanezcan en la misma familia de plataformas. Sin embargo, los jugadores que deseen dar el salto entre diferentes ecosistemas de hardware deberán navegar por límites de compatibilidad específicos.
+
+<CardGrid cols={2}>
+  <Card title="Transferencia en la misma plataforma">
+    - **100 % compatible**: Detecta automáticamente los archivos de guardado existentes.
+    - **Sin pérdida de progreso**: Conserva todos los personajes, sigilos y armas.
+    - **Transición fluida**: Avanza directamente a las nuevas misiones de nivel Caos.
+  </Card>
+  <Card title="Progreso multiplataforma">
+    - **No compatible**: No se pueden mover partidas guardadas entre ecosistemas de consolas.
+    - **Bloqueado por plataforma**: Steam, PlayStation y Nintendo Switch 2 están aislados.
+    - **Requiere empezar de cero**: Cambiar de plataforma requiere iniciar una nueva partida.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Restricción de compatibilidad de actualización">
+El Upgrade Kit digital está estrictamente vinculado a la plataforma en la que posees el juego base. Por ejemplo, no puedes comprar el Upgrade Kit de Steam para jugar con tu partida guardada de PlayStation 5 en una PC.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Compatibilidad de plataformas y reglas de transferencia de datos">
+
+Para ayudarte a planificar tu transición, la siguiente tabla detalla exactamente qué es compatible al mover datos de guardado al entorno de **guardado cruzado de Endless Ragnarok**.
+
+| Plataforma de origen | Plataforma de destino | Estado de transferencia | Requisitos clave y notas |
+| :--- | :--- | :--- | :--- |
+| **PlayStation 4** | **PlayStation 5** | **Compatible** | Transferencia a través del guardado en la nube de PlayStation Network o copia de seguridad en USB. |
+| **PlayStation 5** | **PlayStation 5** | **Compatible** | El kit de actualización detecta automáticamente los datos de guardado del juego base. |
+| **Steam (PC)** | **Steam (PC)** | **Compatible** | La sincronización de Steam Cloud gestiona la transferencia automáticamente. |
+| **PlayStation 5 / PS4** | **Steam (PC)** | **No compatible** | La migración de guardado entre diferentes plataformas no está disponible en absoluto. |
+| **PlayStation 5 / PS4** | **Nintendo Switch 2** | **No compatible** | No existe ninguna utilidad de guardado cruzado entre Sony y Nintendo. |
+| **Steam (PC)** | **Nintendo Switch 2** | **No compatible** | El progreso no se puede compartir entre Steam y Nintendo. |
+
+<Callout type="tip" title="Partidas guardadas en versiones beta">
+Si participaste en la beta cerrada de Endless Ragnarok, tu progreso en la finalización de misiones se transferirá a la beta abierta, pero el equipo y las composiciones de grupo personalizadas no se transferirán a la versión final.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo transferir tus datos de guardado y reclamar bonificaciones de enlace">
+
+Si vas a actualizar tu juego en la misma plataforma, el proceso es sencillo. Sigue estos pasos para asegurarte de que tus datos de guardado se migren de forma segura y de reclamar tus bonificaciones exclusivas por enlazar tu Cygames ID.
+
+<Steps>
+  <Step num="1" title="Crea una copia de seguridad de tus datos de guardado base">
+    Antes de instalar la expansión, asegúrate de que tu archivo de guardado existente de Granblue Fantasy: Relink esté respaldado en el almacenamiento en la nube de tu plataforma (PlayStation Plus o Steam Cloud).
+  </Step>
+  <Step num="2" title="Compra la versión de actualización correcta">
+    Compra el **Endless Ragnarok Upgrade Kit** (Estándar o Especial) en la misma tienda digital donde posees el juego base.
+  </Step>
+  <Step num="3" title="Inicia el juego y verifica el progreso">
+    Inicia la versión recién actualizada. El sistema escaneará automáticamente tu almacenamiento local, cargará tu partida guardada anterior y desbloqueará el nuevo contenido de la historia que comienza después del capítulo final original.
+  </Step>
+  <Step num="4" title="Enlaza tu Cygames ID para obtener recompensas">
+    Navega al portal oficial de recompensas de Cygames ID. Enlaza la cuenta de tu plataforma (Steam, PlayStation o Nintendo) a tu Cygames ID gratuito para reclamar artículos promocionales exclusivos.
+  </Step>
+  <Step num="5" title="Canjea objetos con Sierokarte">
+    En el juego, dirígete a Sierokarte en el Bazar de Sierokarte. Selecciona **Reclamar DLC y bonificaciones** para recibir tus Lingotes de Damasco, Centrums de plata y otras recompensas promocionales.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Consejo sobre las recompensas de Cygames ID">
+Enlazar tus cuentas te recompensará con un Lingote de Damasco y 10 Centrums de plata en Endless Ragnarok, además de boletos de sorteo exclusivos y una invocación SSR de la serie Providence en el juego móvil Granblue Fantasy.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Juego cruzado frente a guardado cruzado: Entendiendo la diferencia">
+
+Aunque las opciones de **guardado cruzado en Endless Ragnarok** están limitadas a las actualizaciones en la misma plataforma, el juego cuenta con un sistema de **juego cruzado** robusto y sin restricciones. Puedes jugar misiones cooperativas multijugador con amigos independientemente del hardware que tengan.
+
+| Tipo de función | Estado | Cobertura de plataformas | Detalles clave |
+| :--- | :--- | :--- | :--- |
+| **Juego cruzado multijugador** | **Completamente compatible** | PS5, PS4, Steam, Nintendo Switch 2 | Emparejamiento global con toda la base de jugadores. |
+| **Comunicación local** | **Exclusivo de Switch 2** | De Nintendo Switch 2 a Nintendo Switch 2 | Cooperativo inalámbrico local para hasta 4 jugadores sin necesidad de internet. |
+| **Progreso cruzado** | **No compatible** | Ninguno | Las partidas guardadas permanecen bloqueadas permanentemente en su plataforma nativa. |
+| **Portabilidad de la actualización** | **No compatible** | Ninguno | Comprar la actualización en PS5 no otorga acceso en Steam. |
+
+<Callout type="info" title="Requisitos para el multijugador">
+Se requiere una suscripción activa a PlayStation Plus o Nintendo Switch Online para el emparejamiento en línea en sus respectivas consolas, aunque el juego inalámbrico local en Switch 2 no requiere una suscripción activa.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación para el lanzamiento de Endless Ragnarok">
+
+Asegúrate de estar completamente preparado para el lanzamiento de Endless Ragnarok el **9 de julio de 2026** completando estas tareas cruciales de preparación:
+
+<Checklist
+  id="launch-prep"
+  title="Lista de verificación previa al lanzamiento:"
+  items={[
+    "Verifica que el archivo de guardado de tu juego base esté completamente actualizado y sincronizado con la nube [1.3.1].",
+    "Compra el Upgrade Kit en la misma plataforma para asegurar las bonificaciones por compra anticipada.",
+    "Crea una cuenta gratuita de Cygames ID para prepararte para las recompensas por enlazar cuentas.",
+    "Asegúrate de tener al menos 40 GB de espacio libre en Nintendo Switch 2 o 90 GB en Steam.",
+    "Completa el capítulo posterior al juego original para acceder inmediatamente al nuevo contenido de la historia."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Soporta guardado cruzado Granblue Fantasy: Relink - Endless Ragnarok?",
+    answer: "No. Endless Ragnarok no admite el guardado cruzado entre diferentes plataformas. No puedes transferir tu progreso entre PlayStation, Steam y Nintendo Switch 2. Sin embargo, las transferencias de datos de guardado dentro de la misma familia de plataformas (por ejemplo, de PS4 a PS5) son completamente compatibles."
+  },
+  {
+    question: "Si compro el Upgrade Kit en PS5, ¿puedo jugarlo en Steam?",
+    answer: "No. El Upgrade Kit está bloqueado por plataforma. Debes comprar la expansión en la plataforma específica en la que ya posees el juego base, y el progreso no se transfiere entre diferentes plataformas."
+  },
+  {
+    question: "¿Perderé mi progreso si actualizo a Endless Ragnarok?",
+    answer: "No. Tus datos de guardado y progreso actuales del juego base se transferirán sin problemas al comprar e instalar el Upgrade Kit en la misma plataforma."
+  },
+  {
+    question: "¿Puedo jugar en modo multijugador con amigos de otras plataformas?",
+    answer: "¡Sí! Aunque el guardado cruzado no es compatible, el juego cruzado completo sí lo es. Los jugadores de PlayStation 5, PlayStation 4, Steam y Nintendo Switch 2 pueden formar equipo para realizar misiones cooperativas en línea."
+  }
+]} />
+
+</Section>

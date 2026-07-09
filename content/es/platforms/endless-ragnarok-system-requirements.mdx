@@ -1,0 +1,144 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Requisitos del sistema de Endless Ragnarok: Especificaciones de PC y espacio en consolas",
+  description: "Consulta los requisitos oficiales del sistema para Endless Ragnarok. Conoce las especificaciones mínimas y recomendadas para PC, el tamaño de almacenamiento SSD y los requisitos de instalación en consolas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2e1065/fff?text=System+Requirements",
+  date: "2026-07-09",
+  author: "Equipo de la Wiki de Endless Ragnarok"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Palabra clave principal**: Verifica la compatibilidad de tu hardware con los **requisitos oficiales del sistema de endless ragnarok** antes de actualizar.
+- **Almacenamiento en PC**: Asegúrate de tener **90 GB de espacio disponible** en un SSD para una carga y rendimiento óptimos.
+- **Requisito de RAM**: Se requiere un mínimo de **16 GB de RAM** tanto para la configuración gráfica Estándar como para la Ultra.
+- **Tamaños en consolas**: Las demandas de almacenamiento varían según la plataforma, requiriendo **21 GB en PS5**, **11 GB en PS4** y **10 GB en Switch 2**.
+- **Objetivos de rendimiento**: Cumple con las especificaciones recomendadas para alcanzar una **resolución de 1080p a 60 FPS** en calidad Ultra.
+</Callout>
+
+<Section icon={Shield} title="Requisitos oficiales del sistema para PC">
+
+Para disfrutar del enorme contenido de la expansión de *Granblue Fantasy: Relink - Endless Ragnarok* en PC, tu sistema debe cumplir con ciertos requisitos de hardware básicos. Los **requisitos oficiales del sistema de endless ragnarok** detallan dos configuraciones de hardware distintas según la calidad visual y el rendimiento de fotogramas que busques. 
+
+El juego requiere un procesador y un sistema operativo de 64 bits, siendo Windows 11 (64 bits) el entorno operativo estándar para el lanzamiento de 2026. A continuación se muestra un desglose completo de los requisitos mínimos y recomendados.
+
+| Componente de hardware | Requisitos mínimos de PC | Requisitos recomendados de PC |
+| :--- | :--- | :--- |
+| **Sistema operativo** | Windows 10 / 11 (64 bits) | Windows 10 / 11 (64 bits) |
+| **Procesador (CPU)** | Intel Core i3-9100 / AMD Ryzen 3 3200G | Intel Core i7-8700 / AMD Ryzen 5 3600 |
+| **Memoria (RAM)** | 16 GB de RAM | 16 GB de RAM |
+| **Tarjeta gráfica** | NVIDIA GTX 1060 6GB / AMD RX 580 8GB | NVIDIA RTX 2080 8GB / AMD RX 6700 XT 8GB |
+| **Versión de DirectX** | Versión 11 | Versión 11 |
+| **Espacio en disco** | 90 GB de espacio disponible | 90 GB de espacio disponible |
+| **Tipo de almacenamiento** | SSD recomendado | SSD requerido |
+| **Objetivo de rendimiento** | 1080p / 30 FPS (Gráficos estándar) | 1080p / 60 FPS (Gráficos Ultra) |
+
+<Callout type="warning" title="Instalación en SSD muy recomendada">
+Aunque el juego puede funcionar en discos duros mecánicos estándar, se recomienda encarecidamente instalar la expansión en un SSD. Los discos mecánicos pueden causar problemas graves de carga de texturas, tirones durante las animaciones de invocación intensas y pantallas de carga prolongadas.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Requisitos de almacenamiento e instalación por plataforma">
+
+El tamaño de la expansión y el espacio total de instalación difieren significativamente según la plataforma de juego elegida. Mientras que los jugadores de PC deben prepararse para una descarga masiva de 90 GB, los jugadores de consola se benefician de rutas de compresión de archivos altamente optimizadas. 
+
+La siguiente tabla detalla los requisitos de almacenamiento específicos en todos los sistemas compatibles a partir del lanzamiento del 9 de julio de 2026.
+
+| Plataforma de juego | Espacio en disco requerido | Disponibilidad de formato | Notas especiales |
+| :--- | :--- | :--- | :--- |
+| **PC (Steam)** | 90 GB | Solo digital | Se requiere el juego base para el Kit de actualización |
+| **PlayStation 5** | 21 GB | Físico y digital | Tiempos de carga más rápidos mediante SSD NVMe personalizado |
+| **PlayStation 4** | 11 GB | Físico y digital | SSD externo muy recomendado |
+| **Nintendo Switch 2** | 10 GB | Físico y digital | No admite GameShare localmente |
+
+<CardGrid cols={3}>
+  <Card title="Configuración de Steam en PC">
+    Requiere una conexión estable al cliente de Steam. Los jugadores que ya posean el juego base deben comprar el **Kit de actualización** digital en la misma cuenta para desbloquear el contenido.
+  </Card>
+  <Card title="Sistemas PlayStation">
+    Las versiones de PS4 y PS5 son compatibles con copias físicas y digitales. No se requiere una suscripción a PlayStation Plus para participar en los modos offline para un jugador como el Conflux.
+  </Card>
+  <Card title="Nintendo Switch 2">
+    Requiere al menos 10 GB de almacenamiento interno o tarjeta microSD. El juego inalámbrico local es totalmente compatible, pero cada jugador debe tener su propia copia descargada.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Compatibilidad del Kit de actualización">
+Si vas a comprar el Kit de actualización digital, asegúrate de adquirirlo en la misma plataforma donde posees el juego base. No se admiten transferencias de licencias multiplataforma para el kit de actualización.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Pasos de optimización para PC de gama baja">
+
+Si tu hardware está en el límite de los **requisitos mínimos del sistema de endless ragnarok**, aún puedes lograr un rendimiento estable ajustando configuraciones clave dentro del juego. Sigue estos pasos para maximizar tu tasa de fotogramas sin sacrificar demasiada claridad visual.
+
+<Steps>
+  <Step num="1" title="Ajustar los ajustes gráficos preestablecidos">
+    Ve a las opciones gráficas del menú principal y cambia el ajuste general a **Estándar**. Esto reduce automáticamente la calidad de ajustes exigentes como las sombras y la niebla volumétrica.
+  </Step>
+  <Step num="2" title="Limitar el objetivo de fotogramas">
+    Establece el límite de fotogramas del juego a **30 FPS** o **60 FPS** según las capacidades de tu GPU. Los fotogramas ilimitados pueden causar problemas de temperatura en tarjetas gráficas más antiguas.
+  </Step>
+  <Step num="3" title="Reducir el V-Sync y el desenfoque de movimiento">
+    Desactiva por completo el desenfoque de movimiento para liberar procesamiento. Activa el V-Sync solo si experimentas desgarro de pantalla (screen tearing); de lo contrario, mantenlo desactivado para minimizar la latencia de entrada.
+  </Step>
+  <Step num="4" title="Optimizar las aplicaciones en segundo plano">
+    Cierra navegadores web exigentes, superposiciones y programas de grabación antes de iniciar el juego. Esto asegura que los 16 GB de RAM de tu sistema se dediquen exclusivamente a renderizar el juego.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Rendimiento de la mecánica de invocación">
+La nueva mecánica de invocación presenta efectos visuales y sistemas de partículas muy detallados. Si experimentas lag durante los Primal Bursts, reducir la **calidad de los efectos visuales (VFX)** en el menú de gráficos estabilizará tu tasa de fotogramas de inmediato.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación de preparación del sistema">
+
+Antes de adentrarte en las misiones de Caos de alto nivel y el desafiante modo Conflux, asegúrate de que tu entorno de juego esté completamente preparado marcando estos hitos técnicos.
+
+<Checklist
+  id="hardware-readiness"
+  title="Lista de verificación previa al lanzamiento:"
+  items={[
+    "Verifica que tu PC tenga instalados al menos 16 GB de RAM en doble canal [1.1.1].",
+    "Libera 90 GB de espacio en tu unidad SSD más rápida.",
+    "Actualiza los controladores de tu tarjeta gráfica a la última versión de julio de 2026.",
+    "Confirma que tu sistema operativo esté actualizado a Windows 10 o Windows 11 (64 bits).",
+    "Asegúrate de que tu conexión a internet de banda ancha sea estable para el modo cooperativo en línea de hasta 4 jugadores."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Necesito un SSD para jugar a Endless Ragnarok en PC?",
+    answer: "Sí, se recomienda encarecidamente un SSD para cumplir con los requisitos oficiales del sistema de endless ragnarok. Instalar el juego en un HDD estándar puede provocar tirones, carga lenta de texturas y pantallas de carga extremadamente largas durante las batallas intensas."
+  },
+  {
+    question: "¿Puedo jugar a la expansión en Windows 10?",
+    answer: "Sí, Windows 10 (64 bits) es totalmente compatible tanto para los requisitos mínimos como para los recomendados. Sin embargo, Windows 11 es el entorno de sistema operativo preferido para las optimizaciones de controladores gráficos más recientes."
+  },
+  {
+    question: "¿Cuánto espacio de almacenamiento ocupa la expansión en Nintendo Switch 2?",
+    answer: "La versión de Switch 2 requiere al menos 10 gigabytes de espacio de almacenamiento disponible. Ten en cuenta que GameShare no es compatible con esta plataforma, lo que significa que cada consola debe tener su propia descarga individual para jugar en multijugador local."
+  },
+  {
+    question: "¿Es absolutamente necesario tener 16 GB de RAM?",
+    answer: "Sí, tanto las especificaciones mínimas como las recomendadas establecen 16 GB de RAM como requisito básico. Ejecutar el juego con 8 GB de RAM puede causar fallos frecuentes, especialmente durante las sesiones cooperativas multijugador."
+  }
+]} />
+
+</Section>

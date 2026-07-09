@@ -1,0 +1,211 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Beta de Endless Ragnarok: Detalles de lanzamiento, ediciones y guía de builds",
+  description: "Prepárate para Granblue Fantasy: Relink - Endless Ragnarok. Infórmate sobre las plataformas, los Upgrade Kits, los personajes, las builds y el modo en solitario Conflux.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/5b21b6/fff?text=Endless+Ragnarok+Beta",
+  date: "2026-07-09",
+  author: "Equipo de Wiki de Endless Ragnarok",
+  keywords: "Endless Ragnarok, beta, Granblue Fantasy Relink, guía, lanzamiento, personajes, builds"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Enfoque principal**: Prepárate para el lanzamiento del contenido de la **beta de endless ragnarok** y el estreno de la expansión completa el 9 de julio de 2026.
+- **Ruta clave de actualización**: Los propietarios actuales de Granblue Fantasy: Relink pueden adquirir el Upgrade Kit, mientras que los nuevos jugadores deben elegir la edición completa.
+- **Nuevo bucle de endgame**: Domina el modo Conflux enfocado en solitario y las misiones de Caos de alta dificultad para farmear tesoros de endgame.
+- **Mecánicas de combate**: Equipa las nuevas invocaciones controlables y prepárate para los peligrosos encuentros contra los jefes de Ragnalia.
+- **Soporte de juego cruzado**: Conéctate con hasta 4 jugadores en PlayStation 5, PlayStation 4, Steam y Nintendo Switch 2.
+</Callout>
+
+<Section icon={Map} title="Beta de Endless Ragnarok: Calendario de lanzamiento y plataformas">
+
+La llegada de las funciones de la **beta de endless ragnarok** y la expansión completa marca un hito masivo para Granblue Fantasy: Relink. Con su lanzamiento oficial el **9 de julio de 2026**, esta enorme actualización ofrece una gran variedad de nuevos elementos de historia, un modo dedicado en solitario al estilo roguelite, rutas de progresión avanzadas y jefes formidables.
+
+Tanto si eres un navegante de los cielos que regresa como un recién llegado que comienza su viaje, comprender la disponibilidad de plataformas y las funciones de juego cruzado es esencial para organizar tu grupo multijugador.
+
+| Plataforma | Rutas de edición | Cooperativo en línea | Funciones especiales |
+| :--- | :--- | :--- | :--- |
+| **Steam** | Paquete completo / Upgrade Kit | 1-4 jugadores en línea | Juego cruzado, altas tasas de fotogramas |
+| **PlayStation 5** | Paquete completo / Upgrade Kit | 1-4 jugadores en línea | Juego cruzado, soporte para DualSense |
+| **PlayStation 4** | Paquete completo / Upgrade Kit | 1-4 jugadores en línea | Juego cruzado, retrocompatible |
+| **Nintendo Switch 2** | Solo paquete completo | 1-4 en línea / Local | Juego con comunicación local |
+
+<Callout type="warning" title="Compatibilidad de plataformas">
+El Upgrade Kit digital solo es compatible si lo compras exactamente en la misma plataforma donde posees el juego base Granblue Fantasy: Relink. No se admite la transferencia de datos de guardado entre diferentes plataformas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Guía de compra de ediciones y Upgrade Kit">
+
+Cygames ha estructurado el lanzamiento para garantizar que tanto los jugadores veteranos como los recién llegados tengan una ruta de compra directa. Si ya posees el juego base, puedes omitir la compra del paquete completo y adquirir el Upgrade Kit independiente. Para coleccionistas y jugadores completamente nuevos, los paquetes físicos y digitales completos ofrecen un valor excelente al incluir todo el contenido descargable (DLC) anterior.
+
+| Edición | Ideal para | Contenido clave | Precio (USD) |
+| :--- | :--- | :--- | :--- |
+| **Upgrade Kit Standard** | Propietarios actuales | Expansión Endless Ragnarok | $29.99 |
+| **Upgrade Kit Special** | Buscadores de DLC actuales | Expansión, Special Pack, colección de DLC | $54.99 |
+| **Ragnarok Standard** | Nuevos jugadores | Juego base, expansión Endless Ragnarok | $59.99 |
+| **Ragnarok Special** | Nuevos jugadores definitivos | Juego base, expansión, DLC, paquetes de colores | $79.99 |
+
+<CardGrid cols={2}>
+  <Card title="Ruta de actualización estándar">
+    - Opción **rentable** para los jugadores actuales
+    - Incluye todas las adiciones de historia y modos de **Endless Ragnarok**
+    - Elegible para bonificaciones de compra anticipada en Steam hasta el 31 de agosto de 2026
+  </Card>
+  <Card title="Ruta de actualización especial">
+    - Incluye **colores de personaje exclusivos** para el Capitán, Id y Sandalphon
+    - Desbloquea instantáneamente materiales para Seofon, Tweyen y Sandalphon
+    - Contiene los paquetes de colores del 1 al 5 y los conjuntos de expansión de gestos
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Bonificación por compra anticipada">
+Comprar el Upgrade Kit de Steam antes del 31 de agosto de 2026 te otorgará el codiciado conjunto de sigilos de Daño suplementario V y Elemento de guerra para potenciar tus primeras builds de endgame.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Ruta de progresión para principiantes">
+
+Comenzar tu viaje en el contenido de la **beta de endless ragnarok** y la expansión requiere un plan claro. Utiliza esta hoja de ruta paso a paso para pasar sin problemas de los tutoriales iniciales al farmeo de endgame de alto nivel.
+
+<Steps>
+  <Step num="1" title="Confirma tu versión">
+    Asegúrate de que tu juego base esté completamente actualizado a la versión de la expansión. Si compraste el Upgrade Kit, verifica que la licencia coincida con la región de tu copia del juego base.
+  </Step>
+  <Step num="2" title="Aprende los controles básicos">
+    Dedica tiempo en el área de entrenamiento a practicar el flujo básico de combate. Revisa las secciones del manual oficial que cubren la interfaz de usuario (HUD), las esquivas perfectas y los ataques de enlace.
+  </Step>
+  <Step num="3" title="Selecciona un rol inicial">
+    Elige un personaje amigable para principiantes para dominar los primeros encuentros. El Capitán ofrece un conjunto de herramientas equilibrado, Katalina proporciona escudos defensivos e Io destaca en la magia a distancia.
+  </Step>
+  <Step num="4" title="Desbloquea los rasgos maestros">
+    Comienza a recolectar materiales de las primeras misiones de la expansión para desbloquear los rasgos maestros. Este nuevo sistema de progresión te permite llevar a tus personajes más allá de sus límites de nivel anteriores.
+  </Step>
+  <Step num="5" title="Conquista El Conflux">
+    Entra en el modo Conflux enfocado en solitario una vez que hayas optimizado a tu personaje principal. Utiliza esta zona roguelite para poner a prueba los límites de tu build y farmear tesoros de mejora poco comunes.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Emparejamiento cooperativo">
+Si una misión de Caos o una batalla de jefe específica bloquea tu progreso, utiliza el sistema de emparejamiento en línea para 4 jugadores. Los equipos coordinados pueden superar fácilmente las mecánicas complejas de los jefes.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Elenco de personajes y roles de equipo">
+
+Endless Ragnarok amplía el elenco de personajes jugables al tiempo que destaca a nuevos aliados cruciales y enemigos formidables. Para formar un equipo eficaz, debes comprender cómo encajan los personajes en roles de combate específicos. En lugar de confiar en listas de niveles subjetivas, concéntrate en equilibrar tu grupo con atacantes, tanques defensivos y soportes de utilidad.
+
+| Rol | Estilo de juego | Personajes confirmados | Fortalezas clave |
+| :--- | :--- | :--- | :--- |
+| **Polivalente** | Equilibrado | Capitán | Alta versatilidad, ejecución sencilla |
+| **Defensa y Soporte** | Protección | Katalina, Vane, Cagliostro | Escudos fuertes, curación de grupo, potenciadores |
+| **Daño a distancia** | Distancia segura | Rackam, Eugen, Io, Tweyen | Daño por segundo (DPS) constante, posicionamiento seguro |
+| **Cuerpo a cuerpo ágil** | Presión rápida | Lancelot, Charlotta, Narmaya, Zeta | Alta sinergia de esquiva, velocidad de ataque rápida |
+| **Cuerpo a cuerpo pesado** | Lento y poderoso | Vaseraga, Percival, Siegfried | Daño masivo de un solo golpe, alto índice de aturdimiento |
+| **Aliados avanzados** | Utilidad tardía | Seofon, Sandalphon, Fraux, Fediel | Escalado de habilidades excepcional, rasgos únicos |
+
+<CardGrid cols={3}>
+  <Card title="Grupo inicial equilibrado">
+    - **Capitán** (Polivalente)
+    - **Katalina** (Defensa)
+    - **Io** (Magia a distancia)
+    - **Vane** (Tanque de vanguardia)
+  </Card>
+  <Card title="Grupo de asalto de alto DPS">
+    - **Narmaya** (Cuerpo a cuerpo rápido)
+    - **Zeta** (Cuerpo a cuerpo aéreo)
+    - **Tweyen** (DPS a distancia)
+    - **Sandalphon** (DPS avanzado)
+  </Card>
+  <Card title="Grupo seguro para farmeo en solitario">
+    - **Cagliostro** (Curador/Soporte)
+    - **Vaseraga** (Tanque resistente)
+    - **Eugen** (Aturdimiento a distancia)
+    - **Capitán** (Potenciadores de utilidad)
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Amenazas narrativas">
+Beelzebub (el Fin de la Eternidad) y El Mundo (una creación astral) actúan como las principales amenazas narrativas. Prepara builds especializadas de alta defensa antes de enfrentarte a sus batallas de jefes.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Builds, rasgos maestros e invocaciones">
+
+La creación de personajes tras completar el juego en Endless Ragnarok introduce capas profundas de personalización. Los jugadores ahora pueden equipar poderosas invocaciones para usarlas en combate y desbloquear rasgos maestros para especializar a sus personajes.
+
+### Rasgos maestros y sigilos
+Los rasgos maestros funcionan como un sistema de progresión a largo plazo. En lugar de equipar a todos los personajes de la misma manera, utiliza los rasgos maestros para convertirlos en expertos de combate especializados. Combina estos rasgos con sigilos poderosos como Daño suplementario V y Elemento de guerra para maximizar tu producción de daño.
+
+### Mecánicas de invocación y ráfagas primigenias
+Las invocaciones proporcionan una nueva capa de profundidad táctica. Se pueden equipar y llamar para realizar ataques únicos o proporcionar apoyo defensivo durante batallas difíciles.
+
+- **Invocaciones equipadas**: Proporcionan mejoras pasivas de estadísticas y activadores de habilidades activas.
+- **Invocaciones controlables**: Lyria puede canalizar ciertas invocaciones, lo que te permite controlarlas directamente para infligir un daño masivo.
+- **Ráfagas primigenias**: Activar las artes celestiales con los cuatro miembros del grupo activa una ráfaga primigenia, invocando a Proto Bahamut o Excavallion para un devastador ataque en equipo.
+
+<Checklist
+  id="build-checklist"
+  title="Lista de verificación para builds de endgame:"
+  items={[
+    "Desbloquea los rasgos maestros específicos de cada personaje",
+    "Equipa los sigilos de Daño suplementario V y Elemento de guerra",
+    "Selecciona una invocación que complemente el elemento de tu grupo",
+    "Optimiza las configuraciones de tus cuatro compañeros de IA para el juego en solitario",
+    "Coordina el tiempo de las artes celestiales para activar ráfagas primigenias"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Guía del modo en solitario El Conflux">
+
+El Conflux es la actividad de endgame para un solo jugador insignia de Endless Ragnarok. Este modo está diseñado para jugadores que desean poner a prueba sus habilidades individuales y farmear valiosos materiales de mejora sin depender del emparejamiento en línea.
+
+### Estructura del modo
+Las incursiones en El Conflux se estructuran como zonas secuenciales que contienen una mezcla de combates intensos y acertijos. A medida que despejes zonas, obtendrás ventajas temporales y potenciadores especiales que durarán mientras dure tu incursión.
+
+### Estrategia de farmeo
+- **Prioriza la supervivencia**: Elige ventajas temporales que aumenten tu recuperación de vida (HP) y tu defensa en las primeras zonas.
+- **Adáptate a los peligros**: Prepara una build flexible que pueda manejar tanto a jefes individuales como a grandes grupos de enemigos.
+- **Repite para obtener recompensas**: Utiliza las incursiones exitosas para acumular tesoros raros, que pueden gastarse para mejorar tus armas y desbloquear rasgos maestros.
+
+<Callout type="tip" title="Poderes exclusivos de la incursión">
+No dudes en experimentar con ventajas temporales inusuales. El Conflux recompensa las builds creativas que aprovechan combinaciones de poder especializadas y exclusivas de la incursión.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Hay una beta oficial de endless ragnarok disponible?",
+    answer: "El contenido de la expansión y las ediciones actualizadas se lanzan oficialmente el 9 de julio de 2026. Antes de esto, se puso a disposición una demostración práctica y funciones beta en las plataformas PlayStation para probar los nuevos sistemas de combate."
+  },
+  {
+    question: "¿El juego es compatible con el juego cruzado en todas las plataformas?",
+    answer: "Sí, Endless Ragnarok es compatible con el juego cruzado en línea en PlayStation 5, PlayStation 4, Steam y Nintendo Switch 2. Esto te permite formar grupos cooperativos de 4 jugadores independientemente de tu plataforma."
+  },
+  {
+    question: "¿Cómo accedo a la expansión Endless Ragnarok si ya poseo el juego?",
+    answer: "Si ya posees Granblue Fantasy: Relink, solo necesitas comprar el Upgrade Kit digital (Standard o Special) en la tienda de la misma plataforma. Esto desbloqueará todo el contenido de la expansión para tu copia existente."
+  },
+  {
+    question: "¿Cuál es la diferencia entre las ediciones estándar y especial?",
+    answer: "Las ediciones especiales incluyen la expansión base más el Special Pack (que presenta colores de personaje exclusivos y materiales iniciales) y la colección de DLC, que reúne los paquetes de personajes y gestos lanzados anteriormente."
+  }
+]} />
+
+</Section>

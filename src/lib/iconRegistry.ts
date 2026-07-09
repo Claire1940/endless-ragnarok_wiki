@@ -19,7 +19,7 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Shield: LucideIcons.Shield,
   Hammer: LucideIcons.Hammer,
   Package: LucideIcons.Package,
-  AlertTriangle: LucideIcons.TriangleAlert,
+  TriangleAlert: LucideIcons.TriangleAlert,
   Eye: LucideIcons.Eye,
   Home: LucideIcons.House,
   MessageCircle: LucideIcons.MessageCircle,

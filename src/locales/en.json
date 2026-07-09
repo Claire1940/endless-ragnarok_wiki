@@ -10,7 +10,14 @@
       "twitterDescription": "Boss guides, weapon builds, character strategies, and walkthroughs for Endless Ragnarok in Granblue Fantasy: Relink."
     }
   },
-  "nav": {},
+  "nav": {
+    "release": "Release",
+    "platforms": "Platforms",
+    "price": "Price",
+    "characters": "Characters",
+    "guide": "Guide",
+    "demo": "Demo"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -91,7 +98,7 @@
         "description": "Solo endgame mode, rewards, and runs"
       },
       {
-        "icon": "AlertTriangle",
+        "icon": "TriangleAlert",
         "title": "Endless Ragnarok Bosses & Summons",
         "description": "New bosses, Ragnalia, and summon strategy"
       },
@@ -568,5 +575,126 @@
     "copyright": "© 2026 Endless Ragnarok Wiki. Not affiliated with Cygames.",
     "disclaimer": "Unofficial fan-made resource website."
   },
-  "pages": {}
+  "pages": {
+    "release": {
+      "title": "Endless Ragnarok Release Date, Time & Countdown",
+      "description": "Official Endless Ragnarok release date, launch time, preorder details, countdown, and launch trailer for Nintendo Switch 2, PlayStation 5, PlayStation 4, and Steam.",
+      "metaTitle": "Endless Ragnarok Release Date & Countdown - Switch 2, PS5, Steam",
+      "metaDescription": "Find the official Endless Ragnarok release date, launch time, preorder info, and launch trailer for Nintendo Switch 2, PlayStation 5, PS4, and Steam.",
+      "categoryLabel": "RELEASE INFO",
+      "whatIs": "What is the Endless Ragnarok release?",
+      "whatIsDescription": "Endless Ragnarok is the major expansion and updated edition for Granblue Fantasy: Relink, launching on July 9, 2026 for Nintendo Switch 2, PlayStation 5, PlayStation 4, and Steam. It adds new story content, characters, bosses, summons, Master Traits, and The Conflux solo mode.",
+      "why": "Why check the release info?",
+      "whySteps": {
+        "step1Title": "Lock in the exact launch date",
+        "step1Description": "Confirm the July 9, 2026 release date and understand why Steam's US listing shows July 8 due to regional store timing.",
+        "step2Title": "Plan your preorder",
+        "step2Description": "Compare full editions and Upgrade Kits before launch so you buy the right version for new or returning players.",
+        "step3Title": "Catch the launch trailer",
+        "step3Description": "Watch the official launch trailer to see the new characters, bosses, and modes before the expansion goes live."
+      },
+      "featured": "Featured Release Guides",
+      "all": "All Release Guides"
+    },
+    "platforms": {
+      "title": "Endless Ragnarok Platforms, Crossplay & System Requirements",
+      "description": "Endless Ragnarok platform support for Nintendo Switch 2, PlayStation 5, PlayStation 4, and Steam, plus crossplay, cross-save, system requirements, and PC download size.",
+      "metaTitle": "Endless Ragnarok Platforms & Crossplay - Switch 2, PS5, PS4, Steam",
+      "metaDescription": "Check Endless Ragnarok platform support, crossplay, cross-save, PC system requirements, and download size for Switch 2, PS5, PS4, and Steam.",
+      "categoryLabel": "PLATFORMS",
+      "whatIs": "What platforms is Endless Ragnarok on?",
+      "whatIsDescription": "Endless Ragnarok is available on Nintendo Switch 2, PlayStation 5, PlayStation 4, and Steam. It supports 4-player online co-op with cross-platform multiplayer across all four platforms.",
+      "why": "Why check the platform guides?",
+      "whySteps": {
+        "step1Title": "Confirm your platform",
+        "step1Description": "Verify whether your console or PC is supported before buying the full edition or Upgrade Kit.",
+        "step2Title": "Set up crossplay and cross-save",
+        "step2Description": "Learn how cross-platform multiplayer and cross-save work so you can play with friends on other systems.",
+        "step3Title": "Check system requirements",
+        "step3Description": "Review PC system requirements, download size, and Switch 2 performance before installing the game."
+      },
+      "featured": "Featured Platform Guides",
+      "all": "All Platform Guides"
+    },
+    "price": {
+      "title": "Endless Ragnarok Price, Editions & Upgrade Kit Cost",
+      "description": "Endless Ragnarok pricing across full editions and Upgrade Kits, Standard vs Special Edition differences, whether it is free, and available discounts.",
+      "metaTitle": "Endless Ragnarok Price & Editions - Standard, Special, Upgrade Kit",
+      "metaDescription": "Compare Endless Ragnarok prices, Standard vs Special Edition, Upgrade Kit cost, discounts, and whether the expansion is free on Switch 2, PS5, and Steam.",
+      "categoryLabel": "PRICE & EDITIONS",
+      "whatIs": "How much does Endless Ragnarok cost?",
+      "whatIsDescription": "Endless Ragnarok is a paid expansion. New players buy the full Standard Edition ($59.99) or Special Edition ($79.99), while existing Granblue Fantasy: Relink owners buy the Upgrade Kit Standard ($29.99) or Special ($54.99).",
+      "why": "Why compare the editions?",
+      "whySteps": {
+        "step1Title": "Pick the right purchase path",
+        "step1Description": "Choose the full edition as a new player or the Upgrade Kit if you already own Granblue Fantasy: Relink on the same platform.",
+        "step2Title": "Compare Standard vs Special",
+        "step2Description": "See what the Special Edition adds, including the Special Pack, character colors, and the DLC Collection.",
+        "step3Title": "Check discounts and bonuses",
+        "step3Description": "Look for launch discounts, early purchase Sigil bonuses, and first-production physical copy rewards."
+      },
+      "featured": "Featured Price Guides",
+      "all": "All Price Guides"
+    },
+    "characters": {
+      "title": "Endless Ragnarok Characters, New Roster & Roles",
+      "description": "Every Endless Ragnarok character including new additions like Fraux, Fediel, Maglielle, Sandalphon, Seofon, and Tweyen, with roles, unlock conditions, and playstyle picks.",
+      "metaTitle": "Endless Ragnarok Characters & New Roster - Fraux, Fediel, Sandalphon",
+      "metaDescription": "Browse all Endless Ragnarok characters and newcomers including Fraux, Fediel, Maglielle, Sandalphon, Seofon, and Tweyen with roles and playstyle recommendations.",
+      "categoryLabel": "CHARACTERS",
+      "whatIs": "Who are the Endless Ragnarok characters?",
+      "whatIsDescription": "Endless Ragnarok brings back the full Granblue Fantasy: Relink roster and adds new playable characters such as Fraux, Fediel, Maglielle, Sandalphon, Seofon, and Tweyen, each with distinct weapons, skills, and roles.",
+      "why": "Why explore the character roster?",
+      "whySteps": {
+        "step1Title": "Find the new characters",
+        "step1Description": "Identify the fresh faces added in Endless Ragnarok and what makes each one unique in combat.",
+        "step2Title": "Match a character to your playstyle",
+        "step2Description": "Use role tags to pick melee, ranged, magic, or support characters that fit how you like to play.",
+        "step3Title": "Learn unlock conditions",
+        "step3Description": "Check how to unlock each character so you can build your preferred party as early as possible."
+      },
+      "featured": "Featured Character Guides",
+      "all": "All Character Guides"
+    },
+    "guide": {
+      "title": "Endless Ragnarok Guides & Beginner Walkthrough",
+      "description": "Endless Ragnarok guides covering beginner tips, core combat, character building, The Conflux, summons, and progression for new and returning Granblue Fantasy: Relink players.",
+      "metaTitle": "Endless Ragnarok Guides & Beginner Walkthrough - Tips & Progression",
+      "metaDescription": "Read Endless Ragnarok guides for beginners and returning players, including combat basics, character building, The Conflux, and endgame progression tips.",
+      "categoryLabel": "GUIDES",
+      "whatIs": "What do the Endless Ragnarok guides cover?",
+      "whatIsDescription": "The Endless Ragnarok guides walk you through core combat, character building, Master Traits, summons, The Conflux solo mode, and co-op progression for both newcomers and returning Granblue Fantasy: Relink players.",
+      "why": "Why read the guides?",
+      "whySteps": {
+        "step1Title": "Start with the beginner guide",
+        "step1Description": "Learn the essential systems, controls, and purchase paths before diving into expansion content.",
+        "step2Title": "Build your characters smartly",
+        "step2Description": "Understand skills, weapons, sigils, and Master Traits so you spend upgrade materials efficiently.",
+        "step3Title": "Progress into the endgame",
+        "step3Description": "Use the guides to move from story content into Chaos quests and The Conflux with a clear plan."
+      },
+      "featured": "Featured Guides",
+      "all": "All Guides"
+    },
+    "demo": {
+      "title": "Endless Ragnarok Demo, Beta & Demo Rewards",
+      "description": "Endless Ragnarok demo and beta details, including playable demo characters, quest rewards that transfer to the full game, and open beta access windows.",
+      "metaTitle": "Endless Ragnarok Demo & Beta - Rewards, Characters, Open Beta",
+      "metaDescription": "Try Endless Ragnarok early with the playable demo and beta. Learn about playable demo characters, carry-over quest rewards, and open beta access for Switch 2, PS5, and Steam.",
+      "categoryLabel": "DEMO & BETA",
+      "whatIs": "Is there an Endless Ragnarok demo or beta?",
+      "whatIsDescription": "Endless Ragnarok offers a playable demo across Nintendo Switch 2, PlayStation 5, PlayStation 4, and Steam with Story, Quest, and Tutorial modes. Completing quests unlocks the summon system and earns rewards that transfer to the full game.",
+      "why": "Why try the demo?",
+      "whySteps": {
+        "step1Title": "Test the new characters",
+        "step1Description": "Play the demo to try Endless Ragnarok's updated combat and new summon mechanics before buying.",
+        "step2Title": "Earn carry-over rewards",
+        "step2Description": "Complete the demo quests to unlock rewards that transfer to the full game at launch.",
+        "step3Title": "Join the open beta",
+        "step3Description": "Use the open beta windows to experience online crossplay co-op and stress-test the expansion's new systems."
+      },
+      "featured": "Featured Demo Guides",
+      "all": "All Demo Guides"
+    }
+  }
 }

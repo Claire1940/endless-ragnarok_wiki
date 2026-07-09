@@ -1,0 +1,153 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía de Maglielle en Endless Ragnarok: Build, Sigilos y Estrategia de Combate",
+  description: "Domina a Maglielle en Granblue Fantasy: Relink - Endless Ragnarok con las mejores builds, elecciones de armas, sigilos y estrategias de combate.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2e1065/fff?text=Maglielle+Build+Guide",
+  date: "2026-07-09",
+  author: "Equipo de la Wiki de Endless Ragnarok"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Maglielle en Endless Ragnarok**: Una atacante a distancia altamente especializada que utiliza espadas voladoras para presionar a los jefes desde una distancia segura.
+- **Mecánica principal**: Gestión del indicador y la invocación de espadas para maximizar los proyectiles activos.
+- **Mejor build**: Enfoque en el daño de habilidades activas, reducción del tiempo de enfriamiento de habilidades y sigilos ofensivos estándar.
+- **Consejo crítico**: Combina a Maglielle con el nuevo sistema de Rasgos Maestros (Master Traits) para superar los límites de daño máximo en las misiones de Caos del endgame.
+- **Mejor sigilo**: Prioriza Daño Suplementario V (Supplementary Damage V) y Elemento de Guerra (War Elemental) para obtener multiplicadores de daño adicional constantes.
+</Callout>
+
+<Section icon={Map} title="Descripción general de Maglielle en Endless Ragnarok">
+
+Maglielle se destaca como una de las principales combatientes a distancia en **Granblue Fantasy: Relink - Endless Ragnarok**. Utilizando su arsenal mágico único, invoca y controla múltiples espadas voladoras para destrozar a los enemigos desde la distancia. Gestionar su indicador de espadas es la clave para mantener una presión ofensiva constante. 
+
+En la expansión Endless Ragnarok lanzada el 9 de julio de 2026, la creación de personajes alcanza nuevas alturas. Los jugadores pueden llevar a Maglielle más allá de sus límites anteriores combinando sus mejoras de armas tradicionales con el nuevo sistema de **Rasgos Maestros** (Master Traits). Ya sea que te enfrentes a desafíos en solitario en el modo Confluencia (Conflux) de estilo roguelite o te unas a salas de juego cruzado de 4 jugadores, optimizar el equipamiento de Maglielle es esencial para superar las misiones de Caos de alto nivel [base-info, homepage-modules-1].
+
+| Personaje | Rol | Tipo de arma principal | Estilo de juego |
+| Maglielle | DPS a distancia / Lanzadora de conjuros | Espadas voladoras (Mágicas) | Ataques a distancia de alta frecuencia, gestión de indicador |
+
+<Callout type="tip" title="Sinergia de Rasgos Maestros">
+Al mejorar los Rasgos Maestros de Maglielle, concéntrate en los nodos que aumentan el límite de daño de las habilidades y reducen sus tiempos de enfriamiento. Esto garantiza que pueda mantener sus espadas voladoras activas de forma indefinida [homepage-modules-2].
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mejores builds y sigilos para Maglielle en Endless Ragnarok">
+
+Crear una build para Maglielle en Endless Ragnarok requiere un equilibrio cuidadoso entre estadísticas ofensivas puras, aumentos del límite de daño y utilidad. Debido a que la expansión introduce enemigos de Ragnalia con defensas excepcionalmente altas, las builds de daño estándar deben complementarse con sigilos de primer nivel [homepage-modules-2].
+
+Nuestra build recomendada para el endgame aprovecha los sigilos de bonificación por compra anticipada si los obtuviste, junto con las recompensas estándar del final del juego de las misiones de nivel Caos [homepage-modules-1, homepage-modules-2].
+
+| Ranura de sigilo | Sigilo recomendado | Efecto principal | Prioridad |
+| Sigilo de arma 1 | Daño suplementario V | Otorga una probabilidad de infligir daño adicional | Alta |
+| Sigilo de arma 2 | Elemento de guerra | Convierte todos los ataques al elemento débil del enemigo | Alta |
+| Sigilo defensivo | Autorrevivir III / Agallas III | Evita derrotas repentinas en misiones de Caos | Media |
+| Sigilo de utilidad | Enfriamiento rápido | Reduce los tiempos de enfriamiento de las habilidades activas | Alta |
+| Sigilo ofensivo | Límite de daño V | Aumenta el límite máximo de daño de todos los ataques | Alta |
+
+<CardGrid cols={3}>
+  <Card title="Build Ofensiva Pura">
+    - **Enfoque**: Daño puro máximo y tasa de críticos
+    - **Sigilos clave**: Límite de daño V, Probabilidad de crítico, Elemento de guerra
+    - **Pros**: Destroza las barras de salud de los jefes al instante
+  </Card>
+  <Card title="Build de Spam de Habilidades">
+    - **Enfoque**: Alta disponibilidad de habilidades e invocación constante de espadas
+    - **Sigilos clave**: Enfriamiento rápido, Cascada, Daño suplementario
+    - **Pros**: Presión constante a distancia y posicionamiento seguro
+  </Card>
+  <Card title="Build de Supervivencia para el Endgame">
+    - **Enfoque**: Equilibrar un alto DPS con redes de seguridad defensivas
+    - **Sigilos clave**: Agallas III, Autorrevivir III, Égida
+    - **Pros**: Ideal para aprender combates difíciles contra jefes de nivel Caos
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Advertencia sobre el límite de daño">
+Asegúrate siempre de que tus sigilos de Límite de daño estén completamente mejorados antes de invertir mucho en sigilos de Ataque puro. Maglielle alcanza su tope de daño rápidamente sin aumentos del límite.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Rotación paso a paso y guía de combate">
+
+Jugar con Maglielle de manera efectiva requiere un enfoque estructurado para su rotación de habilidades. No puedes simplemente presionar botones al azar; en su lugar, debes llenar su indicador, invocar su arsenal y desatar ráfagas coordinadas.
+
+<Steps>
+  <Step num="1" title="Invoca el arsenal">
+    Inicia el combate usando tus habilidades principales para acumular indicador. Invoca tu conjunto inicial de espadas voladoras para establecer una presión básica a distancia.
+  </Step>
+  <Step num="2" title="Gestiona el indicador de espadas">
+    Monitorea la barra de recursos única del personaje. Evita que el indicador llegue a cero, ya que tu daño infligido caerá drásticamente sin espadas activas.
+  </Step>
+  <Step num="3" title="Desata habilidades de enfriamiento prolongado">
+    Una vez que tu indicador esté lleno, ejecuta tus habilidades de alto daño para consumirlo y realizar un daño de ráfaga masivo.
+  </Step>
+  <Step num="4" title="Coordínate con las invocaciones">
+    Invoca a tus criaturas equipadas durante las ventanas de vulnerabilidad de los jefes para inmovilizar a los enemigos, lo que le permitirá a Maglielle canalizar sus hechizos más fuertes de forma segura [homepage-modules-2].
+  </Step>
+  <Step num="5" title="Ejecuta ráfagas primigenias">
+    Coordínate con tu grupo de 4 personas para encadenar las Artes Celestiales (Skybound Arts), activando una devastadora Ráfaga Primigenia (Primal Burst) para finalizar el encuentro [homepage-modules-2].
+  </Step>
+</Steps>
+
+<Callout type="success" title="Integración de invocaciones">
+Usar invocaciones controlables canalizadas por Lyria puede proporcionarle a Maglielle la distracción perfecta. Aprovecha esta ventana para lanzar magia de canalización prolongada sin temor a ser interrumpida [homepage-modules-2].
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progresión del endgame y logros de Confluencia">
+
+Una vez establecida tu build de Maglielle, tus objetivos finales se encuentran en el contenido posterior al juego. Endless Ragnarok presenta dos bucles principales de endgame: misiones de Caos de alta dificultad y el modo roguelite enfocado en solitario, **La Confluencia** (The Conflux) [base-info, homepage-modules-2].
+
+| Actividad de endgame | En solitario o Cooperativo | Recompensas clave | Rol de Maglielle |
+| La Confluencia (The Conflux) | Solo en solitario | Tesoros de progresión únicos y mejoras temporales de partida | Especialista en kiteo a distancia, limpieza segura en solitario |
+| Misiones de Caos | 1–4 jugadores (Cooperativo) | Mejoras de armas de alto nivel y sigilos raros | DPS a distancia principal, destrucción segura de puntos débiles |
+
+<Checklist
+  id="maglielle-progression"
+  title="Logros del endgame de Maglielle:"
+  items={[
+    "Desbloquear todos los Rasgos Maestros principales de Maglielle",
+    "Obtener y mejorar al máximo un arma de nivel 150",
+    "Equipar al menos un sigilo de Daño suplementario V de nivel 15",
+    "Completar la Zona 10 de La Confluencia en solitario usando a Maglielle",
+    "Completar con éxito una misión de jefe de nivel Caos en cooperativo en línea"
+  ]}
+/>
+
+<Callout type="info" title="Beneficios de La Confluencia">
+Al jugar en La Confluencia en solitario, elige siempre beneficios temporales que aumenten la velocidad de enfriamiento de las habilidades o la cantidad de proyectiles. Estas ventajas convierten a Maglielle en una máquina imparable [homepage-modules-2].
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo desbloqueo a Maglielle en Endless Ragnarok?",
+    answer: "Maglielle se puede desbloquear a través de la progresión normal en el modo historia de la expansión o utilizando objetos específicos de desbloqueo de personajes obtenidos en misiones de alto nivel."
+  },
+  {
+    question: "¿Cuál es la mejor arma para Maglielle en el endgame?",
+    answer: "Su arma de Ascensión es muy recomendada para un juego equilibrado, mientras que su arma especializada de endgame, obtenida en misiones de Caos, ofrece el límite de daño más alto."
+  },
+  {
+    question: "¿Maglielle es compatible con el modo multijugador con juego cruzado?",
+    answer: "Sí, puedes jugar con Maglielle en salas cooperativas en línea de 4 jugadores en Steam, PlayStation 5, PlayStation 4 y Nintendo Switch 2 [homepage-modules-1, homepage-modules-2]."
+  },
+  {
+    question: "¿Puedo usar a Maglielle de manera efectiva en partidas en solitario de La Confluencia?",
+    answer: "Por supuesto. Maglielle es uno de los personajes en solitario más fuertes para La Confluencia porque sus ataques a distancia le permiten kitear a enemigos peligrosos y limpiar salas de puzles de forma segura [homepage-modules-2]."
+  }
+]} />
+
+</Section>

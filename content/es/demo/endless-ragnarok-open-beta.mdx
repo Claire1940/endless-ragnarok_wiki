@@ -1,0 +1,169 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Beta abierta de Endless Ragnarok: Detalles de lanzamiento y ediciones del juego",
+  description: "Prepárate para la beta abierta de Endless Ragnarok en Switch 2, PS5, PS4 y Steam. Compara ediciones del juego, kits de actualización y comienza tu progresión sin problemas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2e1065/fff?text=Endless+Ragnarok+Beta+Guide",
+  date: "2026-07-09",
+  author: "Equipo de la Wiki de Endless Ragnarok"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Plataformas de lanzamiento**: Disponible en Nintendo Switch 2, PlayStation 5, PlayStation 4 y Steam.
+- **Migración de partidas guardadas**: Los jugadores existentes pueden actualizar sin problemas a través del Kit de actualización digital.
+- **Enfoque multijugador**: Cuenta con cooperativo en línea de hasta 4 jugadores con soporte para juego cruzado (crossplay).
+- **Progresión en solitario**: El modo Confluencia (The Conflux) sirve como una actividad dedicada para el final del juego en solitario.
+- **Recompensas de bonificación**: Las compras anticipadas ofrecen insignias (sigils) raras como Elemento de Guerra (War Elemental) y Daño Suplementario V (Supplementary Damage V).
+</Callout>
+
+<Section icon={Map} title="Resumen de la beta abierta y el lanzamiento de Endless Ragnarok">
+
+El lanzamiento oficial de **Granblue Fantasy: Relink - Endless Ragnarok** el 9 de julio de 2026 marca un gran salto adelante para este RPG de acción. En lugar de funcionar como una secuela independiente, sirve como una expansión masiva y una edición definitiva actualizada. El lanzamiento introduce nuevos capítulos de la historia, misiones cooperativas de alto nivel, nuevos sistemas de combate y la muy esperada experiencia roguelite en solitario.
+
+Para ayudar a los jugadores a decidir cómo entrar en acción, el lanzamiento se estructura en torno a dos vías de compra distintas. Los recién llegados pueden adquirir el paquete completo que contiene el juego base y la expansión, mientras que los viajeros del cielo veteranos pueden comprar el Kit de actualización digital independiente.
+
+| Plataforma | Disponibilidad | Características multijugador |
+| --- | --- | --- |
+| **Nintendo Switch 2** | Edición completa | Comunicación local y cooperativo en línea |
+| **PlayStation 5** | Edición completa y Kit de actualización | Cooperativo en línea (hasta 4 jugadores) |
+| **PlayStation 4** | Edición completa y Kit de actualización | Cooperativo en línea (hasta 4 jugadores) |
+| **Steam (PC)** | Edición completa y Kit de actualización | Cooperativo en línea y juego cruzado |
+
+<Callout type="tip" title="Nota sobre los horarios de las plataformas">
+Aunque la fecha oficial de lanzamiento global es el 9 de julio de 2026, la lista de la tienda de Steam en EE. UU. puede mostrar el 8 de julio de 2026 debido a las diferencias de zona horaria regional. Consulta siempre el cliente de tu tienda local para ver la cuenta regresiva exacta en vivo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Cómo elegir la edición del juego y el kit de actualización adecuados">
+
+Cygames ha organizado la línea de productos para evitar que los jugadores compren contenido duplicado. Si ya posees el juego base, solo necesitas uno de los Kits de actualización digitales. Si eres completamente nuevo en el Dominio Celeste de Zegagrande (Zegagrande Skydom), las ediciones completas ofrecen el mejor valor.
+
+<CardGrid cols={2}>
+  <Card title="Para propietarios existentes">
+    - **Kit de actualización estándar ($29.99)**: Incluye el contenido completo de la expansión.
+    - **Kit de actualización especial ($54.99)**: Añade el Paquete Especial y colecciones de DLC anteriores.
+    - **Bonificación por compra anticipada en Steam**: Compra antes del 31 de agosto de 2026 para obtener las insignias Daño Suplementario V y Elemento de Guerra.
+  </Card>
+  <Card title="Para nuevos jugadores">
+    - **Edición estándar ($59.99)**: Incluye el juego base y la expansión.
+    - **Edición especial ($79.99)**: Incluye el juego base, la expansión, colores especiales de personajes y objetos.
+    - **Ediciones físicas**: Las copias físicas de la primera tirada incluyen el conjunto de insignias Agallas III y Autorrevivir III (Guts III & Autorevive III).
+  </Card>
+</CardGrid>
+
+| Nombre de la edición | Ideal para | Contenido clave | Precio (USD) |
+| --- | --- | --- | --- |
+| **Kit de actualización estándar** | Propietarios existentes que solo quieren la expansión | Solo contenido de la expansión | $29.99 |
+| **Kit de actualización especial** | Propietarios existentes que quieren cosméticos de bonificación | Expansión, Paquete Especial, colección de DLC | $54.99 |
+| **Edición estándar completa** | Nuevos jugadores en consola o PC | Juego base, contenido de la expansión | $59.99 |
+| **Edición especial completa** | Nuevos jugadores que quieren una ventaja inicial completa | Juego base, expansión, paquete de DLC, colores | $77.99 |
+
+<Callout type="warning" title="Advertencia de compatibilidad de actualización">
+El Kit de actualización digital debe adquirirse en la misma plataforma y cuenta regional en la que poseas el juego base. Los datos de guardado no se pueden transferir entre diferentes ecosistemas de plataformas (por ejemplo, de PlayStation a Steam).
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo comenzar tu viaje: Pasos para principiantes">
+
+Comenzar una expansión masiva puede ser abrumador. Sigue esta guía estructurada para preparar a tu grupo, dominar los sistemas básicos y realizar una transición fluida hacia las desafiantes actividades del final del juego.
+
+<Steps>
+  <Step num="1" title="Selecciona tu vía de compra">
+    Determina si necesitas la edición completa o el Kit de actualización digital. Asegúrate de que el juego esté completamente actualizado a la última versión de 2026 en tu plataforma elegida antes de iniciar.
+  </Step>
+  <Step num="2" title="Revisa el manual de combate básico">
+    Si regresas después de un descanso, revisa los controles básicos, los menús de desarrollo de personajes y las pantallas de configuración del grupo. Comprender los ataques de enlace (link attacks) y las ráfagas en cadena (chain bursts) es vital para los jefes de la expansión.
+  </Step>
+  <Step num="3" title="Reúne un equipo inicial equilibrado">
+    Selecciona un personaje versátil para liderar tu grupo. Utilizar personajes con habilidades sencillas te ayuda a concentrarte en aprender las nuevas mecánicas de los jefes en lugar de rotaciones de ataque complejas.
+  </Step>
+  <Step num="4" title="Desbloquea y equipa invocaciones">
+    Equipa tus invocaciones recién desbloqueadas. Estas actúan como poderosas habilidades activas durante el combate, ofreciendo tanto un gran daño ofensivo como ventanas defensivas cruciales durante las ráfagas enemigas.
+  </Step>
+  <Step num="5" title="Entra en el modo en solitario Confluencia">
+    Una vez que las configuraciones de tus personajes sean estables, ingresa al modo Confluencia (The Conflux). Este modo roguelite exclusivo para un jugador te permite cultivar recursos de mejora raros sin necesidad de buscar partidas en salas en línea.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Recomendación de personaje inicial">
+Para un comienzo sin problemas, el Capitán sigue siendo un personaje polivalente excepcional. Si prefieres estilos de juego defensivos, Katalina y Vane ofrecen excelentes escudos para el grupo. Para seguridad a distancia, Io y Tweyen te permiten infligir daño desde una distancia segura.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Nuevos roles de personajes y mecánicas de combate">
+
+La expansión amplía el elenco de personajes jugables e introduce nuevos y potentes sistemas de combate. Los jugadores ahora deben equilibrar las composiciones de sus equipos en torno a roles específicos para abordar las exigentes misiones de nivel Caos.
+
+| Personaje / Grupo | Rol de estilo de juego | Ideal para |
+| --- | --- | --- |
+| **Capitán** | Polivalente | Aprender el flujo del combate, soporte equilibrado y daño sólido |
+| **Katalina, Vane, Cagliostro** | Defensa y Soporte | Protección del grupo, curación y configuraciones centradas en la utilidad |
+| **Rackam, Eugen, Tweyen** | Daño a distancia | Posicionamiento seguro, daño constante y control del espacio en el campo de batalla |
+| **Lancelot, Narmaya, Zeta** | Melé móvil | Presión rápida a corta distancia, esquiva activa y alto límite de habilidad |
+| **Vaseraga, Siegfried** | Melé pesado | Fuerte presión en primera línea y absorber ataques de jefes |
+| **Fraux, Fediel** | Especialistas de la expansión | Utilizar las nuevas mecánicas del elemento oscuro y efectos de estado únicos |
+
+### Rasgos Maestros e Invocaciones
+
+Los Rasgos Maestros (Master Traits) sirven como la capa definitiva de progresión posterior al juego, lo que te permite especializar a los personajes más allá de sus límites de habilidad estándar. Además, el nuevo sistema de invocación permite a Lyria canalizar entidades poderosas directamente al campo de batalla.
+
+- **Ráfagas Primigenias (Primal Bursts)**: Activar las Artes Celestes (Skybound Arts) con los cuatro miembros del grupo mientras una invocación está activa desata una devastadora Ráfaga Primigenia, invocando a figuras legendarias como Proto Bahamut para aniquilar a los objetivos.
+- **Ráfagas EX (EX Bursts)**: Los jefes del final del juego emiten un aura púrpura distintiva antes de ejecutar ataques de Ráfaga EX. Usa estas señales visuales para preparar tus esquivas, mejoras defensivas o ventanas de activación de invocaciones.
+
+<Callout type="info" title="Estrategia de farmeo">
+No disperses demasiado tus recursos. Concéntrate primero en mejorar por completo a un atacante principal y a dos compañeros de IA de apoyo. Esto garantiza que puedas completar cómodamente el contenido en solitario mientras sigues siendo un activo valioso en el cooperativo en línea.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación y hitos de Endless Ragnarok">
+
+Sigue de cerca tu progreso con estos hitos esenciales diseñados para guiarte desde las primeras horas hasta los desafíos más difíciles del final del juego.
+
+<Checklist
+  id="ragnarok-milestones"
+  title="Objetivos de progresión:"
+  items={[
+    "Completar los nuevos capítulos de la historia de Endless Ragnarok",
+    "Desbloquear el menú de Rasgos Maestros para tu personaje principal",
+    "Adquirir y equipar tu primera Invocación de alto rango",
+    "Superar una zona en el modo en solitario Confluencia (The Conflux)",
+    "Obtener las insignias de Daño Suplementario V y Elemento de Guerra",
+    "Completar con éxito una misión cooperativa de nivel Caos"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Hay una beta abierta disponible para Endless Ragnarok?",
+    answer: "El juego se lanzó oficialmente el 9 de julio de 2026. Los jugadores pueden sumergirse directamente en la experiencia completa o actualizar sus copias existentes a través de la tienda digital de su plataforma."
+  },
+  {
+    question: "¿Puedo jugar en multijugador con juego cruzado en todas las plataformas?",
+    answer: "Sí, el juego cruzado (crossplay) es totalmente compatible entre PlayStation 5, PlayStation 4 y Steam, lo que te permite formar equipo con amigos independientemente de su sistema."
+  },
+  {
+    question: "¿Cuál es la diferencia entre los Kits de actualización Estándar y Especial?",
+    answer: "El Kit de actualización estándar incluye solo el contenido de la expansión. El Kit de actualización especial añade los objetos cosméticos del Paquete Especial y la colección de DLC anterior."
+  },
+  {
+    question: "¿Cómo funciona la función de comunicación local en Nintendo Switch 2?",
+    answer: "Los jugadores de Nintendo Switch 2 pueden conectar hasta cuatro consolas localmente para realizar misiones cooperativas sin necesidad de una conexión a Internet activa, aunque no se admite GameShare."
+  }
+]} />
+
+</Section>

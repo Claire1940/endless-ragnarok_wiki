@@ -1,1 +1,10 @@
-{}
+{
+  "nav": {
+    "release": "Estreno",
+    "platforms": "Plataformas",
+    "price": "Precio",
+    "characters": "Personajes",
+    "guide": "Guías",
+    "demo": "Demo"
+  }
+}

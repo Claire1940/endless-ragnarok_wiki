@@ -1,1 +1,10 @@
-{}
+{
+  "nav": {
+    "release": "発売",
+    "platforms": "対応機種",
+    "price": "価格",
+    "characters": "キャラクター",
+    "guide": "攻略",
+    "demo": "体験版"
+  }
+}

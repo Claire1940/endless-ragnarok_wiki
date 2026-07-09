@@ -1,1 +1,524 @@
-{}
+{
+  "en": {
+    "characters": [
+      {
+        "slug": "endless-ragnarok-all-new-characters",
+        "file": "endless-ragnarok-all-new-characters"
+      },
+      {
+        "slug": "endless-ragnarok-characters",
+        "file": "endless-ragnarok-characters"
+      },
+      {
+        "slug": "endless-ragnarok-fediel",
+        "file": "endless-ragnarok-fediel"
+      },
+      {
+        "slug": "endless-ragnarok-fraux",
+        "file": "endless-ragnarok-fraux"
+      },
+      {
+        "slug": "endless-ragnarok-maglielle",
+        "file": "endless-ragnarok-maglielle"
+      },
+      {
+        "slug": "endless-ragnarok-new-characters",
+        "file": "endless-ragnarok-new-characters"
+      },
+      {
+        "slug": "endless-ragnarok-playable-characters",
+        "file": "endless-ragnarok-playable-characters"
+      },
+      {
+        "slug": "endless-ragnarok-sandalphon",
+        "file": "endless-ragnarok-sandalphon"
+      },
+      {
+        "slug": "endless-ragnarok-seofon",
+        "file": "endless-ragnarok-seofon"
+      },
+      {
+        "slug": "endless-ragnarok-tweyen",
+        "file": "endless-ragnarok-tweyen"
+      }
+    ],
+    "demo": [
+      {
+        "slug": "endless-ragnarok-beta",
+        "file": "endless-ragnarok-beta"
+      },
+      {
+        "slug": "endless-ragnarok-demo-characters",
+        "file": "endless-ragnarok-demo-characters"
+      },
+      {
+        "slug": "endless-ragnarok-demo-rewards",
+        "file": "endless-ragnarok-demo-rewards"
+      },
+      {
+        "slug": "endless-ragnarok-demo",
+        "file": "endless-ragnarok-demo"
+      },
+      {
+        "slug": "endless-ragnarok-open-beta",
+        "file": "endless-ragnarok-open-beta"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "endless-ragnarok-beginner-guide",
+        "file": "endless-ragnarok-beginner-guide"
+      },
+      {
+        "slug": "endless-ragnarok-guide",
+        "file": "endless-ragnarok-guide"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "endless-ragnarok-cross-save",
+        "file": "endless-ragnarok-cross-save"
+      },
+      {
+        "slug": "endless-ragnarok-crossplay",
+        "file": "endless-ragnarok-crossplay"
+      },
+      {
+        "slug": "endless-ragnarok-pc-size",
+        "file": "endless-ragnarok-pc-size"
+      },
+      {
+        "slug": "endless-ragnarok-physical",
+        "file": "endless-ragnarok-physical"
+      },
+      {
+        "slug": "endless-ragnarok-ps5",
+        "file": "endless-ragnarok-ps5"
+      },
+      {
+        "slug": "endless-ragnarok-psn",
+        "file": "endless-ragnarok-psn"
+      },
+      {
+        "slug": "endless-ragnarok-steam",
+        "file": "endless-ragnarok-steam"
+      },
+      {
+        "slug": "endless-ragnarok-switch-2-performance",
+        "file": "endless-ragnarok-switch-2-performance"
+      },
+      {
+        "slug": "endless-ragnarok-switch-2",
+        "file": "endless-ragnarok-switch-2"
+      },
+      {
+        "slug": "endless-ragnarok-system-requirements",
+        "file": "endless-ragnarok-system-requirements"
+      }
+    ],
+    "price": [
+      {
+        "slug": "endless-ragnarok-cost",
+        "file": "endless-ragnarok-cost"
+      },
+      {
+        "slug": "endless-ragnarok-discount",
+        "file": "endless-ragnarok-discount"
+      },
+      {
+        "slug": "endless-ragnarok-is-it-free",
+        "file": "endless-ragnarok-is-it-free"
+      },
+      {
+        "slug": "endless-ragnarok-price",
+        "file": "endless-ragnarok-price"
+      },
+      {
+        "slug": "endless-ragnarok-special-edition",
+        "file": "endless-ragnarok-special-edition"
+      },
+      {
+        "slug": "endless-ragnarok-standard-edition",
+        "file": "endless-ragnarok-standard-edition"
+      },
+      {
+        "slug": "endless-ragnarok-standard-vs-special-edition",
+        "file": "endless-ragnarok-standard-vs-special-edition"
+      },
+      {
+        "slug": "endless-ragnarok-upgrade-kit-price",
+        "file": "endless-ragnarok-upgrade-kit-price"
+      }
+    ],
+    "release": [
+      {
+        "slug": "endless-ragnarok-countdown",
+        "file": "endless-ragnarok-countdown"
+      },
+      {
+        "slug": "endless-ragnarok-launch-trailer",
+        "file": "endless-ragnarok-launch-trailer"
+      },
+      {
+        "slug": "endless-ragnarok-preorder",
+        "file": "endless-ragnarok-preorder"
+      },
+      {
+        "slug": "endless-ragnarok-release-date",
+        "file": "endless-ragnarok-release-date"
+      },
+      {
+        "slug": "endless-ragnarok-release-time",
+        "file": "endless-ragnarok-release-time"
+      }
+    ]
+  },
+  "es": {
+    "characters": [
+      {
+        "slug": "endless-ragnarok-all-new-characters",
+        "file": "endless-ragnarok-all-new-characters"
+      },
+      {
+        "slug": "endless-ragnarok-characters",
+        "file": "endless-ragnarok-characters"
+      },
+      {
+        "slug": "endless-ragnarok-fediel",
+        "file": "endless-ragnarok-fediel"
+      },
+      {
+        "slug": "endless-ragnarok-fraux",
+        "file": "endless-ragnarok-fraux"
+      },
+      {
+        "slug": "endless-ragnarok-maglielle",
+        "file": "endless-ragnarok-maglielle"
+      },
+      {
+        "slug": "endless-ragnarok-new-characters",
+        "file": "endless-ragnarok-new-characters"
+      },
+      {
+        "slug": "endless-ragnarok-playable-characters",
+        "file": "endless-ragnarok-playable-characters"
+      },
+      {
+        "slug": "endless-ragnarok-sandalphon",
+        "file": "endless-ragnarok-sandalphon"
+      },
+      {
+        "slug": "endless-ragnarok-seofon",
+        "file": "endless-ragnarok-seofon"
+      },
+      {
+        "slug": "endless-ragnarok-tweyen",
+        "file": "endless-ragnarok-tweyen"
+      }
+    ],
+    "demo": [
+      {
+        "slug": "endless-ragnarok-beta",
+        "file": "endless-ragnarok-beta"
+      },
+      {
+        "slug": "endless-ragnarok-demo-characters",
+        "file": "endless-ragnarok-demo-characters"
+      },
+      {
+        "slug": "endless-ragnarok-demo-rewards",
+        "file": "endless-ragnarok-demo-rewards"
+      },
+      {
+        "slug": "endless-ragnarok-demo",
+        "file": "endless-ragnarok-demo"
+      },
+      {
+        "slug": "endless-ragnarok-open-beta",
+        "file": "endless-ragnarok-open-beta"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "endless-ragnarok-beginner-guide",
+        "file": "endless-ragnarok-beginner-guide"
+      },
+      {
+        "slug": "endless-ragnarok-guide",
+        "file": "endless-ragnarok-guide"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "endless-ragnarok-cross-save",
+        "file": "endless-ragnarok-cross-save"
+      },
+      {
+        "slug": "endless-ragnarok-crossplay",
+        "file": "endless-ragnarok-crossplay"
+      },
+      {
+        "slug": "endless-ragnarok-pc-size",
+        "file": "endless-ragnarok-pc-size"
+      },
+      {
+        "slug": "endless-ragnarok-physical",
+        "file": "endless-ragnarok-physical"
+      },
+      {
+        "slug": "endless-ragnarok-ps5",
+        "file": "endless-ragnarok-ps5"
+      },
+      {
+        "slug": "endless-ragnarok-psn",
+        "file": "endless-ragnarok-psn"
+      },
+      {
+        "slug": "endless-ragnarok-steam",
+        "file": "endless-ragnarok-steam"
+      },
+      {
+        "slug": "endless-ragnarok-switch-2-performance",
+        "file": "endless-ragnarok-switch-2-performance"
+      },
+      {
+        "slug": "endless-ragnarok-switch-2",
+        "file": "endless-ragnarok-switch-2"
+      },
+      {
+        "slug": "endless-ragnarok-system-requirements",
+        "file": "endless-ragnarok-system-requirements"
+      }
+    ],
+    "price": [
+      {
+        "slug": "endless-ragnarok-cost",
+        "file": "endless-ragnarok-cost"
+      },
+      {
+        "slug": "endless-ragnarok-discount",
+        "file": "endless-ragnarok-discount"
+      },
+      {
+        "slug": "endless-ragnarok-is-it-free",
+        "file": "endless-ragnarok-is-it-free"
+      },
+      {
+        "slug": "endless-ragnarok-price",
+        "file": "endless-ragnarok-price"
+      },
+      {
+        "slug": "endless-ragnarok-special-edition",
+        "file": "endless-ragnarok-special-edition"
+      },
+      {
+        "slug": "endless-ragnarok-standard-edition",
+        "file": "endless-ragnarok-standard-edition"
+      },
+      {
+        "slug": "endless-ragnarok-standard-vs-special-edition",
+        "file": "endless-ragnarok-standard-vs-special-edition"
+      },
+      {
+        "slug": "endless-ragnarok-upgrade-kit-price",
+        "file": "endless-ragnarok-upgrade-kit-price"
+      }
+    ],
+    "release": [
+      {
+        "slug": "endless-ragnarok-countdown",
+        "file": "endless-ragnarok-countdown"
+      },
+      {
+        "slug": "endless-ragnarok-launch-trailer",
+        "file": "endless-ragnarok-launch-trailer"
+      },
+      {
+        "slug": "endless-ragnarok-preorder",
+        "file": "endless-ragnarok-preorder"
+      },
+      {
+        "slug": "endless-ragnarok-release-date",
+        "file": "endless-ragnarok-release-date"
+      },
+      {
+        "slug": "endless-ragnarok-release-time",
+        "file": "endless-ragnarok-release-time"
+      }
+    ]
+  },
+  "ja": {
+    "characters": [
+      {
+        "slug": "endless-ragnarok-all-new-characters",
+        "file": "endless-ragnarok-all-new-characters"
+      },
+      {
+        "slug": "endless-ragnarok-characters",
+        "file": "endless-ragnarok-characters"
+      },
+      {
+        "slug": "endless-ragnarok-fediel",
+        "file": "endless-ragnarok-fediel"
+      },
+      {
+        "slug": "endless-ragnarok-fraux",
+        "file": "endless-ragnarok-fraux"
+      },
+      {
+        "slug": "endless-ragnarok-maglielle",
+        "file": "endless-ragnarok-maglielle"
+      },
+      {
+        "slug": "endless-ragnarok-new-characters",
+        "file": "endless-ragnarok-new-characters"
+      },
+      {
+        "slug": "endless-ragnarok-playable-characters",
+        "file": "endless-ragnarok-playable-characters"
+      },
+      {
+        "slug": "endless-ragnarok-sandalphon",
+        "file": "endless-ragnarok-sandalphon"
+      },
+      {
+        "slug": "endless-ragnarok-seofon",
+        "file": "endless-ragnarok-seofon"
+      },
+      {
+        "slug": "endless-ragnarok-tweyen",
+        "file": "endless-ragnarok-tweyen"
+      }
+    ],
+    "demo": [
+      {
+        "slug": "endless-ragnarok-beta",
+        "file": "endless-ragnarok-beta"
+      },
+      {
+        "slug": "endless-ragnarok-demo-characters",
+        "file": "endless-ragnarok-demo-characters"
+      },
+      {
+        "slug": "endless-ragnarok-demo-rewards",
+        "file": "endless-ragnarok-demo-rewards"
+      },
+      {
+        "slug": "endless-ragnarok-demo",
+        "file": "endless-ragnarok-demo"
+      },
+      {
+        "slug": "endless-ragnarok-open-beta",
+        "file": "endless-ragnarok-open-beta"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "endless-ragnarok-beginner-guide",
+        "file": "endless-ragnarok-beginner-guide"
+      },
+      {
+        "slug": "endless-ragnarok-guide",
+        "file": "endless-ragnarok-guide"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "endless-ragnarok-cross-save",
+        "file": "endless-ragnarok-cross-save"
+      },
+      {
+        "slug": "endless-ragnarok-crossplay",
+        "file": "endless-ragnarok-crossplay"
+      },
+      {
+        "slug": "endless-ragnarok-pc-size",
+        "file": "endless-ragnarok-pc-size"
+      },
+      {
+        "slug": "endless-ragnarok-physical",
+        "file": "endless-ragnarok-physical"
+      },
+      {
+        "slug": "endless-ragnarok-ps5",
+        "file": "endless-ragnarok-ps5"
+      },
+      {
+        "slug": "endless-ragnarok-psn",
+        "file": "endless-ragnarok-psn"
+      },
+      {
+        "slug": "endless-ragnarok-steam",
+        "file": "endless-ragnarok-steam"
+      },
+      {
+        "slug": "endless-ragnarok-switch-2-performance",
+        "file": "endless-ragnarok-switch-2-performance"
+      },
+      {
+        "slug": "endless-ragnarok-switch-2",
+        "file": "endless-ragnarok-switch-2"
+      },
+      {
+        "slug": "endless-ragnarok-system-requirements",
+        "file": "endless-ragnarok-system-requirements"
+      }
+    ],
+    "price": [
+      {
+        "slug": "endless-ragnarok-cost",
+        "file": "endless-ragnarok-cost"
+      },
+      {
+        "slug": "endless-ragnarok-discount",
+        "file": "endless-ragnarok-discount"
+      },
+      {
+        "slug": "endless-ragnarok-is-it-free",
+        "file": "endless-ragnarok-is-it-free"
+      },
+      {
+        "slug": "endless-ragnarok-price",
+        "file": "endless-ragnarok-price"
+      },
+      {
+        "slug": "endless-ragnarok-special-edition",
+        "file": "endless-ragnarok-special-edition"
+      },
+      {
+        "slug": "endless-ragnarok-standard-edition",
+        "file": "endless-ragnarok-standard-edition"
+      },
+      {
+        "slug": "endless-ragnarok-standard-vs-special-edition",
+        "file": "endless-ragnarok-standard-vs-special-edition"
+      },
+      {
+        "slug": "endless-ragnarok-upgrade-kit-price",
+        "file": "endless-ragnarok-upgrade-kit-price"
+      }
+    ],
+    "release": [
+      {
+        "slug": "endless-ragnarok-countdown",
+        "file": "endless-ragnarok-countdown"
+      },
+      {
+        "slug": "endless-ragnarok-launch-trailer",
+        "file": "endless-ragnarok-launch-trailer"
+      },
+      {
+        "slug": "endless-ragnarok-preorder",
+        "file": "endless-ragnarok-preorder"
+      },
+      {
+        "slug": "endless-ragnarok-release-date",
+        "file": "endless-ragnarok-release-date"
+      },
+      {
+        "slug": "endless-ragnarok-release-time",
+        "file": "endless-ragnarok-release-time"
+      }
+    ]
+  }
+}

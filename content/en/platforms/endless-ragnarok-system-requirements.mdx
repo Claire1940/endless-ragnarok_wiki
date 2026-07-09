@@ -1,0 +1,144 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Endless Ragnarok System Requirements: PC Specs & Console Space",
+  description: "Check the official Endless Ragnarok system requirements. Learn the minimum and recommended PC specs, SSD storage sizes, and console installation requirements.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2e1065/fff?text=System+Requirements",
+  date: "2026-07-09",
+  author: "endless ragnarok Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary keyword**: Verify your hardware compatibility with the official **endless ragnarok system requirements** before upgrading.
+- **PC Storage**: Ensure you have **90 GB of available space** on an SSD for optimal loading and performance.
+- **RAM Requirement**: A minimum of **16 GB RAM** is required for both Standard and Ultra graphics settings.
+- **Console Sizes**: Storage demands vary by platform, requiring **21 GB on PS5**, **11 GB on PS4**, and **10 GB on Switch 2**.
+- **Performance targets**: Meet the recommended specs to achieve **1080p resolution at 60 FPS** on Ultra settings.
+</Callout>
+
+<Section icon={Shield} title="Official PC System Requirements">
+
+To enjoy the massive expansion content of *Granblue Fantasy: Relink - Endless Ragnarok* on PC, your system must meet specific hardware baselines. The official **endless ragnarok system requirements** outline two distinct hardware configurations depending on your target visual quality and framerate performance. 
+
+The game requires a 64-bit operating system and processor, with Windows 11 (64-bit) as the standard operating environment for the 2026 release. Below is a complete breakdown of the minimum and recommended requirements.
+
+| Hardware Component | Minimum PC Requirements | Recommended PC Requirements |
+| :--- | :--- | :--- |
+| **Operating System** | Windows 10 / 11 (64-bit) | Windows 10 / 11 (64-bit) |
+| **Processor (CPU)** | Intel Core i3-9100 / AMD Ryzen 3 3200G | Intel Core i7-8700 / AMD Ryzen 5 3600 |
+| **Memory (RAM)** | 16 GB RAM | 16 GB RAM |
+| **Graphics Card** | NVIDIA GTX 1060 6GB / AMD RX 580 8GB | NVIDIA RTX 2080 8GB / AMD RX 6700 XT 8GB |
+| **DirectX Version** | Version 11 | Version 11 |
+| **Disk Space** | 90 GB available space | 90 GB available space |
+| **Storage Type** | SSD Recommended | SSD Required |
+| **Performance Target** | 1080p / 30 FPS (Standard Graphics) | 1080p / 60 FPS (Ultra Graphics) |
+
+<Callout type="warning" title="SSD Installation Strongly Recommended">
+While the game may run on standard mechanical hard drives, installing the expansion on an SSD is highly recommended. Mechanical drives can cause severe asset streaming issues, stuttering during intense summon animations, and prolonged loading screens.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Platform Storage & Installation Requirements">
+
+The expansion size and overall installation footprints differ significantly depending on your chosen gaming platform. While PC players must prepare for a massive 90 GB download, console players benefit from highly optimized file compression pathways. 
+
+The table below outlines the specific storage requirements across all supported systems as of the July 9, 2026 release.
+
+| Gaming Platform | Required Disk Space | Format Availability | Special Notes |
+| :--- | :--- | :--- | :--- |
+| **PC (Steam)** | 90 GB | Digital Only | Base game required for Upgrade Kit |
+| **PlayStation 5** | 21 GB | Physical & Digital | Faster load times via custom NVMe SSD |
+| **PlayStation 4** | 11 GB | Physical & Digital | External SSD highly recommended |
+| **Nintendo Switch 2** | 10 GB | Physical & Digital | Does not support GameShare locally |
+
+<CardGrid cols={3}>
+  <Card title="Steam PC Setup">
+    Requires a stable Steam client connection. Players who already own the base game must purchase the digital **Upgrade Kit** on the same account to unlock the content.
+  </Card>
+  <Card title="PlayStation Systems">
+    The PS4 and PS5 versions support physical and digital copies. A PlayStation Plus subscription is not required to participate in offline single-player modes like the Conflux.
+  </Card>
+  <Card title="Nintendo Switch 2">
+    Requires at least 10 GB of internal or microSD storage. Local wireless play is fully supported, but each player must have their own downloaded copy.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Upgrade Kit Compatibility">
+If you are purchasing the digital Upgrade Kit, make sure you buy it on the exact same platform where you own the base game. Cross-platform license transfers for the upgrade kit are not supported.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Optimization Steps for Lower-End PCs">
+
+If your hardware sits right on the edge of the minimum **endless ragnarok system requirements**, you can still achieve stable performance by adjusting key in-game settings. Follow these steps to maximize your framerate without sacrificing too much visual clarity.
+
+<Steps>
+  <Step num="1" title="Adjust the Graphics Preset">
+    Navigate to the main menu graphics options and change the overall preset to **Standard**. This automatically scales down resource-heavy settings like shadow quality and volumetric fog.
+  </Step>
+  <Step num="2" title="Limit the Framerate Target">
+    Set your in-game framerate cap to **30 FPS** or **60 FPS** depending on your GPU capabilities. Uncapped framerates can cause severe thermal throttling on older graphics cards.
+  </Step>
+  <Step num="3" title="Reduce V-Sync and Motion Blur">
+    Turn off Motion Blur entirely to free up processing overhead. Enable V-Sync only if you experience screen tearing; otherwise, keep it disabled to minimize input latency.
+  </Step>
+  <Step num="4" title="Optimize Background Applications">
+    Close demanding web browsers, overlays, and recording software before launching the game. This ensures all 16 GB of your system RAM is dedicated to rendering the game.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Summon Mechanic Performance">
+The newly introduced Summon mechanic features highly detailed visual effects and particle systems. If you experience lag during Primal Bursts, lowering the **VFX Quality** setting in the graphics menu will immediately stabilize your framerate.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="System Readiness Checklist">
+
+Before diving into the high-end Chaos quests and the challenging Conflux mode, ensure your gaming environment is fully prepared by ticking off these technical milestones.
+
+<Checklist
+  id="hardware-readiness"
+  title="Pre-Launch Checklist:"
+  items={[
+    "Verify that your PC has at least 16 GB of dual-channel RAM installed [1.1.1].",
+    "Clear 90 GB of space on your fastest SSD drive.",
+    "Update your graphics card drivers to the latest July 2026 release.",
+    "Confirm your operating system is updated to Windows 10 or Windows 11 (64-bit).",
+    "Ensure your broadband internet connection is stable for up to 4-player online co-op."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Do I need an SSD to run Endless Ragnarok on PC?",
+    answer: "Yes, an SSD is highly recommended to meet the official endless ragnarok system requirements. Installing the game on a standard HDD can lead to stuttering, slow texture loading, and extremely long loading screens during intensive battles."
+  },
+  {
+    question: "Can I play the expansion on Windows 10?",
+    answer: "Yes, Windows 10 (64-bit) is fully supported for both the minimum and recommended system requirements. However, Windows 11 is the preferred OS environment for the latest graphics driver optimizations."
+  },
+  {
+    question: "How much storage space does the expansion take on Nintendo Switch 2?",
+    answer: "The Switch 2 version requires at least 10 gigabytes of available storage space. Note that GameShare is not supported on this platform, meaning each console must have its own individual download to play local multiplayer."
+  },
+  {
+    question: "Is 16 GB of RAM absolutely necessary?",
+    answer: "Yes, both the minimum and recommended system specs lock in 16 GB of RAM as a baseline requirement. Running the game on 8 GB of RAM may cause frequent crashes, especially during multiplayer co-op sessions."
+  }
+]} />
+
+</Section>
