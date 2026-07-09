@@ -34,27 +34,27 @@
     "articlesComingSoon": "記事は近日公開予定です"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ ボクセル・サバイバル・サンドボックス",
-    "title": "Lucid Blocks Wiki",
-    "description": "夢のようなバイオームを探索し、Apotheosisでアイテムを融合、自由に建築を楽しみましょう。Steamで繰り広げられるこのシュールなオープンワールド・サンドボックスで、奇妙なクリーチャーから生き延びてください。",
-    "getFreeCodesCTA": "クラフトガイドを見る",
-    "playOnSteamCTA": "Steamでプレイ",
+    "badge": "エンドゲーム向けアクションRPG拡張",
+    "title": "Endless Ragnarok 攻略Wiki",
+    "description": "協力プレイガイド、武器ビルド、クエスト攻略で、『グランブルーファンタジー リンク』の拡張コンテンツ『Endless Ragnarok』の終わりなきエンドゲームを生き延びよう。全ボスを制し、最高の武器を作り上げる。",
+    "getFreeCodesCTA": "リンクボーナスを受け取る",
+    "playOnSteamCTA": "Steam / PlayStation / Switch 2 で遊ぶ",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "オンラインプレイヤー"
+        "value": "2026年7月9日",
+        "label": "発売日"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "最大同時接続数"
+        "value": "1-4",
+        "label": "オンラインプレイヤー"
       },
       "stat3": {
-        "value": "97%",
-        "label": "好評"
+        "value": "4",
+        "label": "対応プラットフォーム"
       },
       "stat4": {
-        "value": "2026年3月12日",
-        "label": "リリース日"
+        "value": "10",
+        "label": "対応言語"
       }
     }
   },
@@ -785,27 +785,27 @@
     ]
   },
   "cta": {
-    "title": "Lucid Blocksを探索する準備はできましたか？",
-    "description": "DiscordのLucid Blocksコミュニティに参加して、ガイドや最新情報、ディスカッションをチェックしましょう！",
-    "joinCommunity": "Discordに参加",
-    "joinGame": "Steamでプレイ"
+    "title": "Endless Ragnarok を征服する準備はできましたか？",
+    "description": "Discord の『グランブルーファンタジー リンク』コミュニティに参加して、Endless Ragnarok のガイド・ビルド・最新情報・協力プレイの話題をチェックしましょう！",
+    "joinCommunity": "Discord に参加",
+    "joinGame": "Steam / PS5 / Switch 2 で遊ぶ"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Lucid Blocksのクラフト、バイオーム、クリーチャー、実績、サバイバルガイドに関する完全なリソースハブです。",
+    "title": "Endless Ragnarok 攻略Wiki",
+    "description": "『グランブルーファンタジー リンク』Endless Ragnarok のボスガイド、武器ビルド、キャラクター戦略、クエスト攻略を網羅した総合情報サイトです。",
     "resources": "リソース",
     "community": "コミュニティ",
     "legal": "法的情報",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam コミュニティ",
-    "steamStore": "Steam ストア",
-    "about": "このサイトについて",
+    "reddit": "Reddit",
+    "youtube": "YouTube",
+    "about": "概要",
     "privacy": "プライバシーポリシー",
     "terms": "利用規約",
     "copyrightNotice": "著作権",
-    "copyright": "© 2026 Lucid Blocks Wiki. Lucid Blocksの開発元とは提携していません。",
-    "disclaimer": "非公式のファン作成リソースサイトです。"
+    "copyright": "© 2026 Endless Ragnarok Wiki. Cygames とは提携しておりません。",
+    "disclaimer": "非公式のファン制作サイトです。"
   },
   "pages": {
     "guides": {

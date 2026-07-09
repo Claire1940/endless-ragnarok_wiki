@@ -34,27 +34,27 @@
     "articlesComingSoon": "Artikel folgen bald"
   },
   "hero": {
-    "badge": "Winzige Gnome. Große Häuser. Stealth-Raubzüge mit Freunden.",
-    "title": "Lucid Blocks Wiki",
-    "description": "Deine zentrale Anlaufstelle für Lucid Blocks: wie die Raubzüge funktionieren, High-Gnome-Aufträge, Crafting & Upgrades, Gegner, Steuerung und die schnellsten Wege, um jeden Durchgang zu überleben.",
-    "getFreeCodesCTA": "Demo herunterladen",
-    "playOnSteamCTA": "Auf die Wunschliste bei Steam",
+    "badge": "Action-RPG-Endgame-Erweiterung",
+    "title": "Endless Ragnarok Wiki",
+    "description": "Besiege jeden Boss, schmiede die perfekte Waffe und überlebe das endlose Endgame der Endless-Ragnarok-Erweiterung von Granblue Fantasy: Relink mit Co-op-Guides, Waffen-Builds und Quest-Lösungen.",
+    "getFreeCodesCTA": "Link-Bonus abrufen",
+    "playOnSteamCTA": "Auf Steam / PlayStation / Switch 2 spielen",
     "stats": {
       "stat1": {
-        "value": "15.000",
-        "label": "Gleichzeitige Spieler (Demo)"
+        "value": "9. Juli 2026",
+        "label": "Veröffentlichung"
       },
       "stat2": {
-        "value": "6",
-        "label": "Koop-Spieler"
+        "value": "1-4",
+        "label": "Online-Spieler"
       },
       "stat3": {
-        "value": "31.01.2026",
-        "label": "Demo-Veröffentlichung"
+        "value": "4",
+        "label": "Plattformen"
       },
       "stat4": {
-        "value": "PC (Steam)",
-        "label": "Plattform"
+        "value": "10",
+        "label": "Oberflächensprachen"
       }
     }
   },
@@ -819,27 +819,27 @@
     ]
   },
   "cta": {
-    "title": "Bereit, mit dem Raub zu beginnen?",
-    "description": "Tritt der Lucid Blocks Community auf Discord bei, um Koop-Gruppen, Updates und Mod-Diskussionen zu erhalten!",
+    "title": "Bereit, Endless Ragnarok zu erobern?",
+    "description": "Tritt der Granblue-Fantasy:-Relink-Community auf Discord bei für Endless-Ragnarok-Guides, Builds, Updates und Co-op-Diskussionen!",
     "joinCommunity": "Discord beitreten",
-    "joinGame": "Demo auf Steam herunterladen"
+    "joinGame": "Auf Steam / PS5 / Switch 2 spielen"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Dein komplettes Ressourcenzentrum für Lucid Blocks Stealth-Raubzüge, Koop-Strategien, Mods und Community-Leitfäden.",
+    "title": "Endless Ragnarok Wiki",
+    "description": "Dein umfassendes Ressourcenzentrum für Endless-Ragnarok-Boss-Guides, Waffen-Builds, Charakterstrategien und Quest-Lösungen für Granblue Fantasy: Relink.",
     "resources": "Ressourcen",
     "community": "Community",
     "legal": "Rechtliches",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "reddit": "Reddit",
+    "youtube": "YouTube",
     "about": "Über uns",
     "privacy": "Datenschutzrichtlinie",
     "terms": "Nutzungsbedingungen",
     "copyrightNotice": "Urheberrecht",
-    "copyright": "© 2026 Lucid Blocks Wiki. Nicht mit den Entwicklern von Lucid Blocks verbunden.",
-    "disclaimer": "Inoffizielle von Fans erstellte Ressourcen-Website."
+    "copyright": "© 2026 Endless Ragnarok Wiki. Nicht mit Cygames verbunden.",
+    "disclaimer": "Inoffizielle Fan-Website."
   },
   "pages": {
     "guides": {

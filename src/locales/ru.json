@@ -34,27 +34,27 @@
     "articlesComingSoon": "Статьи скоро появятся"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Воксельная песочница на выживание",
-    "title": "Lucid Blocks Вики",
-    "description": "Исследуйте сказочные биомы, объединяйте предметы с помощью Apotheosis, свободно стройте и выживайте среди странных существ в этой сюрреалистичной песочнице с открытым миром на Steam.",
-    "getFreeCodesCTA": "Изучить руководство по крафту",
-    "playOnSteamCTA": "Играть на Steam",
+    "badge": "Дополнение с экшен-RPG эндгейма",
+    "title": "Endless Ragnarok Вики",
+    "description": "Побеждайте каждого босса, создавайте идеальное оружие и выживайте в бесконечном эндгейме дополнения Endless Ragnarok для Granblue Fantasy: Relink с помощью кооперативных руководств, сборок оружия и прохождений квестов.",
+    "getFreeCodesCTA": "Получить бонусы по ссылке",
+    "playOnSteamCTA": "Играть в Steam / PlayStation / Switch 2",
     "stats": {
       "stat1": {
-        "value": "1 325",
-        "label": "Игроков онлайн"
+        "value": "9 июл 2026",
+        "label": "Дата выхода"
       },
       "stat2": {
-        "value": "1 986",
-        "label": "Пиковый онлайн"
+        "value": "1-4",
+        "label": "Сетевые игроки"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Положительных отзывов"
+        "value": "4",
+        "label": "Платформы"
       },
       "stat4": {
-        "value": "12 марта 2026",
-        "label": "Дата выхода"
+        "value": "10",
+        "label": "Языки интерфейса"
       }
     }
   },
@@ -181,27 +181,27 @@
     ]
   },
   "cta": {
-    "title": "Готовы исследовать Lucid Blocks?",
-    "description": "Присоединяйтесь к сообществу Lucid Blocks в Discord, где вас ждут руководства, обновления и обсуждения!",
+    "title": "Готовы покорить Endless Ragnarok?",
+    "description": "Присоединяйтесь к сообществу Granblue Fantasy: Relink в Discord, чтобы получать руководства, сборки, обновления и обсуждать кооператив по Endless Ragnarok!",
     "joinCommunity": "Присоединиться к Discord",
-    "joinGame": "Играть на Steam"
+    "joinGame": "Играть в Steam / PS5 / Switch 2"
   },
   "footer": {
-    "title": "Вики Lucid Blocks",
-    "description": "Ваш полноценный ресурсный центр по крафту, биомам, существам, достижениям и руководствам по выживанию в Lucid Blocks.",
+    "title": "Endless Ragnarok Вики",
+    "description": "Ваш полный центр ресурсов по руководствам по боссам, сборкам оружия, стратегиям персонажей и прохождениям квестов Endless Ragnarok для Granblue Fantasy: Relink.",
     "resources": "Ресурсы",
     "community": "Сообщество",
-    "legal": "Юридическая информация",
+    "legal": "Правовая информация",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Сообщество Steam",
-    "steamStore": "Магазин Steam",
-    "about": "О проекте",
+    "reddit": "Reddit",
+    "youtube": "YouTube",
+    "about": "О нас",
     "privacy": "Политика конфиденциальности",
     "terms": "Условия использования",
-    "copyrightNotice": "Авторское право",
-    "copyright": "© 2026 Вики Lucid Blocks. Не связано с разработчиками Lucid Blocks.",
-    "disclaimer": "Неофициальный фанатский ресурс."
+    "copyrightNotice": "Авторские права",
+    "copyright": "© 2026 Endless Ragnarok Wiki. Не аффилировано с Cygames.",
+    "disclaimer": "Неофициальный фанатский сайт."
   },
   "pages": {
     "guides": {

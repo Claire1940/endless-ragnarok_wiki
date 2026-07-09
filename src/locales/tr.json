@@ -34,27 +34,27 @@
     "articlesComingSoon": "Makaleler yakında"
   },
   "hero": {
-    "badge": "Ufak cüceler. Büyük evler. Arkadaşlarla gizli soygunlar.",
-    "title": "Lucid Blocks wiki",
-    "description": "Lucid Blocks için merkeziniz: soygunlar nasıl işliyor, Yüksek Cüce işleri, üretim & geliştirmeler, düşmanlar, kontroller ve her koşuda hayatta kalmanın en hızlı yolları.",
-    "getFreeCodesCTA": "Demo İndir",
-    "playOnSteamCTA": "Steam'de İstek Listesine Ekle",
+    "badge": "Endgame Aksiyon RPG Genişlemesi",
+    "title": "Endless Ragnarok Wiki",
+    "description": "Her boss'u alt edin, kusursuz silahı yapın ve Granblue Fantasy: Relink'in Endless Ragnarok genişlemesinin sonsuz endgame'inde kooperatif rehberleri, silah build'leri ve görev çözümleriyle hayatta kalın.",
+    "getFreeCodesCTA": "Link Bonuslarını Talep Et",
+    "playOnSteamCTA": "Steam / PlayStation / Switch 2'de Oyna",
     "stats": {
       "stat1": {
-        "value": "15B",
-        "label": "En Yüksek Eş Zamanlı Kullanıcı (Demo)"
+        "value": "9 Tem 2026",
+        "label": "Çıkış Tarihi"
       },
       "stat2": {
-        "value": "6",
-        "label": "İşbirliği Oyuncusu"
+        "value": "1-4",
+        "label": "Çevrimiçi Oyuncu"
       },
       "stat3": {
-        "value": "31.01.2026",
-        "label": "Demo Yayın Tarihi"
+        "value": "4",
+        "label": "Platformlar"
       },
       "stat4": {
-        "value": "PC (Steam)",
-        "label": "Platform"
+        "value": "10",
+        "label": "Arayüz Dilleri"
       }
     }
   },
@@ -819,27 +819,27 @@
     ]
   },
   "cta": {
-    "title": "Soygun Yapmaya Hazır mısınız?",
-    "description": "İşbirliği grupları, güncellemeler ve mod tartışmaları için Discord'da Lucid Blocks topluluğuna katılın!",
+    "title": "Endless Ragnarok'u Fethetmeye Hazır mısınız?",
+    "description": "Endless Ragnarok rehberleri, build'leri, güncellemeleri ve kooperatif tartışmaları için Discord'daki Granblue Fantasy: Relink topluluğuna katılın!",
     "joinCommunity": "Discord'a Katıl",
-    "joinGame": "Steam'de Demo Al"
+    "joinGame": "Steam / PS5 / Switch 2'de Oyna"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Lucid Blocks gizli soygunları, işbirliği stratejileri, modlar ve topluluk rehberleri için eksiksiz kaynak merkeziniz.",
+    "title": "Endless Ragnarok Wiki",
+    "description": "Granblue Fantasy: Relink için Endless Ragnarok boss rehberleri, silah build'leri, karakter stratejileri ve görev çözümlerini kapsayan eksiksiz kaynak merkeziniz.",
     "resources": "Kaynaklar",
     "community": "Topluluk",
     "legal": "Yasal",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam Topluluğu",
-    "steamStore": "Steam Mağazası",
+    "reddit": "Reddit",
+    "youtube": "YouTube",
     "about": "Hakkında",
     "privacy": "Gizlilik Politikası",
-    "terms": "Hizmet Şartları",
+    "terms": "Kullanım Şartları",
     "copyrightNotice": "Telif Hakkı",
-    "copyright": "© 2026 Lucid Blocks Wiki. Lucid Blocks geliştiricileriyle bağlantılı değildir.",
-    "disclaimer": "Resmi olmayan hayran yapımı kaynak web sitesi."
+    "copyright": "© 2026 Endless Ragnarok Wiki. Cygames ile bağlantılı değildir.",
+    "disclaimer": "Resmi olmayan hayran yapımı web sitesi."
   },
   "pages": {
     "guides": {
