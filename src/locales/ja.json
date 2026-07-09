@@ -1,10 +1,700 @@
 {
+  "seo": {
+    "home": {
+      "title": "Endless Ragnarok Wiki - ボス攻略、武器＆ビルド",
+      "description": "Endless Ragnarok Wikiは、Granblue Fantasy: RelinkのアクションRPG拡張「Endless Ragnarok」のボス攻略、武器ビルド、キャラクター戦略、クエスト攻略、および協力プレイのヒントを掲載しています。",
+      "keywords": "Endless Ragnarok, Granblue Fantasy Relink, Endless Ragnarok wiki, ボス攻略, 武器ビルド, キャラクターガイド, Cygames, アクションRPG",
+      "ogTitle": "Endless Ragnarok Wiki - ボス攻略、武器＆ビルド",
+      "ogDescription": "Endless Ragnarok Wikiは、Granblue Fantasy: RelinkのアクションRPG拡張「Endless Ragnarok」のボス攻略、武器ビルド、キャラクター戦略、クエスト攻略、および協力プレイのヒントを掲載しています。",
+      "twitterTitle": "Endless Ragnarok Wiki - ボス攻略、武器＆ビルド",
+      "twitterDescription": "Granblue Fantasy: RelinkのEndless Ragnarokにおけるボス攻略、武器ビルド、キャラクター戦略、およびクエスト攻略。"
+    }
+  },
   "nav": {
-    "release": "発売",
-    "platforms": "対応機種",
+    "release": "リリース",
+    "platforms": "プラットフォーム",
     "price": "価格",
     "characters": "キャラクター",
-    "guide": "攻略",
+    "guide": "ガイド",
     "demo": "体験版"
+  },
+  "common": {
+    "home": "ホーム",
+    "more": "もっと見る",
+    "playNow": "Steamでプレイ",
+    "switchLanguage": "言語切り替え",
+    "switchTheme": "テーマ切り替え",
+    "lightMode": "ライトモード",
+    "darkMode": "ダークモード",
+    "notFound": "ページが見つかりません",
+    "notFoundDescription": "お探しのページは存在しません。",
+    "backToHome": "ホームに戻る",
+    "relatedArticles": "関連記事",
+    "readMore": "続きを読む",
+    "articlesComingSoon": "記事は近日公開予定です"
+  },
+  "hero": {
+    "badge": "エンドゲーム・アクションRPG拡張コンテンツ",
+    "title": "Endless Ragnarok Wiki",
+    "description": "Granblue Fantasy: Relinkの拡張コンテンツ「Endless Ragnarok」の協力プレイガイド、武器ビルド、クエスト攻略で、すべてのボスを極め、完璧な武器を作成し、果てしないエンドゲームを生き抜こう。",
+    "getFreeCodesCTA": "リンクボーナスを受け取る",
+    "playOnSteamCTA": "Steam / PlayStation / Switch 2でプレイ",
+    "stats": {
+      "stat1": {
+        "value": "2026年7月9日",
+        "label": "発売日"
+      },
+      "stat2": {
+        "value": "1-4",
+        "label": "オンラインプレイ人数"
+      },
+      "stat3": {
+        "value": "4",
+        "label": "プラットフォーム"
+      },
+      "stat4": {
+        "value": "10",
+        "label": "インターフェース言語"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Endless Ragnarok ゲームプレイ",
+    "description": "Nintendo Switch 2、PlayStation、Steamで、新たなストーリーコンテンツ、拡張された共闘クエストのティア、追加のボスや召喚、Master Traits、そしてソロ向けエンドコンテンツ「The Conflux」に飛び込みましょう。"
+  },
+  "tools": {
+    "title": "Endless Ragnarok",
+    "titleHighlight": "リソース",
+    "subtitle": "リリース情報やエディションから、キャラクター、ビルド、Conflux、ボス、クロスプレイまで、Endless Ragnarokをプレイするために必要なすべての情報。",
+    "cards": [
+      {
+        "icon": "Clock",
+        "title": "Endless Ragnarok リリース",
+        "description": "発売日、対応機種、ストア情報"
+      },
+      {
+        "icon": "Package",
+        "title": "Endless Ragnarok エディション",
+        "description": "フルエディションとUpgrade Kit、および特典の比較"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Endless Ragnarok 初心者向けガイド",
+        "description": "新規プレイヤーおよび復帰プレイヤーの始め方"
+      },
+      {
+        "icon": "Users",
+        "title": "Endless Ragnarok キャラクター",
+        "description": "キャラクター一覧、役割、プレイスタイルに応じた選択"
+      },
+      {
+        "icon": "Hammer",
+        "title": "Endless Ragnarok ビルド",
+        "description": "Master Traits、ジーン、ビルドの方向性"
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Endless Ragnarok Confluxモード",
+        "description": "ソロ向けエンドコンテンツ、報酬、周回"
+      },
+      {
+        "icon": "TriangleAlert",
+        "title": "Endless Ragnarok ボス＆召喚",
+        "description": "新ボス、Ragnalia、召喚の攻略法"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Endless Ragnarok クロスプレイ",
+        "description": "4人協力プレイとクロスプラットフォームマルチプレイ"
+      }
+    ]
+  },
+  "modules": {
+    "releaseDateAndPlatforms": {
+      "eyebrow": "リリース情報",
+      "title": "Endless Ragnarokの発売日、対応機種、ストア情報",
+      "intro": "『Endless Ragnarok』は、新たなストーリーコンテンツ、共闘クエストのティア、追加のボスや召喚、Master Traits、そしてソロモード「The Conflux」によって、『Granblue Fantasy: Relink』を拡張します。すでに本編をお持ちの方は「Upgrade Kit」を購入でき、新規プレイヤーは本編と拡張コンテンツがセットになった『Endless Ragnarok』フルエディションを購入できます。",
+      "items": [
+        {
+          "label": "公式発売日",
+          "value": "2026年7月9日",
+          "details": "Endless Ragnarokの公式サイトでは、対応機種としてNintendo Switch 2、PlayStation 5、PlayStation 4、Steamが記載されています。なお、時差の影響により、Steamの米国ストアでは2026年7月8日と表示されています。"
+        },
+        {
+          "label": "Nintendo Switch 2",
+          "value": "『Endless Ragnarok』として配信",
+          "details": "公式サイトでは対応プラットフォームとしてNintendo Switch 2が記載されています。このバージョンは、すべてのコンテンツが含まれる『Endless Ragnarok』パッケージを求める新規プレイヤー向けに位置づけられています。"
+        },
+        {
+          "label": "PlayStation 5およびPlayStation 4",
+          "value": "フルエディションおよびUpgrade Kit",
+          "details": "PlayStation Storeでは、PS4およびPS5向けの『Endless Ragnarok Standard Edition』に加え、追加コンテンツとして『Standard Upgrade Kit』および『Special Upgrade Kit』がリストアップされています。"
+        },
+        {
+          "label": "Steam",
+          "value": "フルエディションとアップグレードキット",
+          "details": "Steamでは、PC版プレイヤー向けに「Upgrade Kit Standard Edition」、「Upgrade Kit Special Edition」、および「Endless Ragnarok」のフルバンドルが掲載されています。"
+        },
+        {
+          "label": "オンライン協力プレイ",
+          "value": "最大4人",
+          "details": "PlayStation StoreではPS Plus加入による最大4人のオンラインプレイへの対応が、Steamではオンライン協力プレイおよびクロスプラットフォームマルチプレイ機能への対応が記載されています。"
+        },
+        {
+          "label": "クロスプレイ",
+          "value": "クロスプラットフォームマルチプレイ対応",
+          "details": "Steamにはクロスプラットフォームマルチプレイが記載されており、本拡張コンテンツはプラットフォームを越えた4人オンライン協力プレイをサポートしています。"
+        },
+        {
+          "label": "ゲームジャンル",
+          "value": "アクションRPG拡張コンテンツおよびアップデート版",
+          "details": "Endless Ragnarokは、Granblue Fantasy: Relinkの本編を置き換えるのではなく、ソロおよびマルチプレイ用の拡張コンテンツを追加するものです。"
+        }
+      ]
+    },
+    "editionsAndUpgradeKit": {
+      "eyebrow": "購入ガイド",
+      "title": "Endless Ragnarokはどのエディションを購入すべき？",
+      "intro": "公式の製品ラインナップでは、Endless Ragnarokに2つの購入ルートが用意されています。新規プレイヤー向けのフルエディションと、すでにGranblue Fantasy: Relinkを所有しているプレイヤー向けのUpgrade Kitです。Special Editionには、Endless Ragnarok Special PackとGranblue Fantasy: Relink DLC Collectionが追加されます。",
+      "items": [
+        {
+          "edition": "Granblue Fantasy: Relink - Endless Ragnarok Standard Edition",
+          "bestFor": "新規プレイヤー向け",
+          "format": "パッケージ版またはダウンロード版フルエディション",
+          "includes": [
+            "Granblue Fantasy: Relink ゲーム本編",
+            "Endless Ragnarok Upgrade Kit"
+          ],
+          "price": "SteamおよびPlayStation Storeにて59.99ドル",
+          "bonus": "対象の購入バージョンには、予約特典としてジーン「ガッツIII」＆「自動復活III」セットが含まれる場合があります。",
+          "notes": "まだGranblue Fantasy: Relinkを所有していない場合は、こちらを選択してください。"
+        },
+        {
+          "edition": "Granblue Fantasy: Relink - Endless Ragnarok Special Edition",
+          "bestFor": "DLCがセットになったバージョンを求める新規プレイヤー向け",
+          "format": "ダウンロード版フルエディション",
+          "includes": [
+            "Granblue Fantasy: Relink ゲーム本編",
+            "Endless Ragnarok Upgrade Kit",
+            "Endless Ragnarok Special Pack",
+            "Granblue Fantasy: Relink DLC Collection"
+          ],
+          "price": "SteamおよびPlayStation Storeにて79.99ドル",
+          "bonus": "対象の購入バージョンには、予約特典としてジーン「ガッツIII」＆「自動復活III」セットが含まれる場合があります。",
+          "notes": "ゲーム本編、拡張コンテンツ、キャラクターの特別カラー、便利なアイテム、そして過去に配信されたDLCをまとめて入手したい場合は、こちらを選択してください。"
+        },
+        {
+          "edition": "Endless Ragnarok Upgrade Kit Standard Edition",
+          "bestFor": "すでにGranblue Fantasy: Relinkを所有しているプレイヤー向け",
+          "format": "ダウンロード版アドオン",
+          "includes": [
+            "Endless Ragnarok Upgrade Kit"
+          ],
+          "price": "SteamおよびPlayStation Storeにて29.99ドル",
+          "bonus": "現地時間2026年8月31日午後11時59分までに購入された場合、Steam早期購入特典としてジーン「追撃V」＆「属性変換」セットが含まれます。",
+          "notes": "同一プラットフォームのGranblue Fantasy: Relinkゲーム本編が必要です。"
+        },
+        {
+          "edition": "Endless Ragnarok アップグレードキット スペシャルエディション",
+          "bestFor": "拡張コンテンツに加え、DLC特典を希望する既存の所有者向け",
+          "format": "デジタル追加コンテンツ",
+          "includes": [
+            "Endless Ragnarok アップグレードキット",
+            "Endless Ragnarok スペシャルパック",
+            "Granblue Fantasy: Relink DLCコレクション"
+          ],
+          "price": "SteamおよびPlayStation Storeにて$54.99",
+          "bonus": "主人公、イド、サンダルフォンの特別キャラクターカラーに加え、シエテ、ソーン、サンダルフォンを解放するための便利なアイテムが含まれています。",
+          "notes": "Steam版には、DLCコレクションを通じてカラーパック1〜5と追加エモートセットも含まれています。"
+        },
+        {
+          "edition": "パッケージ通常版",
+          "bestFor": "パッケージ版を購入するコレクターおよびコンシューマーゲームプレイヤー向け",
+          "format": "パッケージ版フルエディション",
+          "includes": [
+            "Granblue Fantasy: Relink - Endless Ragnarok フルエディション"
+          ],
+          "price": "販売価格は店舗によって異なります",
+          "bonus": "初回生産分のパッケージ版には、特典として「根性III」＆「自動復活III」のジーンセットが含まれています。",
+          "notes": "パッケージ版の特典コンテンツは初回生産分のみの数量限定です。"
+        }
+      ]
+    },
+    "beginnerGuide": {
+      "eyebrow": "ビギナーズガイド",
+      "title": "新規・復帰プレイヤーのためのEndless Ragnarokの始め方",
+      "intro": "Endless Ragnarokは、新規プレイヤーと既存のRelinkプレイヤーの両方向けに作られています。新規プレイヤーはEndless Ragnarokのフルエディションから始めるのがおすすめで、復帰プレイヤーは同じプラットフォームのアップグレードキットを使用してGranblue Fantasy: Relinkからデータを引き継いでプレイできます。",
+      "steps": [
+        {
+          "title": "適切な購入方法の選択",
+          "description": "Granblue Fantasy: Relinkを初めてプレイする場合は、Endless Ragnarokのフルエディションを購入してください。すでに同じプラットフォームでゲーム本編を所有している場合のみ、アップグレードキットを購入してください。",
+          "result": "コンテンツの重複購入を避け、正しいバージョンで開始できます。"
+        },
+        {
+          "title": "まずはRelinkの基本操作とシステムを学びましょう",
+          "description": "公式マニュアルの「ゲームの始め方」、「画面の見方」、「操作方法」、「ゲームプレイの概要」、「バトル」、「キャラクター育成」、「メインメニュー」、「フォトモード」、「オンラインプレイ」の各項目を確認してください。",
+          "result": "拡張コンテンツに入る前に、移動、バトルの流れ、キャラクターのセットアップ、マルチプレイの基本を理解できます。"
+        },
+        {
+          "title": "最初は扱いやすい役割のキャラクターを選びましょう",
+          "description": "バランスの取れた初心者向けとして主人公、味方を守るカタリナ、遠距離攻撃のラカムやオイゲン、魔法攻撃のイオやカリオストロ、前線でタフに戦うヴェインやバザラガを使用しましょう。",
+          "result": "一度に多くのプレイスタイルを切り替えることなく、バトルの立ち回りを素早く習得できます。"
+        },
+        {
+          "title": "新たな拡張システムに備えましょう",
+          "description": "Endless Ragnarokでは、召喚、マスター特性、新たなマルチプレイクエストの難易度、追加ボス、および拡張されたソロとマルチプレイコンテンツが追加されます。",
+          "result": "強化素材を消費する前に、どの新システムが重要かを把握できます。"
+        },
+        {
+          "title": "難易度が上がったらオンラインマルチプレイを活用しましょう",
+          "description": "Relinkは最大4人のオンラインマルチプレイに対応しており、Endless Ragnarokではさらに高いクエスト難易度やボスが追加されます。しっかりと強化したキャラクターを使用し、パーティのニーズに合わせて役割を調整しましょう。",
+          "result": "連携された火力、サポート、生存スキルを合わせることで、高難易度クエストのクリアが容易になります。"
+        },
+        {
+          "title": "ストーリーを進めた後は「The Conflux」に挑戦しましょう",
+          "description": "「The Conflux」はEndless Ragnarokの新しいソロ専用モードであり、独立したエンドコンテンツ風のアクティビティの中で、予測不可能な挑戦と特別な能力を軸に構成されています。",
+          "result": "拡張コンテンツのストーリーと戦闘システムを把握した後の、明確な次の目標となります。"
+        }
+      ]
+    },
+    "charactersAndBestRoles": {
+      "eyebrow": "キャラクター",
+      "title": "Endless Ragnarokのキャラクター、役割、プレイスタイルの選択",
+      "intro": "Endless Ragnarokでは、Granblue Fantasy: Relinkのメンバーが再登場するだけでなく、ベルゼバブ、フェディエル、フラウ、ザ・ワールドといった主要な新キャラクターや再登場キャラクターにスポットライトが当てられます。根拠のない最強ランキングに頼るのではなく、ロールタグを活用してプレイスタイルに合ったキャラクターを選びましょう。",
+      "items": [
+        {
+          "group": "バランス型スターター",
+          "characters": [
+            "主人公 / 団長"
+          ],
+          "roleTag": "オールラウンダー",
+          "bestFor": "戦闘、アビリティ、パーティの基本を学ぶ新規プレイヤー",
+          "officialContext": "主人公は騎空団を率いて、ゼーガ・グランデ空域を巡る旅を始めます。"
+        },
+        {
+          "group": "序盤のサポートと守護",
+          "characters": [
+            "カタリナ",
+            "ヴェイン",
+            "カリオストロ"
+          ],
+          "roleTag": "防御とサポート",
+          "bestFor": "より安全なクエストクリア、味方の保護、またはユーティリティ重視のプレイを求めるプレイヤー",
+          "officialContext": "カタリナはルリアの護り手、ヴェインは仲間を守ることに身を捧げる騎士、カリオストロは錬金術の開祖として描かれています。"
+        },
+        {
+          "group": "遠距離・魔法キャラクター",
+          "characters": [
+            "ラカム",
+            "オイゲン",
+            "イオ",
+            "ソーン"
+          ],
+          "roleTag": "遠距離ダメージ",
+          "bestFor": "離れた距離からの攻撃や、より安全な立ち回りで戦闘をコントロールすることを好むプレイヤー",
+          "officialContext": "ラカムはグランサイファーの操舵士、オイゲンはベテランの騎空士、イオは若き魔導士、そしてソーンは十天衆の弓の名手です。"
+        },
+        {
+          "group": "高速近接ダメージ",
+          "characters": [
+            "ランスロット",
+            "シャルロッテ",
+            "ヨダルラーハ",
+            "ナルメア",
+            "ゼタ"
+          ],
+          "roleTag": "高機動近接",
+          "bestFor": "積極的な回避、近接戦でのプレッシャー、そして素早い攻撃リズムを楽しむプレイヤー",
+          "officialContext": "これらの仲間は、「双剣の天才」、「小さな正義」、「幻惑の剣士」、「泡沫の刃」、「真紅の槍」といった、武器に焦点を当てた特徴（アイデンティティ）として表現されています。"
+        },
+        {
+          "group": "重厚な前衛ダメージ",
+          "characters": [
+            "バザラガ",
+            "パーシヴァル",
+            "ジークフリート",
+            "ガンダゴウザ"
+          ],
+          "roleTag": "重量級近接",
+          "bestFor": "動作は遅くとも強力な一撃や、前線でのプレッシャーを好むプレイヤー",
+          "officialContext": "バザラガは大鎌グロウノスを手に戦い、パーシヴァルは炎帝、ジークフリートは竜殺し、そしてガンダゴウザは不滅 of 怒りのグランドマスターです。"
+        },
+        {
+          "group": "十天衆と天司の仲間たち",
+          "characters": [
+            "シエテ",
+            "ソーン",
+            "サンダルフォン"
+          ],
+          "roleTag": "上級キャラクター",
+          "bestFor": "ゲーム終盤の重要キャラクターやDLC関連キャラクターを探しているプレイヤー向け",
+          "officialContext": "シエテは十天衆を率い、ソーンは十天衆の弓の達人であり、サンダルフォンは誓約の天司として天司たちを率いています。"
+        },
+        {
+          "group": "Endless Ragnarok 新規プレイヤー",
+          "characters": [
+            "フラウ",
+            "フェディエル"
+          ],
+          "roleTag": "追加キャラクター",
+          "bestFor": "Endless Ragnarokの新しいキャラクターコンテンツに焦点を当てているプレイヤー向け",
+          "officialContext": "フラウはザ・デビルの契約者であり、フェディエルは闇を司る六竜の一柱です。"
+        },
+        {
+          "group": "Endless Ragnarokの主要キャラクター",
+          "characters": [
+            "ベルゼバブ",
+            "ザ・ワールド"
+          ],
+          "roleTag": "ストーリーと強敵へのフォーカス",
+          "bestFor": "拡張コンテンツにおける最大の脅威やボス級キャラクターを追うプレイヤー向け",
+          "officialContext": "ベルゼバブは「永遠を終わらせる者」と呼ばれ、ザ・ワールドは星の民によって創られたアーカルム・シリーズの一体です。"
+        }
+      ]
+    },
+    "buildsAndMasterTraits": {
+      "eyebrow": "ビルドガイド",
+      "title": "Endless Ragnarokのビルドとマスタートレイト",
+      "intro": "Endless Ragnarokでは、マスタートレイト、新しいクエスト難易度、召喚石、ソロ進行ルートにより、Relinkのクリア後のキャラクタービルドが拡張されます。まずは各キャラクターの役割を決定し、周回するコンテンツに合わせてスキル、武器、ジーン、そして終盤の育成要素を調整しましょう。",
+      "items": [
+        {
+          "label": "マスタートレイト",
+          "content": "マスタートレイトは、キャラクターを従来の限界以上に強化するために設計された、Endless Ragnarokの新しい育成要素です。",
+          "details": [
+            "クリア後の長期的な強化目標として活用しましょう。",
+            "すべてのキャラクターに同じビルドを強制するのではなく、それぞれのキャラクターをスペシャリストとして扱いましょう。",
+            "マスタートレイトの選択は、キャラクターの武器、ジーン、そしてスキルの役割と組み合わせましょう。"
+          ]
+        },
+        {
+          "label": "スキルセット",
+          "content": "各キャラクターは固有のスキルを持っており、戦闘用に最大4つのスキルをセットできます。",
+          "details": [
+            "ボスに圧力をかけるために、ダメージスキルを装備しましょう。",
+            "パーティの生存率を高める必要がある場合は、回復、サポート、またはユーティリティスキルを装備しましょう。",
+            "単独でビルドを完結させるのではなく、パーティメンバーと連携できるスキルを選択しましょう。"
+          ]
+        },
+        {
+          "label": "武器とジーン",
+          "content": "武器とジーンは引き続きビルドの核心であり、Endless Ragnarokの早期購入特典セットでは「追撃V」や「有利属性変換」などの貴重なジーンが注目されています。",
+          "details": [
+            "ジーンを使用して、キャラクターが最も得意とする役割をさらに強化しましょう。",
+            "「追撃V」は追加の与ダメージをサポートします。",
+            "「有利属性変換」は、強力な敵に対抗するための貴重な戦闘支援ジーンとして位置づけられています。"
+          ]
+        },
+        {
+          "label": "4人パーティの編成",
+          "content": "Relinkは、オフラインとオンラインのどちらのプレイでも4人パーティを中心に設計されています。",
+          "details": [
+            "パーティ全体でダメージ、生存力、サポートのバランスを取りましょう。",
+            "ソロで周回する際は、オフラインでAIの仲間を活用しましょう。",
+            "同じ役割が重複するのを避け、他のプレイヤーを補完し合えるマルチプレイ用のビルドを用意しましょう。"
+          ]
+        },
+        {
+          "label": "クリア後の進行ルート",
+          "content": "カオスクエストとコンフラックスは、ストーリークリア後にキャラクターや武器の強さをさらに高めるための、繰り返しプレイ可能な手段をプレイヤーに提供します。",
+          "details": [
+            "カオスクエストは、ハイエンドな戦闘能力の腕試しとして利用しましょう。",
+            "コンフラックスは、ソロでのキャラクター育成やトレジャー集めに利用しましょう。",
+            "完璧な構成が整うのを待つのではなく、周回ごとにビルドを強化していきましょう。"
+          ]
+        }
+      ]
+    },
+    "confluxModeGuide": {
+      "eyebrow": "ソロ向けエンドコンテンツ",
+      "title": "『エンドレス・ラグナロク』コンフラックスモード ガイド",
+      "intro": "コンフラックスでは、戦闘やパズル、その挑戦中のみ有効な特別な能力に満ちた、変化し続けるステージに挑みます。オンラインのマッチングに頼ることなく、繰り返しソロでキャラクターを育成・進行させたいプレイヤー向けに設計されています。",
+      "items": [
+        {
+          "title": "ソロ特化モード",
+          "description": "コンフラックスは、シングルプレイ専用のエンドコンテンツルートとして設計されています。",
+          "playerValue": "マルチプレイのロビーに参加することなく、素材集め（ファーム）やキャラクターの強化を進めたいプレイヤーに最適です。"
+        },
+        {
+          "title": "連続するエリア",
+          "description": "挑戦は各エリアをクリアし、それぞれの場所に割り当てられた目標を達成することで進行します。",
+          "playerValue": "より深部にある報酬を追い求める前に、まずは現在の部屋を確実にクリアすることに集中しましょう。"
+        },
+        {
+          "title": "ランダムパーク",
+          "description": "エリアの目標をクリアすると、その挑戦中のみ適用される一時的なパークを選択できます。",
+          "playerValue": "使用しているキャラクター、召喚の活用、そして生存に必要な要素をサポートするパークを選びましょう。"
+        },
+        {
+          "title": "特別なコンフラックスバフ",
+          "description": "このモードには、コンフラックスの内部でのみ有効になる特別な特性やバフが存在します。",
+          "playerValue": "挑戦中に有用なボーナスを累積させ、より深い階層の試練に安全に対処できるようにしましょう。"
+        },
+        {
+          "title": "トレジャーと強化報酬",
+          "description": "コンフラックスの攻略に成功すると、キャラクターや武器の強化に使用するトレジャーを獲得できます。",
+          "playerValue": "ゲーム終盤のビルド強化に向けた、ソロでの周回ルートとして繰り返し挑戦しましょう。"
+        },
+        {
+          "title": "パズルと戦闘の融合",
+          "description": "コンフラックスでは、最深部に到達するまでの道のりで、戦闘に加えてパズルや複数のバトルが組み合わさっています。",
+          "playerValue": "ボス戦のダメージ特化構成ではなく、臨機応変に対応できるビルドを用意しましょう。"
+        }
+      ]
+    },
+    "bossesAndSummons": {
+      "eyebrow": "バトルガイド",
+      "title": "『エンドレス・ラグナロク』のボスと召喚",
+      "intro": "『エンドレス・ラグナロク』では、カオスクエスト、ラグナリアの脅威、追加のボス、および新たな召喚システムを通じて、より高難度の戦闘が追加されます。最も安全なアプローチは、召喚を攻撃手段としてだけでなく、ボスからの猛攻を切り抜ける緊急時の安全な時間としても扱うことです。",
+      "steps": [
+        {
+          "title": "万全の準備でカオスクエストに挑む",
+          "description": "カオスクエストは最難関のクエストティアとして位置づけられており、新たな『エンドレス・ラグナロク』のストーリーに関連するラグナリアの脅威が登場します。",
+          "tip": "このティアの深部へ進む前に、しっかりと4人パーティの編成を整えましょう。"
+        },
+        {
+          "title": "ボスのバースト予兆に注意する",
+          "description": "カオス級コンテンツのボスはEXバースト攻撃を使用することがあり、紫色のオーラが危険の予兆として表示されます。",
+          "tip": "その予兆を目印にして、回避や防御スキル、または召喚を行うタイミングを合わせる準備をしましょう。"
+        },
+        {
+          "title": "難関バトルに挑む前に召喚を装備する",
+          "description": "召喚は装備してバトル中に呼び出すことができ、独自の攻撃スキルやサポート能力を使用できるようになります。",
+          "tip": "瞬間火力、クラウドコントロール（行動妨害）、生存能力など、自身のビルドの弱点を補う召喚を選択しましょう。"
+        },
+        {
+          "title": "操作可能な召喚を活用して攻勢をかける",
+          "description": "一部の召喚は、ルリアが召喚（チャネリング）した後に一時的に操作することが可能です。",
+          "tip": "この操作時間を利用して、一気にダメージを与えたり、ボスの危険な攻撃パターンを生き延びたりしましょう。"
+        },
+        {
+          "title": "プライマルバーストの準備",
+          "description": "特定のバトル条件を満たした状態で、パーティメンバー4人全員で奥義を発動すると、プロトバハムートやエクスカリオンなどの召喚を介してプライマルバーストを誘発することができます。",
+          "tip": "フルチェインで大ダメージを狙える瞬間のために、パーティのリソースを温存しておきましょう。"
+        },
+        {
+          "title": "ボス戦ごとの調整",
+          "description": "Endless Ragnarokでは、ベルゼバブ、ザ・ワールド、ラグナリアの敵、その他のハイエンドな強敵を含む重大な脅威が追加されます。",
+          "tip": "クエストクリアに失敗した場合は、ジーン、アビリティ、召喚のタイミング、またはパーティの役割を変更してから再挑戦してください。"
+        }
+      ]
+    },
+    "crossplayAndOnlineCoop": {
+      "eyebrow": "マルチプレイ",
+      "title": "Endless Ragnarokのクロスプレイとオンラインマルチプレイ",
+      "intro": "オンラインマルチプレイはRelinkの主要な機能の1つであり、Endless Ragnarokではクロスプラットフォームマルチプレイによってさらに拡張されます。プレイヤーはオンラインクエストに向けてパーティを編成でき、Nintendo Switch 2のプレイヤーはローカル通信機能も利用できます。",
+      "items": [
+        {
+          "feature": "クロスプレイ対応プラットフォーム",
+          "status": "対応",
+          "details": "Nintendo Switch 2、PlayStation 5、PlayStation 4、Steamのプレイヤーは、Endless Ragnarokでクロスプレイを利用できます。"
+        },
+        {
+          "feature": "オンラインマルチプレイ",
+          "status": "対応",
+          "details": "Relinkでは、クエストプレイにおいて最大4人のオンライン協力バトルが可能です。"
+        },
+        {
+          "feature": "Steamマルチプレイラベル",
+          "status": "記載あり",
+          "details": "Steamのストアページでは、オンラインマルチプレイとクロスプラットフォームマルチプレイが対応機能として記載されています。"
+        },
+        {
+          "feature": "Nintendo Switch 2 ローカル通信",
+          "status": "対応",
+          "details": "Nintendo Switch 2のプレイヤーは、ローカル通信を利用して最大4人での協力プレイが可能です。"
+        },
+        {
+          "feature": "オンラインサービスへの加入要件",
+          "status": "プラットフォームにより異なる",
+          "details": "PlayStationなどのコンソールプラットフォームでオンラインプレイを行うには、有料のオンラインサービスへの加入が必要ですが、Steamでは必要ありません。"
+        },
+        {
+          "feature": "ローカル通信中のゲームシェア",
+          "status": "利用不可",
+          "details": "Nintendo Switch 2のプレイヤー間でローカル通信を使用している間は、ゲームシェアを利用できません。"
+        },
+        {
+          "feature": "アップグレードキットの互換性",
+          "status": "同一プラットフォームでのアップグレード",
+          "details": "Steam版アップグレードキットは、すでにGranblue Fantasy: Relinkをお持ちのプレイヤーを対象としており、同一プラットフォーム上のゲームをアップグレードします。"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "よくある",
+    "titleHighlight": "質問",
+    "subtitle": "Endless Ragnarokに関するすべての情報",
+    "questions": [
+      {
+        "question": "Endless Ragnarokとは何ですか？",
+        "answer": "Endless Ragnarokは、Cygamesが開発したGranblue Fantasy: Relinkの大型拡張コンテンツおよびアップデート版です。新たなストーリーコンテンツ、キャラクター、ボス、召喚、マスタートレイト、ソロ専用モード「コンフラックス」、そしてNintendo Switch 2、PlayStation、Steam間での最大4人によるオンラインマルチプレイが追加されます。"
+      },
+      {
+        "question": "Endless Ragnarokの発売日はいつですか？",
+        "answer": "Endless Ragnarokは、Nintendo Switch 2、PlayStation 5、PlayStation 4、Steam向けに2026年7月9日に発売されます。Steamの米国ストアページでは、地域の時差の関係で2026年7月8日と表示されます。"
+      },
+      {
+        "question": "Endless RagnarokをプレイするにはGranblue Fantasy: Relinkが必要ですか？",
+        "answer": "アップグレードキットを購入する場合のみ必要です。新規プレイヤーの方は、本編と拡張コンテンツがセットになったEndless Ragnarokフルエディションを購入できます。すでにGranblue Fantasy: Relinkをお持ちの方は、同一プラットフォームでアップグレードキットを購入してください。"
+      },
+      {
+        "question": "Endless Ragnarokはクロスプレイに対応していますか？",
+        "answer": "はい。Endless Ragnarokは、Nintendo Switch 2、PlayStation、Steam間でのクロスプラットフォームマルチプレイに対応しており、最大4人でのオンライン共闘（コープ）が可能です。PlayStationでのオンラインプレイにはPS Plusへの加入が必要です。"
+      },
+      {
+        "question": "Endless Ragnarokにおける「Conflux」とは何ですか？",
+        "answer": "「Conflux」は、Endless Ragnarokの新しいソロ専用エンドコンテンツモードです。ローグライト形式を採用しており、挑戦するたびに変化する予測不能な試練や特殊能力が特徴で、エンドゲームの周回コンテンツの主軸となります。"
+      },
+      {
+        "question": "Endless Ragnarokのコード（特典コード）はありますか？",
+        "answer": "Endless Ragnarokでは、従来のコード入力による特典配布は行っていません。コードの引き換えではなく、Cygames ID連携特典、予約特典のジーンセット、およびパッケージ版の初回生産限定特典として報酬を受け取ることができます。"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Endless Ragnarokに挑む準備はできていますか？",
+    "description": "Discordの『グランブルーファンタジー リリンク』コミュニティに参加して、Endless Ragnarokの攻略ガイド、ビルド、最新アップデート、共闘マルチプレイの相談などをチェックしましょう！",
+    "joinCommunity": "Discordに参加する",
+    "joinGame": "Steam / PS5 / Switch 2でプレイ"
+  },
+  "footer": {
+    "title": "Endless Ragnarok Wiki",
+    "description": "『グランブルーファンタジー リリンク』のEndless Ragnarokにおけるボス攻略、武器ビルド、キャラクター戦略、クエスト攻略情報を網羅した総合情報サイトです。",
+    "resources": "リソース",
+    "community": "コミュニティ",
+    "legal": "法的情報",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "reddit": "Reddit",
+    "youtube": "YouTube",
+    "about": "このサイトについて",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "copyrightNotice": "著作権",
+    "copyright": "© 2026 Endless Ragnarok Wiki. Cygamesとは提携していません。",
+    "disclaimer": "非公式のファン作成攻略サイトです。"
+  },
+  "pages": {
+    "release": {
+      "title": "Endless Ragnarok 発売日・配信開始時間＆カウントダウン",
+      "description": "Nintendo Switch 2、PlayStation 5、PlayStation 4、Steam向けEndless Ragnarokの公式発売日、配信開始時間、予約特典詳細、カウントダウン、およびローンチトレーラー。",
+      "metaTitle": "Endless Ragnarok 発売日＆カウントダウン - Switch 2, PS5, Steam",
+      "metaDescription": "Nintendo Switch 2、PlayStation 5、PS4、Steam向けEndless Ragnarokの公式発売日、配信開始時間、予約情報、ローンチトレーラーをご確認いただけます。",
+      "categoryLabel": "リリース情報",
+      "whatIs": "Endless Ragnarokのリリースとは？",
+      "whatIsDescription": "Endless Ragnarokは、『グランブルーファンタジー リリンク』の大型拡張コンテンツおよびアップデート版であり、2026年7月9日にNintendo Switch 2、PlayStation 5、PlayStation 4、Steam向けに発売されます。新たなストーリーコンテンツ、キャラクター、ボス、召喚石、マスタートレイト、そしてソロ専用モード「Conflux」が追加されます。",
+      "why": "リリース情報を確認すべき理由",
+      "whySteps": {
+        "step1Title": "正確な配信開始日を把握する",
+        "step1Description": "2026年7月9日の発売日を確認し、地域のストア配信タイミングの関係でSteamの米国ストアページに7月8日と表示されている理由を理解しましょう。",
+        "step2Title": "予約購入の計画を立てる",
+        "step2Description": "発売前に通常版/特別版と「アップグレードキット」を比較し、新規プレイヤーまたは復帰プレイヤーに最適なバージョンを購入できるようにしましょう。",
+        "step3Title": "ローンチトレーラーを視聴する",
+        "step3Description": "拡張コンテンツの配信開始前に、公式ローンチトレーラーを視聴して新しいキャラクター、ボス、モードをチェックしましょう。"
+      },
+      "featured": "注目のリリースガイド",
+      "all": "すべてのリリースガイド"
+    },
+    "platforms": {
+      "title": "Endless Ragnarokの対応機種、クロスプレイ＆動作環境",
+      "description": "Nintendo Switch 2、PlayStation 5、PlayStation 4、SteamにおけるEndless Ragnarokの対応状況に加え、クロスプレイ、クロスセーブ、動作環境、PC版のダウンロード容量について。",
+      "metaTitle": "Endless Ragnarokの対応機種＆クロスプレイ - Switch 2, PS5, PS4, Steam",
+      "metaDescription": "Switch 2、PS5、PS4、SteamにおけるEndless Ragnarokの対応プラットフォーム、クロスプレイ、クロスセーブ、PC動作環境、ダウンロード容量を確認しましょう。",
+      "categoryLabel": "対応機種",
+      "whatIs": "Endless Ragnarokの対応機種は何ですか？",
+      "whatIsDescription": "Endless RagnarokはNintendo Switch 2、PlayStation 5、PlayStation 4、Steamでプレイ可能です。全4プラットフォーム間でのクロスプラットフォームマルチプレイに対応しており、最大4人でのオンライン協力プレイが楽しめます。",
+      "why": "プラットフォームガイドを確認する理由",
+      "whySteps": {
+        "step1Title": "対応機種の確認",
+        "step1Description": "ゲーム本編またはアップグレードキットを購入する前に、お使いのゲーム機やPCが対応しているか確認してください。",
+        "step2Title": "クロスプレイとクロスセーブの設定",
+        "step2Description": "他の機種のフレンドと一緒に遊べるよう、クロスプラットフォームマルチプレイとクロスセーブの仕組みを把握しておきましょう。",
+        "step3Title": "動作環境の確認",
+        "step3Description": "ゲームをインストールする前に、PCの動作環境、ダウンロード容量、Switch 2でのパフォーマンスを確認してください。"
+      },
+      "featured": "おすすめのプラットフォームガイド",
+      "all": "すべてのプラットフォームガイド"
+    },
+    "price": {
+      "title": "Endless Ragnarokの価格、エディション＆アップグレードキットの価格",
+      "description": "Endless Ragnarokの本編フルエディションとアップグレードキットの価格、スタンダード版とスペシャル版の違い、無料版の有無、割引情報について。",
+      "metaTitle": "Endless Ragnarokの価格＆エディション - スタンダード、スペシャル、アップグレードキット",
+      "metaDescription": "Switch 2、PS5、SteamにおけるEndless Ragnarokの価格比較、スタンダード版とスペシャル版の違い、アップグレードキットの価格、割引、および拡張コンテンツの無料提供の有無について。",
+      "categoryLabel": "価格＆エディション",
+      "whatIs": "Endless Ragnarokの価格はいくらですか？",
+      "whatIsDescription": "Endless Ragnarokは有料の拡張コンテンツです。新規プレイヤーは本編フルセットのスタンダードエディション（$59.99）またはスペシャルエディション（$79.99）を購入し、すでにGranblue Fantasy: Relinkをお持ちの方はスタンダード（$29.99）またはスペシャル（$54.99）のアップグレードキットを購入します。",
+      "why": "エディションを比較する理由",
+      "whySteps": {
+        "step1Title": "最適な購入方法の選択",
+        "step1Description": "新規プレイヤーは本編フルエディションを、すでに同じプラットフォームでGranblue Fantasy: Relinkを所有している方はアップグレードキットを選択してください。",
+        "step2Title": "スタンダードとスペシャルの比較",
+        "step2Description": "スペシャルパック、キャラクターカラー、DLCコレクションなど、スペシャルエディションに同梱される追加コンテンツを確認しましょう。",
+        "step3Title": "割引や特典の確認",
+        "step3Description": "早期購入特典のジーンや、パッケージ版初回生産限定特典、ローンチ割引などをチェックしましょう。"
+      },
+      "featured": "おすすめの価格ガイド",
+      "all": "すべての価格ガイド"
+    },
+    "characters": {
+      "title": "Endless Ragnarokのキャラクター、新規参戦キャラ＆役割",
+      "description": "フラウ、フェディエル、マグリール、サンダルフォン、シエテ、ソーンなどの新規追加キャラクターを含む、Endless Ragnarokの全登場キャラクターの役割、解放条件、プレイスタイルに応じたおすすめを紹介。",
+      "metaTitle": "Endless Ragnarokのキャラクター＆新規参戦キャラ - フラウ、フェディエル、サンダルフォン",
+      "metaDescription": "フラウ、フェディエル、マグリール、サンダルフォン、シエテ、ソーンなどの新規参戦キャラクターを含む、Endless Ragnarokの全キャラクターの役割やおすすめのプレイスタイル一覧。",
+      "categoryLabel": "キャラクター",
+      "whatIs": "Endless Ragnarokに登場するキャラクターは？",
+      "whatIsDescription": "Endless RagnarokではGranblue Fantasy: Relinkの全プレイアブルキャラクターが再登場するほか、フラウ、フェディエル、マグリール、サンダルフォン、シエテ、ソーンが新たに参戦し、それぞれ異なる武器、アビリティ、役割を持っています。",
+      "why": "キャラクターリストをチェックする理由",
+      "whySteps": {
+        "step1Title": "新たなキャラクターを探す",
+        "step1Description": "Endless Ragnarokで追加された新キャラクターと、それぞれの戦闘における特徴を確認しましょう。",
+        "step2Title": "プレイスタイルに合ったキャラクターを選ぶ",
+        "step2Description": "ロールタグを活用して、近接、遠距離、魔法、サポートなど、好みのプレイスタイルに合ったキャラクターを選びましょう。",
+        "step3Title": "解放条件を確認する",
+        "step3Description": "お気に入りのパーティーをできるだけ早く編成できるよう、各キャラクターの解放方法を確認しておきましょう。"
+      },
+      "featured": "注目のキャラクターガイド",
+      "all": "すべてのキャラクターガイド"
+    },
+    "guide": {
+      "title": "Endless Ragnarok ガイド＆初心者向け攻略",
+      "description": "Granblue Fantasy: Relinkの新規・復帰プレイヤー向けに、初心者向けヒント、バトルの基本、キャラクタービルド、The Conflux、Summons、ゲームの進行状況などをカバーするEndless Ragnarokガイド。",
+      "metaTitle": "Endless Ragnarok ガイド＆初心者向け攻略 - ヒントと進行方法",
+      "metaDescription": "戦闘の基本、キャラクタービルド、The Conflux、エンドゲームの進行ヒントなど、初心者や復帰プレイヤー向けのEndless Ragnarokガイドをご覧ください。",
+      "categoryLabel": "ガイド",
+      "whatIs": "Endless Ragnarokのガイドにはどのような内容が含まれていますか？",
+      "whatIsDescription": "Endless Ragnarokのガイドでは、新規および復帰したGranblue Fantasy: Relinkプレイヤー向けに、バトルの基本、キャラクタービルド、Master Traits、Summons、ソロモード「The Conflux」、co-opの進行方法をわかりやすく解説しています。",
+      "why": "なぜガイドを読むべきなのか？",
+      "whySteps": {
+        "step1Title": "初心者向けガイドから始める",
+        "step1Description": "追加コンテンツをプレイする前に、基本システム、操作方法、購入方法を確認しておきましょう。",
+        "step2Title": "賢くキャラクターを育成する",
+        "step2Description": "スキル、武器、ジーン、Master Traitsを理解し、強化素材を効率よく使いましょう。",
+        "step3Title": "エンドゲームへ進む",
+        "step3Description": "ガイドを参考に、ストーリーコンテンツからChaos questsやThe Confluxへと計画的に進めましょう。"
+      },
+      "featured": "注目のガイド",
+      "all": "すべてのガイド"
+    },
+    "demo": {
+      "title": "Endless Ragnarok 体験版、ベータ＆体験版特典",
+      "description": "プレイ可能な体験版キャラクター、製品版に引き継ぎ可能なクエスト報酬、オープンベータの実施期間など、Endless Ragnarokの体験版およびベータの詳細。",
+      "metaTitle": "Endless Ragnarok 体験版＆ベータ - 特典、キャラクター、オープンベータ",
+      "metaDescription": "プレイ可能な体験版やベータで、一足先にEndless Ragnarokを体験しましょう。プレイ可能な体験版キャラクター、引き継ぎ可能なクエスト報酬、Switch 2、PS5、Steamでのオープンベータ情報をご確認ください。",
+      "categoryLabel": "体験版＆ベータ",
+      "whatIs": "Endless Ragnarokの体験版やベータはありますか？",
+      "whatIsDescription": "Endless Ragnarokでは、Nintendo Switch 2、PlayStation 5、PlayStation 4、Steam向けに、ストーリー、クエスト、チュートリアルの各モードをプレイできる体験版が提供されています。クエストをクリアすると召喚システムが解放され、製品版に引き継げる報酬を獲得できます。",
+      "why": "体験版をプレイする理由は？",
+      "whySteps": {
+        "step1Title": "新キャラクターを試す",
+        "step1Description": "購入前に体験版をプレイして、Endless Ragnarokのアップデートされた戦闘や新たな召喚メカニクスを体験しましょう。",
+        "step2Title": "引き継ぎ可能な報酬を獲得する",
+        "step2Description": "体験版のクエストをクリアして、発売時に製品版へ引き継げる報酬を解放しましょう。",
+        "step3Title": "オープンベータに参加する",
+        "step3Description": "オープンベータの実施期間を利用して、オンラインのクロスプレイco-opを体験し、拡張コンテンツの新システムのストレステストに参加しましょう。"
+      },
+      "featured": "注目の体験版ガイド",
+      "all": "すべての体験版ガイド"
+    }
   }
 }

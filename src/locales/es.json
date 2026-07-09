@@ -1,10 +1,700 @@
 {
+  "seo": {
+    "home": {
+      "title": "Endless Ragnarok Wiki - Guías de jefes, armas y builds",
+      "description": "Endless Ragnarok Wiki cubre guías de jefes, builds de armas, estrategias de personajes, guías de misiones y consejos cooperativos para la expansión de RPG de acción Endless Ragnarok de Granblue Fantasy: Relink.",
+      "keywords": "Endless Ragnarok, Granblue Fantasy Relink, Endless Ragnarok wiki, guías de jefes, builds de armas, guía de personajes, Cygames, RPG de acción",
+      "ogTitle": "Endless Ragnarok Wiki - Guías de jefes, armas y builds",
+      "ogDescription": "Endless Ragnarok Wiki cubre guías de jefes, builds de armas, estrategias de personajes, guías de misiones y consejos cooperativos para la expansión de RPG de acción Endless Ragnarok de Granblue Fantasy: Relink.",
+      "twitterTitle": "Endless Ragnarok Wiki - Guías de jefes, armas y builds",
+      "twitterDescription": "Guías de jefes, builds de armas, estrategias de personajes y guías de misiones para Endless Ragnarok en Granblue Fantasy: Relink."
+    }
+  },
   "nav": {
-    "release": "Estreno",
+    "release": "Lanzamiento",
     "platforms": "Plataformas",
     "price": "Precio",
     "characters": "Personajes",
-    "guide": "Guías",
+    "guide": "Guía",
     "demo": "Demo"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar en Steam",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que estás buscando no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Artículos próximamente"
+  },
+  "hero": {
+    "badge": "Expansión de RPG de acción para el endgame",
+    "title": "Endless Ragnarok Wiki",
+    "description": "Domina a cada jefe, crea el arma perfecta y sobrevive al endgame infinito de la expansión Endless Ragnarok de Granblue Fantasy: Relink con guías cooperativas, builds de armas y guías de misiones.",
+    "getFreeCodesCTA": "Reclamar bonificaciones de Link",
+    "playOnSteamCTA": "Jugar en Steam / PlayStation / Switch 2",
+    "stats": {
+      "stat1": {
+        "value": "9 jul. 2026",
+        "label": "Fecha de lanzamiento"
+      },
+      "stat2": {
+        "value": "1-4",
+        "label": "Jugadores en línea"
+      },
+      "stat3": {
+        "value": "4",
+        "label": "Plataformas"
+      },
+      "stat4": {
+        "value": "10",
+        "label": "Idiomas de la interfaz"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay de Endless Ragnarok",
+    "description": "Sumérgete en el nuevo contenido de la historia, niveles de misiones cooperativas expandidos, jefes e invocaciones adicionales, Master Traits y el modo en solitario de endgame The Conflux en Nintendo Switch 2, PlayStation y Steam."
+  },
+  "tools": {
+    "title": "Endless Ragnarok",
+    "titleHighlight": "Recursos",
+    "subtitle": "Todo lo que necesitas para jugar a Endless Ragnarok, desde detalles de lanzamiento y ediciones hasta personajes, builds, Conflux, jefes y crossplay.",
+    "cards": [
+      {
+        "icon": "Clock",
+        "title": "Lanzamiento de Endless Ragnarok",
+        "description": "Fecha de lanzamiento, plataformas y disponibilidad en tiendas"
+      },
+      {
+        "icon": "Package",
+        "title": "Ediciones de Endless Ragnarok",
+        "description": "Edición completa frente al Upgrade Kit y bonificaciones"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Guía para principiantes de Endless Ragnarok",
+        "description": "Cómo empezar como jugador nuevo o que regresa"
+      },
+      {
+        "icon": "Users",
+        "title": "Personajes de Endless Ragnarok",
+        "description": "Elenco, roles y elecciones de estilo de juego"
+      },
+      {
+        "icon": "Hammer",
+        "title": "Builds de Endless Ragnarok",
+        "description": "Master Traits, Sigilos y dirección de la build"
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Modo Conflux de Endless Ragnarok",
+        "description": "Modo endgame en solitario, recompensas y partidas"
+      },
+      {
+        "icon": "TriangleAlert",
+        "title": "Jefes e invocaciones de Endless Ragnarok",
+        "description": "Nuevos jefes, Ragnalia y estrategia de invocaciones"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Crossplay de Endless Ragnarok",
+        "description": "Cooperativo para 4 jugadores y multijugador multiplataforma"
+      }
+    ]
+  },
+  "modules": {
+    "releaseDateAndPlatforms": {
+      "eyebrow": "Información de lanzamiento",
+      "title": "Fecha de lanzamiento, plataformas y disponibilidad en tiendas de Endless Ragnarok",
+      "intro": "Endless Ragnarok expande Granblue Fantasy: Relink con nuevo contenido de la historia, niveles de misiones cooperativas, jefes adicionales, invocaciones, master traits y el modo en solitario The Conflux. Los propietarios actuales pueden comprar el Upgrade Kit, mientras que los recién llegados pueden comprar la edición completa de Endless Ragnarok que incluye el juego base y el contenido de la expansión.",
+      "items": [
+        {
+          "label": "Fecha de lanzamiento oficial",
+          "value": "9 de julio de 2026",
+          "details": "El sitio oficial de Endless Ragnarok incluye el juego para Nintendo Switch 2, PlayStation 5, PlayStation 4 y Steam. La lista de la tienda de Steam en EE. UU. muestra el 8 de julio de 2026 debido a la diferencia horaria regional."
+        },
+        {
+          "label": "Nintendo Switch 2",
+          "value": "Disponible como Endless Ragnarok",
+          "details": "El sitio oficial incluye a Nintendo Switch 2 como plataforma compatible. Esta versión está pensada para los recién llegados que quieren el paquete completo de Endless Ragnarok."
+        },
+        {
+          "label": "PlayStation 5 y PlayStation 4",
+          "value": "Edición completa y Upgrade Kit",
+          "details": "La PlayStation Store incluye la Edición Estándar de Endless Ragnarok para PS4 y PS5, además de los complementos del Upgrade Kit Estándar y Especial."
+        },
+        {
+          "label": "Steam",
+          "value": "Edición completa y Upgrade Kit",
+          "details": "Steam incluye la Upgrade Kit Standard Edition, la Upgrade Kit Special Edition y los paquetes completos de Endless Ragnarok para los jugadores de PC."
+        },
+        {
+          "label": "Cooperativo en línea",
+          "value": "Hasta 4 jugadores",
+          "details": "PlayStation Store indica compatibilidad para hasta 4 jugadores en línea con PS Plus. Steam incluye las funciones de cooperativo en línea y multijugador multiplataforma."
+        },
+        {
+          "label": "Juego cruzado",
+          "value": "Compatible con multijugador multiplataforma",
+          "details": "Steam incluye multijugador multiplataforma, y la expansión promueve el cooperativo en línea de 4 jugadores entre plataformas."
+        },
+        {
+          "label": "Tipo de juego",
+          "value": "Expansión de RPG de acción y edición actualizada",
+          "details": "Endless Ragnarok añade contenido ampliado en solitario y multijugador a Granblue Fantasy: Relink en lugar de reemplazar al juego original."
+        }
+      ]
+    },
+    "editionsAndUpgradeKit": {
+      "eyebrow": "Guía de compra",
+      "title": "¿Qué edición de Endless Ragnarok deberías comprar?",
+      "intro": "La línea oficial de productos divide Endless Ragnarok en dos opciones de compra: una edición completa para los nuevos jugadores y un Upgrade Kit para los jugadores que ya poseen Granblue Fantasy: Relink. Las Special Editions añaden el Endless Ragnarok Special Pack y la Granblue Fantasy: Relink DLC Collection.",
+      "items": [
+        {
+          "edition": "Granblue Fantasy: Relink - Endless Ragnarok Standard Edition",
+          "bestFor": "Nuevos jugadores",
+          "format": "Edición completa física o digital",
+          "includes": [
+            "Juego base Granblue Fantasy: Relink",
+            "Endless Ragnarok Upgrade Kit"
+          ],
+          "price": "$59.99 en Steam y PlayStation Store",
+          "bonus": "Las versiones de compra elegibles pueden incluir la bonificación por reserva Guts III & Autorevive III Sigil Set.",
+          "notes": "Elige esta opción si aún no tienes Granblue Fantasy: Relink."
+        },
+        {
+          "edition": "Granblue Fantasy: Relink - Endless Ragnarok Special Edition",
+          "bestFor": "Nuevos jugadores que quieran el DLC incluido",
+          "format": "Edición completa digital",
+          "includes": [
+            "Juego base Granblue Fantasy: Relink",
+            "Endless Ragnarok Upgrade Kit",
+            "Endless Ragnarok Special Pack",
+            "Granblue Fantasy: Relink DLC Collection"
+          ],
+          "price": "$79.99 en Steam y PlayStation Store",
+          "bonus": "Las versiones de compra elegibles pueden incluir la bonificación por reserva Guts III & Autorevive III Sigil Set.",
+          "notes": "Elige esta opción si quieres el juego base, la expansión, colores de personajes especiales, objetos útiles y el DLC lanzado anteriormente en un solo paquete."
+        },
+        {
+          "edition": "Endless Ragnarok Upgrade Kit Standard Edition",
+          "bestFor": "Propietarios actuales de Granblue Fantasy: Relink",
+          "format": "Complemento digital",
+          "includes": [
+            "Endless Ragnarok Upgrade Kit"
+          ],
+          "price": "$29.99 en Steam y PlayStation Store",
+          "bonus": "La bonificación por compra anticipada de Steam incluye Supplementary Damage V y War Elemental Sigil Set al comprar antes de las 11:59 p. m. del 31 de agosto de 2026, hora local.",
+          "notes": "Requiere el juego base Granblue Fantasy: Relink en la misma plataforma."
+        },
+        {
+          "edition": "Endless Ragnarok Upgrade Kit: Edición especial",
+          "bestFor": "Propietarios existentes que quieran la expansión más los extras de DLC",
+          "format": "Complemento digital",
+          "includes": [
+            "Kit de actualización de Endless Ragnarok",
+            "Paquete especial de Endless Ragnarok",
+            "Colección de DLC de Granblue Fantasy: Relink"
+          ],
+          "price": "54,99 $ en Steam y PlayStation Store",
+          "bonus": "Incluye colores de personaje especiales para el Capitán, Id y Sandalphon, además de objetos útiles para desbloquear a Seofon, Tweyen y Sandalphon.",
+          "notes": "La lista de Steam también incluye los paquetes de colores 1-5 y los sets de expansión de gestos a través de la Colección de DLC."
+        },
+        {
+          "edition": "Edición estándar física",
+          "bestFor": "Coleccionistas y jugadores de consola que compran copias físicas",
+          "format": "Edición completa física",
+          "includes": [
+            "Edición completa de Granblue Fantasy: Relink - Endless Ragnarok"
+          ],
+          "price": "El precio de venta al público varía según la tienda",
+          "bonus": "Las copias físicas de la primera tirada incluyen como bonificación el conjunto de sellos Agallas III y Autorrevivir III.",
+          "notes": "El contenido de bonificación físico está limitado a la primera tirada de producción."
+        }
+      ]
+    },
+    "beginnerGuide": {
+      "eyebrow": "Guía para principiantes",
+      "title": "Cómo empezar Endless Ragnarok como jugador nuevo o que regresa",
+      "intro": "Endless Ragnarok está diseñado tanto para los recién llegados como para los jugadores actuales de Relink. Los nuevos jugadores deben comenzar con la edición completa de Endless Ragnarok, mientras que los jugadores que regresan pueden continuar desde Granblue Fantasy: Relink usando el Kit de actualización en la misma plataforma.",
+      "steps": [
+        {
+          "title": "Elige la opción de compra correcta",
+          "description": "Compra la edición completa de Endless Ragnarok si eres nuevo en Granblue Fantasy: Relink. Compra el Kit de actualización solo si ya posees el juego base en la misma plataforma.",
+          "result": "Evitarás comprar contenido duplicado y empezarás con la versión correcta."
+        },
+        {
+          "title": "Aprende primero los conceptos básicos de Relink",
+          "description": "Consulta las secciones del manual oficial: Cómo empezar, Interfaz (HUD), Controles, Descripción general del juego, Combates, Desarrollo de personajes, Menú principal, Modo foto y Juego en línea.",
+          "result": "Entenderás el movimiento, el flujo del combate, la configuración de los personajes y los conceptos básicos del multijugador antes de adentrarte en el contenido de la expansión."
+        },
+        {
+          "title": "Elige un rol de personaje sencillo para empezar",
+          "description": "Usa al Capitán para un estilo inicial equilibrado, a Katalina para protección, a Rackam o Eugen para el juego a distancia, a Io o Cagliostro para la magia, y a Vane o Vaseraga para un estilo de juego más pesado en primera línea.",
+          "result": "Podrás aprender los combates más rápido sin tener que cambiar entre demasiados estilos de juego a la vez."
+        },
+        {
+          "title": "Prepárate para los nuevos sistemas de la expansión",
+          "description": "Endless Ragnarok añade invocaciones, rasgos de maestro, nuevos rangos de misiones cooperativas, jefes adicionales y un contenido ampliado tanto para un jugador como multijugador.",
+          "result": "Sabrás qué nuevos sistemas son importantes antes de gastar materiales de mejora."
+        },
+        {
+          "title": "Usa el modo cooperativo en línea cuando aumente la dificultad",
+          "description": "Relink es compatible con el modo cooperativo en línea para 4 jugadores, y Endless Ragnarok añade rangos de misiones más altos y más jefes. Lleva personajes mejorados y adapta tu rol a las necesidades del grupo.",
+          "result": "Las misiones más difíciles serán más fáciles de completar con daño coordinado, apoyo y herramientas de supervivencia."
+        },
+        {
+          "title": "Pasa a The Conflux después de progresar en la historia",
+          "description": "The Conflux es el nuevo modo en solitario de Endless Ragnarok, diseñado en torno a desafíos impredecibles y poderes especiales dentro de una actividad independiente de estilo de juego final.",
+          "result": "Tendrás un objetivo claro tras conocer la historia y los sistemas de combate de la expansión."
+        }
+      ]
+    },
+    "charactersAndBestRoles": {
+      "eyebrow": "Personajes",
+      "title": "Personajes, roles y opciones de estilo de juego de Endless Ragnarok",
+      "intro": "Endless Ragnarok trae de vuelta a la tripulación de Granblue Fantasy: Relink al tiempo que destaca a figuras importantes, tanto nuevas como conocidas, como Beelzebub, Fediel, Fraux y The World. Usa las etiquetas de rol para elegir un personaje según tu estilo de juego en lugar de depender de listas de niveles no oficiales.",
+      "items": [
+        {
+          "group": "Inicial equilibrado",
+          "characters": [
+            "Capitán / Personaje principal"
+          ],
+          "roleTag": "Polivalente",
+          "bestFor": "Jugadores nuevos que están aprendiendo el combate, las habilidades y los conceptos básicos del grupo",
+          "officialContext": "El personaje principal lidera a la tripulación y comienza el viaje a través del dominio celeste de Zegagrande."
+        },
+        {
+          "group": "Apoyo y protección inicial",
+          "characters": [
+            "Katalina",
+            "Vane",
+            "Cagliostro"
+          ],
+          "roleTag": "Defensa y apoyo",
+          "bestFor": "Jugadores que buscan completar misiones de forma más segura, protección para el equipo o un estilo de juego centrado en la utilidad",
+          "officialContext": "Se describe a Katalina como la protectora de Lyria, a Vane como un caballero consagrado a proteger a sus aliados y a Cagliostro como la fundadora de la alquimia."
+        },
+        {
+          "group": "Opciones mágicas y a distancia",
+          "characters": [
+            "Rackam",
+            "Eugen",
+            "Io",
+            "Tweyen"
+          ],
+          "roleTag": "Daño a distancia",
+          "bestFor": "Jugadores que prefieren atacar desde la distancia o controlar los combates posicionándose de forma más segura",
+          "officialContext": "Rackam es el timonel del Grandcypher, Eugen es un veterano navegante de los cielos, Io es una joven maga y Tweyen es la maestra del arco de los Eternos."
+        },
+        {
+          "group": "Daño cuerpo a cuerpo rápido",
+          "characters": [
+            "Lancelot",
+            "Charlotta",
+            "Yodarha",
+            "Narmaya",
+            "Zeta"
+          ],
+          "roleTag": "Cuerpo a cuerpo móvil",
+          "bestFor": "Jugadores que disfrutan de la esquiva activa, la presión a corta distancia y un ritmo de ataque rápido",
+          "officialContext": "Estos aliados se presentan a través de identidades centradas en sus armas, como Prodigio de los Colmillos Gemelos, Pequeña Justicia, Esgrimista Ilusorio, Hoja Efímera y Lanza Carmesí."
+        },
+        {
+          "group": "Daño pesado en primera línea",
+          "characters": [
+            "Vaseraga",
+            "Percival",
+            "Siegfried",
+            "Ghandagoza"
+          ],
+          "roleTag": "Cuerpo a cuerpo pesado",
+          "bestFor": "Jugadores que prefieren golpes más lentos y fuertes y la presión en primera línea",
+          "officialContext": "Vaseraga lucha con la Gran Guadaña Grynoth, Percival es el Señor de las Llamas, Siegfried es el Matadragones y Ghandagoza es el Gran Maestro de la Ira Eterna."
+        },
+        {
+          "group": "Eternos y aliados primarcas",
+          "characters": [
+            "Seofon",
+            "Tweyen",
+            "Sandalphon"
+          ],
+          "roleTag": "Aliados avanzados",
+          "bestFor": "Jugadores que buscan personajes importantes del juego tardío o vinculados a DLC",
+          "officialContext": "Seofon lidera a los Eternos, Tweyen es la maestra del arco de los Eternos y Sandalphon comanda a los arcángeles como el Primarca de las Promesas."
+        },
+        {
+          "group": "Recién llegados de Endless Ragnarok",
+          "characters": [
+            "Fraux",
+            "Fediel"
+          ],
+          "roleTag": "Personajes de la expansión",
+          "bestFor": "Jugadores enfocados en el nuevo contenido de personajes de Endless Ragnarok",
+          "officialContext": "Fraux es la portadora del pacto con The Devil y Fediel es uno de los Seis Dragones con dominio sobre la oscuridad."
+        },
+        {
+          "group": "Principales figuras de Endless Ragnarok",
+          "characters": [
+            "Beelzebub",
+            "The World"
+          ],
+          "roleTag": "Enfoque en la historia y los enemigos",
+          "bestFor": "Jugadores que siguen las mayores amenazas narrativas de la expansión y personajes tipo jefe",
+          "officialContext": "Beelzebub es llamado el Destructor de la Eternidad, mientras que The World es uno de los Arcarum creados por los Astrales."
+        }
+      ]
+    },
+    "buildsAndMasterTraits": {
+      "eyebrow": "Guía de builds",
+      "title": "Builds y Rasgos Maestros de Endless Ragnarok",
+      "intro": "Endless Ragnarok expande la creación de personajes del postjuego de Relink con Rasgos Maestros, nuevos niveles de misiones, invocaciones y rutas de progresión en solitario. Comienza definiendo el rol de cada personaje, luego ajusta las habilidades, armas, sigilos y la progresión del juego tardío en función del contenido que estés farmeando.",
+      "items": [
+        {
+          "label": "Rasgos Maestros",
+          "content": "Los Rasgos Maestros son una nueva capa de progresión de Endless Ragnarok diseñada para llevar a los personajes más allá de sus límites anteriores.",
+          "details": [
+            "Úsalos como tu ruta de mejora a largo plazo en el postjuego.",
+            "Trata a cada personaje como un especialista en lugar de forzar una única build universal.",
+            "Combina las elecciones de Rasgos Maestros con el arma, el sigilo y el rol de habilidad del personaje."
+          ]
+        },
+        {
+          "label": "Configuración de habilidades",
+          "content": "Cada personaje tiene sus propias habilidades, y se pueden asignar hasta cuatro habilidades para la batalla.",
+          "details": [
+            "Lleva habilidades de daño para presionar a los jefes.",
+            "Lleva habilidades de curación, apoyo o utilidad cuando el grupo necesite sobrevivir.",
+            "Adapta la elección de habilidades a los miembros de tu grupo en lugar de planificarlas de forma aislada."
+          ]
+        },
+        {
+          "label": "Armas y sigilos",
+          "content": "Las armas y los sigilos siguen siendo piezas fundamentales de las builds, y Endless Ragnarok destaca sigilos raros como Daño Suplementario V y Elemental de Guerra a través de su set de bonificación por compra anticipada.",
+          "details": [
+            "Usa sigilos para reforzar el rol en el que tu personaje ya se desempeña mejor.",
+            "Daño Suplementario V ayuda a infligir daño adicional.",
+            "Elemental de Guerra se posiciona como un sigilo raro de apoyo en batalla para enemigos poderosos."
+          ]
+        },
+        {
+          "label": "Creación de grupos de cuatro personas",
+          "content": "Relink está diseñado en torno a un grupo de cuatro personas tanto en el juego sin conexión como en línea.",
+          "details": [
+            "Equilibra el daño, la supervivencia y el apoyo en toda la tripulación.",
+            "Usa compañeros controlados por la IA sin conexión cuando farmees en solitario.",
+            "Prepara builds multijugador que complementen a otros jugadores en lugar de duplicar el mismo rol."
+          ]
+        },
+        {
+          "label": "Ruta de progresión del postjuego",
+          "content": "Las misiones de Caos y el Conflux ofrecen a los jugadores formas repetibles de aumentar el poder de los personajes y las armas tras completar la historia.",
+          "details": [
+            "Usa las misiones de Caos para pruebas de combate de alto nivel.",
+            "Usa el Conflux para la progresión en solitario y el farmeo de tesoros.",
+            "Mejora tus builds después de cada bucle de farmeo en lugar de esperar a tener una configuración perfecta."
+          ]
+        }
+      ]
+    },
+    "confluxModeGuide": {
+      "eyebrow": "Endgame en solitario",
+      "title": "Guía del modo Conflux de Endless Ragnarok",
+      "intro": "El Conflux lleva a los jugadores a través de fases cambiantes llenas de batallas, acertijos y poderes especiales exclusivos de cada partida. Está diseñado para jugadores que buscan una progresión en solitario repetible sin depender del emparejamiento en línea.",
+      "items": [
+        {
+          "title": "Modo enfocado en solitario",
+          "description": "El Conflux está diseñado como una ruta de endgame dedicada para un solo jugador.",
+          "playerValue": "Ideal para jugadores que quieren farmear y progresar sin unirse a salas multijugador."
+        },
+        {
+          "title": "Zonas secuenciales",
+          "description": "Las partidas se estructuran en torno a despejar zonas y completar el objetivo asignado a cada área.",
+          "playerValue": "Concéntrate en despejar la sala actual de forma limpia antes de buscar recompensas más profundas."
+        },
+        {
+          "title": "Ventajas aleatorias",
+          "description": "Tras despejar el objetivo de una zona, los jugadores eligen entre ventajas temporales que se aplican a la partida actual.",
+          "playerValue": "Elige ventajas que beneficien a tu personaje actual, al uso de invocaciones y a tus necesidades de supervivencia."
+        },
+        {
+          "title": "Potenciadores especiales del Conflux",
+          "description": "El modo incluye rasgos y potenciadores especiales que están activos dentro del Conflux.",
+          "playerValue": "Acumula bonificaciones útiles durante una partida para afrontar pruebas más profundas con mayor seguridad."
+        },
+        {
+          "title": "Recompensas de tesoros y mejoras",
+          "description": "Las partidas completadas con éxito en el Conflux otorgan tesoros que se usan para mejorar personajes y armas.",
+          "playerValue": "Usa las partidas repetidas como una ruta de farmeo en solitario para mejorar tus builds en el juego tardío."
+        },
+        {
+          "title": "Mezcla de acertijos y batallas",
+          "description": "El Conflux mezcla combates con acertijos y múltiples batallas en el camino hacia su punto más profundo.",
+          "playerValue": "Prepara una build flexible en lugar de una configuración de daño centrada únicamente en jefes."
+        }
+      ]
+    },
+    "bossesAndSummons": {
+      "eyebrow": "Guía de combate",
+      "title": "Jefes e Invocaciones de Endless Ragnarok",
+      "intro": "Endless Ragnarok añade combates más difíciles a través de misiones de Caos, amenazas de Ragnalia, jefes adicionales y un nuevo sistema de invocaciones. El enfoque más seguro es tratar a las invocaciones tanto como herramientas ofensivas como ventanas de emergencia bajo la presión de los jefes.",
+      "steps": [
+        {
+          "title": "Entra preparado a las misiones de Caos",
+          "description": "Las misiones de Caos se sitúan como la categoría de misión más desafiante e introducen amenazas de Ragnalia vinculadas a la nueva historia de Endless Ragnarok.",
+          "tip": "Lleva un grupo completo de cuatro personas antes de adentrarte más en esta categoría."
+        },
+        {
+          "title": "Presta atención a las señales de Burst de los jefes",
+          "description": "Los jefes en el contenido de nivel Caos pueden usar ataques EX Burst, con un aura púrpura como señal de peligro.",
+          "tip": "Usa la señal para preparar esquivas, habilidades defensivas o una ventana de tiempo para invocar."
+        },
+        {
+          "title": "Equipa invocaciones antes de combates difíciles",
+          "description": "Las invocaciones se pueden equipar y llamar en combate, lo que otorga acceso a habilidades de ataque y de apoyo únicas.",
+          "tip": "Elige invocaciones que cubran las debilidades de tu build, como daño explosivo, control de masas o supervivencia."
+        },
+        {
+          "title": "Usa invocaciones controlables para ejercer presión",
+          "description": "Algunas invocaciones se pueden controlar temporalmente tras ser canalizadas por Lyria.",
+          "tip": "Usa esta ventana para maximizar el daño o sobrevivir a patrones peligrosos de los jefes."
+        },
+        {
+          "title": "Preparar ráfagas primordiales",
+          "description": "Cuando se cumplen ciertas condiciones de batalla, activar Artes celestiales con los cuatro miembros del grupo puede desatar una ráfaga primordial a través de una invocación como Proto Bahamut o Excavallion.",
+          "tip": "Guarda los recursos del grupo para los momentos en que una cadena completa pueda convertirse en un gran castigo."
+        },
+        {
+          "title": "Ajustar después de cada jefe",
+          "description": "Endless Ragnarok añade grandes amenazas, incluidos Beelzebub, The World, enemigos de Ragnalia y otros encuentros de alto nivel.",
+          "tip": "Después de un intento fallido, cambia los sigilos, las habilidades, el momento de las invocaciones o los roles del grupo antes de volver a intentarlo."
+        }
+      ]
+    },
+    "crossplayAndOnlineCoop": {
+      "eyebrow": "Multijugador",
+      "title": "Juego cruzado y cooperativo en línea de Endless Ragnarok",
+      "intro": "El cooperativo en línea es una de las funciones principales de Relink, y Endless Ragnarok la amplía con el multijugador multiplataforma. Los jugadores pueden preparar grupos para realizar misiones en línea, mientras que los jugadores de Nintendo Switch 2 también disponen de una opción de comunicación local.",
+      "items": [
+        {
+          "feature": "Plataformas con juego cruzado",
+          "status": "Compatible",
+          "details": "Los jugadores de Nintendo Switch 2, PlayStation 5, PlayStation 4 y Steam pueden usar el juego cruzado en Endless Ragnarok."
+        },
+        {
+          "feature": "Cooperativo en línea",
+          "status": "Compatible",
+          "details": "Relink cuenta con combate cooperativo en línea para 4 jugadores en el modo de misiones."
+        },
+        {
+          "feature": "Etiqueta de multijugador de Steam",
+          "status": "Listado",
+          "details": "La página de Steam enumera el cooperativo en línea y el multijugador multiplataforma como funciones compatibles."
+        },
+        {
+          "feature": "Comunicación local de Nintendo Switch 2",
+          "status": "Compatible",
+          "details": "Los jugadores de Nintendo Switch 2 pueden usar la comunicación local para jugar en modo cooperativo de hasta 4 jugadores."
+        },
+        {
+          "feature": "Requisito de servicio en línea",
+          "status": "Depende de la plataforma",
+          "details": "Las consolas como PlayStation requieren una suscripción de pago a un servicio en línea para jugar en línea, mientras que Steam no la necesita."
+        },
+        {
+          "feature": "GameShare durante la comunicación local",
+          "status": "No disponible",
+          "details": "GameShare no está disponible al usar la comunicación local entre jugadores de Nintendo Switch 2."
+        },
+        {
+          "feature": "Compatibilidad del Upgrade Kit",
+          "status": "Actualización en la misma plataforma",
+          "details": "El Upgrade Kit de Steam está destinado a los jugadores que ya poseen Granblue Fantasy: Relink y actualiza la copia en la misma plataforma."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Preguntas",
+    "titleHighlight": "Frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre Endless Ragnarok",
+    "questions": [
+      {
+        "question": "¿Qué es Endless Ragnarok?",
+        "answer": "Endless Ragnarok es una gran expansión y una edición actualizada para Granblue Fantasy: Relink, desarrollada por Cygames. Añade nuevo contenido de historia, personajes, jefes, invocaciones, Master Traits, el modo en solitario The Conflux y cooperativo en línea para 4 jugadores en Nintendo Switch 2, PlayStation y Steam."
+      },
+      {
+        "question": "¿Cuándo se lanza Endless Ragnarok?",
+        "answer": "Endless Ragnarok se lanza el 9 de julio de 2026 para Nintendo Switch 2, PlayStation 5, PlayStation 4 y Steam. La página de la tienda de Steam en EE. UU. muestra el 8 de julio de 2026 debido a los horarios de las tiendas regionales."
+      },
+      {
+        "question": "¿Necesito Granblue Fantasy: Relink para jugar a Endless Ragnarok?",
+        "answer": "Solo si compras el Upgrade Kit. Los jugadores nuevos pueden comprar la edición completa de Endless Ragnarok, que incluye el juego base y la expansión. Los propietarios actuales de Granblue Fantasy: Relink pueden comprar el Upgrade Kit en la misma plataforma."
+      },
+      {
+        "question": "¿Es compatible Endless Ragnarok con el juego cruzado?",
+        "answer": "Sí. Endless Ragnarok es compatible con el multijugador multiplataforma en Nintendo Switch 2, PlayStation y Steam para hasta 4 jugadores en cooperativo en línea. El juego en línea en PlayStation requiere PS Plus."
+      },
+      {
+        "question": "¿Qué es The Conflux en Endless Ragnarok?",
+        "answer": "The Conflux es el nuevo modo de juego final en solitario de Endless Ragnarok. Utiliza una estructura roguelite con desafíos impredecibles y poderes especiales que cambian en cada partida, lo que lo convierte en el bucle principal para farmear en el juego final."
+      },
+      {
+        "question": "¿Hay códigos de Endless Ragnarok?",
+        "answer": "Endless Ragnarok no utiliza los tradicionales códigos de canje. Las recompensas provienen de los Cygames ID Link Bonuses, sets de Sigils de bonificación por reserva y bonificaciones de la primera tirada de copias físicas, en lugar del canje de códigos."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para conquistar Endless Ragnarok?",
+    "description": "¡Únete a la comunidad de Granblue Fantasy: Relink en Discord para obtener guías, builds, actualizaciones y debates sobre el modo cooperativo de Endless Ragnarok!",
+    "joinCommunity": "Únete a Discord",
+    "joinGame": "Juega en Steam / PS5 / Switch 2"
+  },
+  "footer": {
+    "title": "Endless Ragnarok Wiki",
+    "description": "Tu centro de recursos completo para guías de jefes, builds de armas, estrategias de personajes y guías de misiones de Endless Ragnarok para Granblue Fantasy: Relink.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "reddit": "Reddit",
+    "youtube": "YouTube",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Endless Ragnarok Wiki. No afiliado a Cygames.",
+    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+  },
+  "pages": {
+    "release": {
+      "title": "Fecha de lanzamiento, hora y cuenta atrás de Endless Ragnarok",
+      "description": "Fecha de lanzamiento oficial, hora de estreno, detalles de la reserva, cuenta atrás y tráiler de lanzamiento de Endless Ragnarok para Nintendo Switch 2, PlayStation 5, PlayStation 4 y Steam.",
+      "metaTitle": "Fecha de lanzamiento y cuenta atrás de Endless Ragnarok - Switch 2, PS5, Steam",
+      "metaDescription": "Encuentra la fecha de lanzamiento oficial, la hora de estreno, la información de la reserva y el tráiler de lanzamiento de Endless Ragnarok para Nintendo Switch 2, PlayStation 5, PS4 y Steam.",
+      "categoryLabel": "INFORMACIÓN DE LANZAMIENTO",
+      "whatIs": "¿Qué es el lanzamiento de Endless Ragnarok?",
+      "whatIsDescription": "Endless Ragnarok es la gran expansión y edición actualizada de Granblue Fantasy: Relink, que se lanzará el 9 de julio de 2026 para Nintendo Switch 2, PlayStation 5, PlayStation 4 y Steam. Añade nuevo contenido de historia, personajes, jefes, invocaciones, Master Traits y el modo en solitario The Conflux.",
+      "why": "¿Por qué consultar la información de lanzamiento?",
+      "whySteps": {
+        "step1Title": "Asegura la fecha exacta de lanzamiento",
+        "step1Description": "Confirma la fecha de lanzamiento del 9 de julio de 2026 y comprende por qué la ficha de Steam en EE. UU. muestra el 8 de julio debido a la diferencia horaria de las tiendas regionales.",
+        "step2Title": "Planifica tu reserva",
+        "step2Description": "Compara las ediciones completas y los Upgrade Kits antes del lanzamiento para comprar la versión correcta, ya seas un jugador nuevo o uno que regresa.",
+        "step3Title": "No te pierdas el tráiler de lanzamiento",
+        "step3Description": "Mira el tráiler oficial de lanzamiento para ver los nuevos personajes, jefes y modos antes de que la expansión esté disponible."
+      },
+      "featured": "Guías de lanzamiento destacadas",
+      "all": "Todas las guías de lanzamiento"
+    },
+    "platforms": {
+      "title": "Plataformas, juego cruzado y requisitos del sistema de Endless Ragnarok",
+      "description": "Soporte de plataformas de Endless Ragnarok para Nintendo Switch 2, PlayStation 5, PlayStation 4 y Steam, además de juego cruzado, guardado cruzado, requisitos del sistema y tamaño de descarga en PC.",
+      "metaTitle": "Plataformas y juego cruzado de Endless Ragnarok: Switch 2, PS5, PS4, Steam",
+      "metaDescription": "Consulta el soporte de plataformas de Endless Ragnarok, el juego cruzado, el guardado cruzado, los requisitos del sistema para PC y el tamaño de descarga para Switch 2, PS5, PS4 y Steam.",
+      "categoryLabel": "PLATAFORMAS",
+      "whatIs": "¿En qué plataformas está disponible Endless Ragnarok?",
+      "whatIsDescription": "Endless Ragnarok está disponible en Nintendo Switch 2, PlayStation 5, PlayStation 4 y Steam. Admite cooperativo en línea para 4 jugadores con multijugador multiplataforma en las cuatro plataformas.",
+      "why": "¿Por qué consultar las guías de plataformas?",
+      "whySteps": {
+        "step1Title": "Confirma tu plataforma",
+        "step1Description": "Verifica si tu consola o PC es compatible antes de comprar la edición completa o el Upgrade Kit.",
+        "step2Title": "Configura el juego cruzado y el guardado cruzado",
+        "step2Description": "Aprende cómo funcionan el multijugador multiplataforma y el guardado cruzado para poder jugar con amigos en otros sistemas.",
+        "step3Title": "Consulta los requisitos del sistema",
+        "step3Description": "Revisa los requisitos del sistema para PC, el tamaño de descarga y el rendimiento en Switch 2 antes de instalar el juego."
+      },
+      "featured": "Guías de plataformas destacadas",
+      "all": "Todas las guías de plataformas"
+    },
+    "price": {
+      "title": "Precio, ediciones y costo del Upgrade Kit de Endless Ragnarok",
+      "description": "Precios de Endless Ragnarok en sus ediciones completas y Upgrade Kits, diferencias entre la Standard y la Special Edition, si es gratuito y descuentos disponibles.",
+      "metaTitle": "Precio y ediciones de Endless Ragnarok: Standard, Special, Upgrade Kit",
+      "metaDescription": "Compara los precios de Endless Ragnarok, la Standard frente a la Special Edition, el costo del Upgrade Kit, los descuentos y si la expansión es gratuita en Switch 2, PS5 y Steam.",
+      "categoryLabel": "PRECIO Y EDICIONES",
+      "whatIs": "¿Cuánto cuesta Endless Ragnarok?",
+      "whatIsDescription": "Endless Ragnarok es una expansión de pago. Los nuevos jugadores compran la Standard Edition completa ($59.99) o la Special Edition ($79.99), mientras que los propietarios actuales de Granblue Fantasy: Relink compran el Upgrade Kit Standard ($29.99) o Special ($54.99).",
+      "why": "¿Por qué comparar las ediciones?",
+      "whySteps": {
+        "step1Title": "Elige la opción de compra correcta",
+        "step1Description": "Elige la edición completa si eres un jugador nuevo o el Upgrade Kit si ya posees Granblue Fantasy: Relink en la misma plataforma.",
+        "step2Title": "Compara la Standard frente a la Special",
+        "step2Description": "Descubre qué añade la Special Edition, incluyendo el Special Pack, colores de personajes y la DLC Collection.",
+        "step3Title": "Consulta descuentos y bonificaciones",
+        "step3Description": "Busca descuentos de lanzamiento, bonificaciones de Sigil por compra anticipada y recompensas para las copias físicas de la primera tirada."
+      },
+      "featured": "Guías de precios destacadas",
+      "all": "Todas las guías de precios"
+    },
+    "characters": {
+      "title": "Personajes, nueva plantilla y roles de Endless Ragnarok",
+      "description": "Todos los personajes de Endless Ragnarok, incluyendo nuevas incorporaciones como Fraux, Fediel, Maglielle, Sandalphon, Seofon y Tweyen, con sus roles, condiciones de desbloqueo y estilos de juego recomendados.",
+      "metaTitle": "Personajes y nueva plantilla de Endless Ragnarok: Fraux, Fediel, Sandalphon",
+      "metaDescription": "Explora todos los personajes de Endless Ragnarok y los recién llegados, incluidos Fraux, Fediel, Maglielle, Sandalphon, Seofon y Tweyen, con sus roles y recomendaciones de estilo de juego.",
+      "categoryLabel": "PERSONAJES",
+      "whatIs": "¿Quiénes son los personajes de Endless Ragnarok?",
+      "whatIsDescription": "Endless Ragnarok trae de vuelta a toda la plantilla de Granblue Fantasy: Relink y añade nuevos personajes jugables como Fraux, Fediel, Maglielle, Sandalphon, Seofon y Tweyen, cada uno con armas, habilidades y roles distintos.",
+      "why": "¿Por qué explorar la plantilla de personajes?",
+      "whySteps": {
+        "step1Title": "Encuentra a los nuevos personajes",
+        "step1Description": "Identifica a las caras nuevas añadidas en Endless Ragnarok y qué hace que cada una sea única en combate.",
+        "step2Title": "Elige un personaje que se adapte a tu estilo de juego",
+        "step2Description": "Usa las etiquetas de rol para elegir personajes cuerpo a cuerpo, a distancia, mágicos o de apoyo que se adapten a tu forma de jugar.",
+        "step3Title": "Conoce las condiciones de desbloqueo",
+        "step3Description": "Consulta cómo desbloquear a cada personaje para que puedas formar tu grupo preferido lo antes posible."
+      },
+      "featured": "Guías de personajes destacadas",
+      "all": "Todas las guías de personajes"
+    },
+    "guide": {
+      "title": "Guías y guía de inicio de Endless Ragnarok",
+      "description": "Guías de Endless Ragnarok que cubren consejos para principiantes, combate básico, desarrollo de personajes, The Conflux, invocaciones y progresión para jugadores nuevos y que regresan a Granblue Fantasy: Relink.",
+      "metaTitle": "Guías y guía de inicio de Endless Ragnarok - Consejos y progresión",
+      "metaDescription": "Lee las guías de Endless Ragnarok para principiantes y jugadores que regresan, incluyendo los aspectos básicos del combate, el desarrollo de personajes, The Conflux y consejos de progresión para el final del juego.",
+      "categoryLabel": "GUÍAS",
+      "whatIs": "¿Qué cubren las guías de Endless Ragnarok?",
+      "whatIsDescription": "Las guías de Endless Ragnarok te guían a través del combate básico, el desarrollo de personajes, las Master Traits, las invocaciones, el modo en solitario The Conflux y la progresión cooperativa tanto para los recién llegados como para los jugadores que regresan a Granblue Fantasy: Relink.",
+      "why": "¿Por qué leer las guías?",
+      "whySteps": {
+        "step1Title": "Comienza con la guía para principiantes",
+        "step1Description": "Aprende los sistemas esenciales, los controles y las opciones de compra antes de sumergirte en el contenido de la expansión.",
+        "step2Title": "Desarrolla a tus personajes de forma inteligente",
+        "step2Description": "Comprende las habilidades, armas, sigilos y Master Traits para gastar los materiales de mejora de manera eficiente.",
+        "step3Title": "Progresa hacia el final del juego",
+        "step3Description": "Usa las guías para pasar del contenido de la historia a los Chaos quests y The Conflux con un plan claro."
+      },
+      "featured": "Guías destacadas",
+      "all": "Todas las guías"
+    },
+    "demo": {
+      "title": "Demo de Endless Ragnarok, beta y recompensas de la demo",
+      "description": "Detalles de la demo y la beta de Endless Ragnarok, incluyendo los personajes jugables de la demo, las recompensas de misiones que se transfieren al juego completo y los periodos de acceso a la beta abierta.",
+      "metaTitle": "Demo y beta de Endless Ragnarok - Recompensas, personajes y beta abierta",
+      "metaDescription": "Prueba Endless Ragnarok antes de tiempo con la demo jugable y la beta. Infórmate sobre los personajes jugables de la demo, las recompensas de misiones transferibles y el acceso a la beta abierta para Switch 2, PS5 y Steam.",
+      "categoryLabel": "DEMO Y BETA",
+      "whatIs": "¿Hay una demo o beta de Endless Ragnarok?",
+      "whatIsDescription": "Endless Ragnarok ofrece una demo jugable en Nintendo Switch 2, PlayStation 5, PlayStation 4 y Steam con los modos Historia, Misión y Tutorial. Completar misiones desbloquea el sistema de invocación y otorga recompensas que se transfieren al juego completo.",
+      "why": "¿Por qué probar la demo?",
+      "whySteps": {
+        "step1Title": "Prueba los nuevos personajes",
+        "step1Description": "Juega a la demo para probar el combate actualizado de Endless Ragnarok y las nuevas mecánicas de invocación antes de comprar.",
+        "step2Title": "Consigue recompensas transferibles",
+        "step2Description": "Completa las misiones de la demo para desbloquear recompensas que se transferirán al juego completo en su lanzamiento.",
+        "step3Title": "Únete a la beta abierta",
+        "step3Description": "Aprovecha los periodos de beta abierta para experimentar el modo cooperativo online con juego cruzado y poner a prueba los nuevos sistemas de la expansión."
+      },
+      "featured": "Guías destacadas de la demo",
+      "all": "Todas las guías de la demo"
+    }
   }
 }
