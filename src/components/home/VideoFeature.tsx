@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import Image from "next/image";
 import { ExternalLink, Play } from "lucide-react";
 
@@ -15,26 +15,57 @@ export function VideoFeature({
   title,
   poster = "/images/hero.webp",
 }: VideoFeatureProps) {
-  const [playing, setPlaying] = useState(false);
+  const [active, setActive] = useState(false);
+  const containerRef = useRef<HTMLDivElement>(null);
 
   const watchUrl = useMemo(
     () => `https://www.youtube.com/watch?v=${videoId}`,
     [videoId],
   );
 
+  // embedUrl：进入视口即自动播放（静音+循环，loop 需带 playlist=videoId 才生效）
   const embedUrl = useMemo(
     () =>
-      `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&playsinline=1&rel=0`,
+      `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&loop=1&playlist=${videoId}&playsinline=1&rel=0`,
     [videoId],
   );
+
+  // IntersectionObserver：视频区进入视口时自动加载 iframe 播放；
+  // 尊重 prefers-reduced-motion（不自动播放，仅显示 poster + 播放按钮后备）
+  useEffect(() => {
+    if (active) return;
+    const prefersReducedMotion = window.matchMedia(
+      "(prefers-reduced-motion: reduce)",
+    ).matches;
+    if (prefersReducedMotion) return;
+
+    const node = containerRef.current;
+    if (!node) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) {
+            setActive(true);
+            observer.disconnect();
+            break;
+          }
+        }
+      },
+      { threshold: 0.5 },
+    );
+    observer.observe(node);
+    return () => observer.disconnect();
+  }, [active]);
 
   return (
     <div className="space-y-4">
       <div
+        ref={containerRef}
         className="relative w-full overflow-hidden rounded-lg bg-black"
         style={{ paddingBottom: "56.25%" }}
       >
-        {playing ? (
+        {active ? (
           <iframe
             className="absolute top-0 left-0 h-full w-full"
             src={embedUrl}
@@ -46,7 +77,7 @@ export function VideoFeature({
         ) : (
           <button
             type="button"
-            onClick={() => setPlaying(true)}
+            onClick={() => setActive(true)}
             aria-label={`Play ${title}`}
             className="group absolute inset-0 h-full w-full cursor-pointer"
           >
